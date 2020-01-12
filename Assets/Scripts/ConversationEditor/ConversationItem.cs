@@ -12,8 +12,8 @@ public class ConversationItem
 {
     public ItemType type = ItemType.Sentence;
     public string Text;
-    public VideoClip videoClip;
-    public AudioClip audioClip;
+    public RuntimeAnimatorController animator;
+    public AudioClip[] audioClip;
     public string ID;
     [HideInInspector]
     public Rect Box;

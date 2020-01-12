@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class MainDialogController : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class MainDialogController : MonoBehaviour
     private MainDialogComponents components;
     [SerializeField]
     private MainDialogTranslator translator;
+
+    public Animator animator;
 
     private List<Sentence> dialogAnswers = new List<Sentence>();
     private int dialogPart;
@@ -21,13 +24,7 @@ public class MainDialogController : MonoBehaviour
         SetTranslator();
         conversation = DialogController.GetDialog().GetData().conversation;
 
-        if (DialogController.GetDialog().GetData().idleVid != null)
-        {
-            components.viodePlayer.clip = DialogController.GetDialog().GetData().idleVid;
-            //components.personImage.sprite = null;
-        }
-        else
-            components.personImage.sprite = DialogController.GetDialog().GetData().teksture;
+        components.personImage.sprite = DialogController.GetDialog().GetData().teksture;
 
         if (DialogController.GetDialog().GetData().conversation.Items.Count > 0)
             SetDialogPart(DialogController.GetDialog().GetData().conversation.Items[0]);
@@ -60,16 +57,23 @@ public class MainDialogController : MonoBehaviour
 
     public void SetDialogPart(ConversationItem item)
     {
-        components.botText.text = item.Text;// dialogPart[part].sentense;
-        if (item.videoClip != null)
+        components.botText.text = item.Text;
+        if (item.animator != null)
         {
-            components.viodePlayer.clip = item.videoClip;
-            components.viodePlayer.loopPointReached += EndReached;
+            animator.runtimeAnimatorController = item.animator;
         }
         if (item.audioClip != null)
         {
-            components.audioSource.clip = item.audioClip;
-            components.audioSource.Play();
+            if (item.audioClip.Length == 1)
+            {
+                components.audioSource.clip = item.audioClip[0];
+                components.audioSource.Play();
+            }
+            else
+            {
+                StartCoroutine(PlayingMusic(item));
+            }
+            
         }
 
         List<ConversationItem> children = conversation.FindItemChilds(item);
@@ -83,11 +87,17 @@ public class MainDialogController : MonoBehaviour
         }
     }
 
-    void EndReached(UnityEngine.Video.VideoPlayer vp)
+    IEnumerator PlayingMusic(ConversationItem item)
     {
-        vp.clip = vp.clip = DialogController.GetDialog().GetData().idleVid;
-    }
+        for (int i = 0; i < item.audioClip.Length; i++)
+        {
+            float soundLength = item.audioClip[i].length;
+            components.audioSource.clip = item.audioClip[i];
+            components.audioSource.Play();
 
+            yield return new WaitForSecondsRealtime(soundLength);
+        }
+    }
 
     public void ReplyToSim(ConversationItem item)
     {
@@ -102,6 +112,7 @@ public class MainDialogController : MonoBehaviour
         }
         else if (newItem.Count == 0)
         {
+            animator.runtimeAnimatorController = null;
             DialogController.Instance.ShowDialogs();
             LevelManager.Instance.ShowMissions();
             dialogPart = 0;

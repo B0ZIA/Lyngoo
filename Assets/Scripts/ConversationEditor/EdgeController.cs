@@ -35,8 +35,12 @@ public class EdgeController
                 Vector2 mousePos = currentEvent.mousePosition;
                 if (item.Box.Contains(mousePos))
                 {
-                    if (dialogData.conversation.FindEdgeByToID(item.ID) != null)
-                        return;
+                    foreach (var edge in dialogData.conversation.Edges)
+                    {
+                        if (edge.ToId == item.ID && edge.FromId == currentEdge.FromId)
+                            return;
+                    }
+
                     currentEdge.SetToItem(item);
 
                     item.SetupChildrenType(dialogData.conversation.FindItem(currentEdge.FromId).type);

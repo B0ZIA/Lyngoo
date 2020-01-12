@@ -51,8 +51,8 @@ MonoBehaviour:
       ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
       Box:
         serializedVersion: 2
-        x: 564
-        y: 30
+        x: 576
+        y: 29
         width: 200
         height: 30
     - type: 1
@@ -62,8 +62,8 @@ MonoBehaviour:
       ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
       Box:
         serializedVersion: 2
-        x: 408
-        y: 104
+        x: 397
+        y: 113
         width: 200
         height: 30
     - type: 1
@@ -73,8 +73,8 @@ MonoBehaviour:
       ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
       Box:
         serializedVersion: 2
-        x: 706
-        y: 103
+        x: 775
+        y: 106
         width: 200
         height: 30
     - type: 0
@@ -84,8 +84,8 @@ MonoBehaviour:
       ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
       Box:
         serializedVersion: 2
-        x: 553
-        y: 183
+        x: 582
+        y: 174
         width: 200
         height: 30
     - type: 1
@@ -95,8 +95,8 @@ MonoBehaviour:
       ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
       Box:
         serializedVersion: 2
-        x: 294
-        y: 254
+        x: 349
+        y: 256
         width: 200
         height: 30
     - type: 1
@@ -106,8 +106,8 @@ MonoBehaviour:
       ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
       Box:
         serializedVersion: 2
-        x: 549
-        y: 274
+        x: 572
+        y: 255
         width: 200
         height: 30
     - type: 1
@@ -117,8 +117,8 @@ MonoBehaviour:
       ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
       Box:
         serializedVersion: 2
-        x: 787
-        y: 254
+        x: 798
+        y: 256
         width: 200
         height: 30
     - type: 0
@@ -128,8 +128,8 @@ MonoBehaviour:
       ID: 4030a197-1b39-4356-897d-a43dda9dd42f
       Box:
         serializedVersion: 2
-        x: 407
-        y: 369
+        x: 426
+        y: 377
         width: 200
         height: 30
     - type: 0
@@ -139,8 +139,8 @@ MonoBehaviour:
       ID: 852ff578-8332-4123-8866-b97c368023ff
       Box:
         serializedVersion: 2
-        x: 783
-        y: 340
+        x: 800
+        y: 375
         width: 200
         height: 30
     - type: 1
@@ -150,8 +150,8 @@ MonoBehaviour:
       ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
       Box:
         serializedVersion: 2
-        x: 397
-        y: 498
+        x: 426
+        y: 512
         width: 200
         height: 30
     - type: 1
@@ -221,12 +221,6 @@ MonoBehaviour:
         width: 200
         height: 30
     Edges:
-    - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
-      ToId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
-    - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
-      ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
-    - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
-      ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
     - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
       ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
     - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
@@ -263,3 +257,9 @@ MonoBehaviour:
       ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
     - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
       ToId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+    - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      ToId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+    - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+    - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+      ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65

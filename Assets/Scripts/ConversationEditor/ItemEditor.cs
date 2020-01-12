@@ -6,13 +6,15 @@ using UnityEngine.Video;
 
 public class ItemEditor
 {
-    private ConversationItem editingItem = null;
+    public ConversationItem editingItem = null;
     public bool editItem = false;
 
 
 
     public void DrawItemEditor()
     {
+#if UNITY_EDITOR
+
         GUILayout.Space(10);
 
         EditorGUILayout.LabelField("Edytujesz item o ID: " + editingItem.ID);
@@ -24,19 +26,20 @@ public class ItemEditor
         editingItem.Text = EditorGUILayout.TextField(editingItem.Text);
         EditorGUILayout.EndHorizontal();
 
-        EditorGUILayout.BeginHorizontal();
-        EditorGUILayout.LabelField("Plik Audio: ");
-        editingItem.audioClip = (AudioClip)EditorGUILayout.ObjectField(editingItem.audioClip, typeof(AudioClip), false);
-        EditorGUILayout.EndHorizontal();
+        //EditorGUILayout.BeginHorizontal();
+        //EditorGUILayout.LabelField("Plik Audio: ");
+        //editingItem.audioClip = (AudioClip)EditorGUILayout.ObjectField(editingItem.audioClip, typeof(AudioClip), false);
+        //EditorGUILayout.EndHorizontal();
 
-        EditorGUILayout.BeginHorizontal();
-        EditorGUILayout.LabelField("Plik Wideo: ");
-        editingItem.videoClip = (VideoClip)EditorGUILayout.ObjectField(editingItem.videoClip, typeof(VideoClip), false);
-        EditorGUILayout.EndHorizontal();
+        //EditorGUILayout.BeginHorizontal();
+        //EditorGUILayout.LabelField("Plik Wideo: ");
+        //editingItem.videoClip = (VideoClip)EditorGUILayout.ObjectField(editingItem.videoClip, typeof(VideoClip), false);
+        //EditorGUILayout.EndHorizontal();
 
         GUILayout.Space(30);
 
         editItem = !GUILayout.Button("Zakończ");
+#endif
     }
 
     public void CheckEditItem()

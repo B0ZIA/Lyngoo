@@ -9,8 +9,8 @@ public class ItemController
     private DialogData dialogData = null;
     public bool movingItem = false;
 
-    private ConversationItem editingItem = null;
-    private bool editItem = false;
+    //private ConversationItem editingItem = null;
+    //private bool editItem = false;
 
 
     public ItemController()
@@ -42,8 +42,9 @@ public class ItemController
 
     public void EditItem(object obj)
     {
-        editingItem = (ConversationItem)obj;
-        editItem = true;
+        itemEditor.editingItem = (ConversationItem)obj;
+        //editItem = true;
+        itemEditor.editItem = true;
     }
 
     public void ChangeItemType(object obj)

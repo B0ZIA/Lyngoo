@@ -17,7 +17,7 @@ public class Translator : MonoBehaviour
 
     public void Translate()
     {
-        if (translate)
+        if (translate && _translator != null)
             translator.Translate();
     }
 

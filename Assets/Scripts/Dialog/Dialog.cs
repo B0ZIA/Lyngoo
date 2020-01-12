@@ -11,6 +11,8 @@ public class Dialog : MonoBehaviour
     private Image image;
     [SerializeField]
     private Text title;
+    [SerializeField]
+    private GameObject locker;
 
 
 
@@ -31,6 +33,11 @@ public class Dialog : MonoBehaviour
             image.sprite = data.teksture;
             image.color = Color.white;
             title.text = data.title;
+
+            if (data.locked)
+            {
+                LockButton();
+            }
         }
     }
 
@@ -48,4 +55,10 @@ public class Dialog : MonoBehaviour
         }
     }
 
+    private void LockButton()
+    {
+        image.GetComponent<Button>().interactable = false;
+        locker.SetActive(true);
+        title.gameObject.SetActive(false);
+    }
 }

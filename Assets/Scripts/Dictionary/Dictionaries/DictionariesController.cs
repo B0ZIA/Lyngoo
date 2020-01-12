@@ -15,8 +15,6 @@ public class DictionariesController : MonoBehaviour
         LoadDictionaries();
     }
 
-    
-
     public void LoadDictionaries()
     {
         DictionaryData[] dictionariesData = Resources.LoadAll<DictionaryData>("Dictionaries/Pack");

@@ -7,6 +7,7 @@ public class MainDialogTranslator : MonoBehaviour, ITranslator
     private MainDialogController controller;
 
 
+
     private void Start()
     {
         controller = GetComponent<MainDialogController>();

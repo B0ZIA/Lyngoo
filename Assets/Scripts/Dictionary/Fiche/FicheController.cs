@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class FicheController : MonoBehaviour
 {
@@ -47,7 +45,6 @@ public class FicheController : MonoBehaviour
 
     private void TryLoadWord(bool animation)
     {
-        Debug.Log("asd");
         if (wordsToLern.Count > part)
             LoadWord(animation, wordsToLern[part]);
         else

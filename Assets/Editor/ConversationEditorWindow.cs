@@ -17,10 +17,13 @@ public class ConversationEditorWindow : EditorWindow
     [MenuItem("Window/Conversation Editor")]
     public static ConversationEditorWindow OpenConversationEditorWindow()
     {
+        return EditorWindow.GetWindow<ConversationEditorWindow>();
+    }
+
+    void Awake()
+    {
         itemController = new ItemController();
         edgeController = new EdgeController();
-
-        return EditorWindow.GetWindow<ConversationEditorWindow>();
     }
 
     private void OnGUI()
@@ -28,15 +31,12 @@ public class ConversationEditorWindow : EditorWindow
         Repaint();
         Event currentEvent = Event.current;
 
-        if (itemController != null)
+        if (itemController.itemEditor.editItem)
         {
-            if (itemController.itemEditor.editItem)
-            {
-                BeginWindows();
-                itemController.itemEditor.DrawItemEditor();
-                EndWindows();
-                return;
-            }
+            BeginWindows();
+            itemController.itemEditor.DrawItemEditor();
+            EndWindows();
+            return;
         }
 
         SetStartScrollView();
@@ -52,7 +52,7 @@ public class ConversationEditorWindow : EditorWindow
             EndWindows();
             GUI.EndScrollView();
             return;
-        }
+        }   
         else
         {
             edgeController.Setup(dialogData);
@@ -109,6 +109,7 @@ public class ConversationEditorWindow : EditorWindow
             if (item.Box.Contains(Event.current.mousePosition))
             {
                 itemController.movedItem = item;
+                itemController.movingItem = true;
             }
         }
     }

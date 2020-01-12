@@ -26,11 +26,6 @@ public class Conversation
         return children;
     }
 
-    public void FindItemParents()
-    {
-
-    }
-
     public ConversationItem FindItem(string ID)
     {
         foreach (var item in Items)

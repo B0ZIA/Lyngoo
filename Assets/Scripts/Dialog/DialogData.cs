@@ -7,6 +7,8 @@ using UnityEngine.Video;
 [CreateAssetMenu(fileName = "DialogData", menuName = "ScriptableObjects/Dialog")]
 public class DialogData : ScriptableObject
 {
+    public bool locked = true;
+
     [Header("Dialog Item:")]
     public string title;
     public Sprite teksture;
@@ -18,6 +20,5 @@ public class DialogData : ScriptableObject
     [TextArea(5, 20)] public string longDescritorinInSpanish;
 
     [Header("Main dialog:")]
-    public VideoClip idleVid;
     public Conversation conversation;
 }
