@@ -22,4 +22,15 @@ public class Mission : MonoBehaviour
             title.text = missionData.title;
         }
     }
+
+    public void OnClick()
+    {
+        if (MissionController.GetLatClickedMision() == this)
+        {
+            MissionController.RemoveLastClickedMission();
+            MissionController.Instance.LoadMap(missionData);
+            return;
+        }
+        MissionController.SetLastClickedMission(this);
+    }
 }
