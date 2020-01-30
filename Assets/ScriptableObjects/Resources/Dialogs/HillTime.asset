@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 892c545a8b8208e479bbd58def962b86, type: 3}
-  m_Name: Sandra
+  m_Name: HillTime
   m_EditorClassIdentifier: 
+  locked: 1
   title: hill time
   teksture: {fileID: 21300000, guid: 2eb79396650bd984f9d4735d181c64e7, type: 3}
   firstName: Sandra
@@ -41,11 +42,12 @@ MonoBehaviour:
     Pewna siebie, w rozmowach z ni\u0105 nale\u017Cy proponowa\u0107 konkretne dzia\u0142ania
     im wi\u0119ksza elastyczno\u015B\u0107 proponowanych rad, tym mniejsza szansa
     na udan\u0105 dyskusj\u0119."
-  gif: {fileID: 0}
   conversation:
     Items:
     - type: 0
       Text: "Cze\u015B\u0107!"
+      animator: {fileID: 0}
+      audioClip: []
       ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
       Box:
         serializedVersion: 2
@@ -55,6 +57,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: Serwus!
+      animator: {fileID: 0}
+      audioClip: []
       ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
       Box:
         serializedVersion: 2
@@ -64,6 +68,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: Hej
+      animator: {fileID: 0}
+      audioClip: []
       ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
       Box:
         serializedVersion: 2
@@ -73,6 +79,8 @@ MonoBehaviour:
         height: 30
     - type: 0
       Text: "Zamawiamy co\u015B?"
+      animator: {fileID: 0}
+      audioClip: []
       ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
       Box:
         serializedVersion: 2
@@ -82,6 +90,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: "Na co masz ochot\u0119?"
+      animator: {fileID: 0}
+      audioClip: []
       ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
       Box:
         serializedVersion: 2
@@ -91,6 +101,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: "Tak! Proponuj\u0119 kurczaka"
+      animator: {fileID: 0}
+      audioClip: []
       ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
       Box:
         serializedVersion: 2
@@ -100,6 +112,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: "Lubisz kuchni\u0119 w\u0142osk\u0105?"
+      animator: {fileID: 0}
+      audioClip: []
       ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
       Box:
         serializedVersion: 2
@@ -109,6 +123,8 @@ MonoBehaviour:
         height: 30
     - type: 0
       Text: "Chcia\u0142abym zje\u015B\u0107 co\u015B z Kuchni W\u0142oskiej"
+      animator: {fileID: 0}
+      audioClip: []
       ID: 4030a197-1b39-4356-897d-a43dda9dd42f
       Box:
         serializedVersion: 2
@@ -118,6 +134,8 @@ MonoBehaviour:
         height: 30
     - type: 0
       Text: Tak, uwielbiam!
+      animator: {fileID: 0}
+      audioClip: []
       ID: 852ff578-8332-4123-8866-b97c368023ff
       Box:
         serializedVersion: 2
@@ -127,6 +145,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: Proponuje pizze
+      animator: {fileID: 0}
+      audioClip: []
       ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
       Box:
         serializedVersion: 2
@@ -136,6 +156,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: "Proponuj\u0119 Spaghetti"
+      animator: {fileID: 0}
+      audioClip: []
       ID: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
       Box:
         serializedVersion: 2
@@ -145,6 +167,8 @@ MonoBehaviour:
         height: 30
     - type: 0
       Text: "Wola\u0142abym co\u015B lekkostrawnego"
+      animator: {fileID: 0}
+      audioClip: []
       ID: 1ca71008-ad15-4385-9976-55a141d72802
       Box:
         serializedVersion: 2
@@ -154,6 +178,8 @@ MonoBehaviour:
         height: 30
     - type: 0
       Text: "Ok, mo\u017Ce by\u0107. Zawo\u0142am kelnera..."
+      animator: {fileID: 0}
+      audioClip: []
       ID: 537436dc-d425-4562-9e9a-2ec57f65572a
       Box:
         serializedVersion: 2
@@ -163,6 +189,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: "Mo\u017Ce by\u0107 tortellini?"
+      animator: {fileID: 0}
+      audioClip: []
       ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
       Box:
         serializedVersion: 2
@@ -172,6 +200,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: "Mo\u017Ce ravioli?"
+      animator: {fileID: 0}
+      audioClip: []
       ID: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
       Box:
         serializedVersion: 2
@@ -181,6 +211,8 @@ MonoBehaviour:
         height: 30
     - type: 1
       Text: EXIT
+      animator: {fileID: 0}
+      audioClip: []
       ID: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
       Box:
         serializedVersion: 2

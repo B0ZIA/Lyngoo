@@ -16,6 +16,8 @@ public class Sentence : MonoBehaviour
     [SerializeField]
     private Text sentenceText;
 
+    public delegate void Reply(ConversationItem item);
+    public event Reply ReplyToSim;
 
 
     public void Init(ConversationItem item)
@@ -30,7 +32,8 @@ public class Sentence : MonoBehaviour
 
     public void OnClick()
     {
-        MainDialogController.Instance.ReplyToSim(item);
+        if (ReplyToSim != null)
+            ReplyToSim.Invoke(item);
     }
 
     public void TranslateToPolish()

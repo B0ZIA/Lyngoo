@@ -19,9 +19,4 @@ public class MapController : MonoBehaviour
     {
         //TODO: Wszytać mapę z mision data jak będzie już ich kilka
     }
-
-    public void OnClick(float distance)
-    {
-        navigator.ZoomOnGameObject(distance);
-    }
 }

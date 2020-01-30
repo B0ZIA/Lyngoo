@@ -83,6 +83,7 @@ public class MainDialogController : MonoBehaviour
             GameObject prefab = Resources.Load<GameObject>("Sentence");
             GameObject sentence = Instantiate(prefab, components.sentencesContent);
             sentence.GetComponent<Sentence>().Init(children[j]);
+            sentence.GetComponent<Sentence>().ReplyToSim += ReplyToSim;
             dialogAnswers.Add(sentence.GetComponent<Sentence>());
         }
     }

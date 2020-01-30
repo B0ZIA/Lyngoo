@@ -6,85 +6,37 @@ using UnityEngine.UI;
 public class MapNavigator : MonoBehaviour
 {
     [SerializeField]
-    private GameObject target;
-    [SerializeField]
-    private float zoomTargetDistance;
+    private BackgroudSlider slider;
 
-    [SerializeField]
-    private GameObject dialogField;
-
-    private bool moveRight = false;
-    private bool moveLeft = false;
-    private float speed = 1f;
-
-    private bool zoom = false;
+    private Vector2 startPos = Vector2.zero;
+    private bool scroll = false;
+    private float distance;
 
 
 
     private void Update()
     {
-        if (zoom)
+        if (scroll)
         {
-            Debug.Log("Pozycja środka: "+ target.transform.localPosition.x);
-            Debug.Log("Pozycja targetu: "+ zoomTargetDistance);
+            distance = Input.mousePosition.x - startPos.x;
 
-            if (target.transform.localPosition.x + zoomTargetDistance > 10)
-            {
-                moveRight = true;
-                moveLeft = false;
-            }
-            else if (target.transform.localPosition.x + zoomTargetDistance < -10)
-            {
-                moveRight = false;
-                moveLeft = true;
-            }
-            else
-            {
-                moveRight = false;
-                moveLeft = false;
-                dialogField.SetActive(true);
-            }
+            if (distance > 50)
+                slider.SwipeRight();
+
+            if (distance < -50)
+                slider.SwipeLeft();
         }
-
-        if (moveRight)
-            SwipeRight();
-        else if (moveLeft)
-            SwipeLeft();
     }
 
-    private void SwipeRight()
+    public void StartScrolling()
     {
-        if (target.transform.localPosition.x > -1450)
-            target.transform.Translate(-Vector2.right * Time.deltaTime * speed);
+        scroll = true;
+        startPos = Input.mousePosition;
     }
 
-    private void SwipeLeft()
+    public void BreakScrolling()
     {
-        if (target.transform.localPosition.x < 1400)
-            target.transform.Translate(Vector2.right * Time.deltaTime * speed);
-    }
-
-    public void LeftBtn()
-    {
-        moveRight = false;
-        moveLeft = true;
-    }
-
-    public void RightBtn()
-    {
-        moveRight = true;
-        moveLeft = false;
-    }
-
-    public void RestMoving()
-    {
-        moveRight = false;
-        moveLeft = false;
-    }
-
-    public void ZoomOnGameObject(float distanceOfCenterMap)
-    {
-        zoomTargetDistance = distanceOfCenterMap;
-        zoom = true;
+        scroll = false;
+        startPos = Vector2.zero;
     }
 }

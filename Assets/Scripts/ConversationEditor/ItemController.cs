@@ -6,7 +6,7 @@ public class ItemController
 {
     public ItemEditor itemEditor;
     public ConversationItem movedItem = null;
-    private DialogData dialogData = null;
+    private Conversation conversation = null;
     public bool movingItem = false;
 
     //private ConversationItem editingItem = null;
@@ -18,16 +18,19 @@ public class ItemController
         itemEditor = new ItemEditor();
     }
 
-    public void Setup(DialogData dialogData)
+    public void Setup(Conversation conversation)
     {
-        this.dialogData = dialogData;
+        this.conversation = conversation;
     }
 
     public void PaintItems()
     {
-        foreach (var item in dialogData.conversation.Items)
+        if (conversation != null)
         {
-            item.Paint();
+            foreach (var item in conversation.Items)
+            {
+                item.Paint();
+            }
         }
     }
 
@@ -36,8 +39,8 @@ public class ItemController
         Vector2 mousePosition = (Vector2)obj;
         ConversationItem item = new ConversationItem(mousePosition, 200, 30, "Default Text");
 
-        dialogData.conversation.Items.Add(item);
-        item.Text = dialogData.conversation.Items.Count - 1 + ". is your ID";
+        conversation.Items.Add(item);
+        item.Text = conversation.Items.Count - 1 + ". is your ID";
     }
 
     public void EditItem(object obj)

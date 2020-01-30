@@ -4,38 +4,41 @@ using UnityEngine;
 
 public class EdgeController
 {
-    private DialogData dialogData = null;
+    private Conversation conversation = null;
 
     private Edge currentEdge = null;
     public bool makingEdge = false;
 
 
     
-    public void Setup(DialogData dialogData)
+    public void Setup(Conversation conversation)
     {
-        this.dialogData = dialogData;
+        this.conversation = conversation;
     }
 
     public void PaintEdges()
     {
-        foreach (var edge in dialogData.conversation.Edges)
+        if (conversation != null)
         {
-            edge.Paint(dialogData.conversation);
+            foreach (var edge in conversation.Edges)
+            {
+                edge.Paint(conversation);
+            }
         }
     }
 
     public void MakeEdge(Event currentEvent)
     {
-        currentEdge.Paint(Event.current.mousePosition, dialogData.conversation);
+        currentEdge.Paint(Event.current.mousePosition, conversation);
 
         if (currentEvent.type == EventType.MouseDown)
         {
-            foreach (var item in dialogData.conversation.Items)
+            foreach (var item in conversation.Items)
             {
                 Vector2 mousePos = currentEvent.mousePosition;
                 if (item.Box.Contains(mousePos))
                 {
-                    foreach (var edge in dialogData.conversation.Edges)
+                    foreach (var edge in conversation.Edges)
                     {
                         if (edge.ToId == item.ID && edge.FromId == currentEdge.FromId)
                             return;
@@ -43,7 +46,7 @@ public class EdgeController
 
                     currentEdge.SetToItem(item);
 
-                    item.SetupChildrenType(dialogData.conversation.FindItem(currentEdge.FromId).type);
+                    item.SetupChildrenType(conversation.FindItem(currentEdge.FromId).type);
                     makingEdge = false;
                 }
             }
@@ -55,9 +58,9 @@ public class EdgeController
         ConversationItem item = (ConversationItem)obj;
         List<Edge> edgesToRemove = new List<Edge>();
 
-        foreach (var edge in dialogData.conversation.Edges)
+        foreach (var edge in conversation.Edges)
         {
-            if (dialogData.conversation.FindEdgeByFromID(edge.FromId).FromId == item.ID)
+            if (conversation.FindEdgeByFromID(edge.FromId).FromId == item.ID)
                 edgesToRemove.Add(edge);
         }
 
@@ -65,7 +68,7 @@ public class EdgeController
         {
             if (edgesToRemove.Count > 0)
             {
-                dialogData.conversation.Edges.Remove(edgeToRemove);
+                conversation.Edges.Remove(edgeToRemove);
             }
         }
     }
@@ -75,9 +78,9 @@ public class EdgeController
         ConversationItem item = (ConversationItem)obj;
         List<Edge> edgesToRemove = new List<Edge>();
 
-        foreach (var edge in dialogData.conversation.Edges)
+        foreach (var edge in conversation.Edges)
         {
-            if (dialogData.conversation.FindEdgeByToID(edge.ToId).ToId == item.ID)
+            if (conversation.FindEdgeByToID(edge.ToId).ToId == item.ID)
                 edgesToRemove.Add(edge);
         }
 
@@ -85,7 +88,7 @@ public class EdgeController
         {
             if (edgesToRemove.Count > 0)
             {
-                dialogData.conversation.Edges.Remove(edgeToRemove);
+                conversation.Edges.Remove(edgeToRemove);
             }
         }
     }
@@ -96,7 +99,7 @@ public class EdgeController
 
         currentEdge = new Edge(parent);
 
-        dialogData.conversation.Edges.Add(currentEdge);
+        conversation.Edges.Add(currentEdge);
         makingEdge = true;
     }
 }
