@@ -3,7 +3,9 @@ guid: f9fdb58213339c24ca8354e38d0de534
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - aTexture: {fileID: 2800000, guid: dac9ef6b456662f45b8c78f493708b36, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

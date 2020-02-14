@@ -15,7 +15,7 @@ public class ConversationEditorWindow : EditorWindow
     private static ItemController itemController;
 
     public Vector2 scrollPos = Vector2.zero;
-
+    private static GUIStyle globalStyle;
 
     [MenuItem("Window/Conversation Editor")]
     public static ConversationEditorWindow OpenConversationEditorWindow()
@@ -27,10 +27,20 @@ public class ConversationEditorWindow : EditorWindow
     {
         itemController = new ItemController();
         edgeController = new EdgeController();
+
+        var style = new GUIStyle();
+        style.normal.textColor = Color.white;
+        style.fontStyle = FontStyle.Bold;
+
+        globalStyle = style;
     }
 
     private void OnGUI()
     {
+#if UNITY_EDITOR
+        Handles.DrawSolidRectangleWithOutline(new Rect(0, 0, 2000, 1500), new Color32(22, 27, 32, 255), Color.black);
+#endif
+
         Repaint();
         Event currentEvent = Event.current;
 
@@ -82,6 +92,7 @@ public class ConversationEditorWindow : EditorWindow
             default:
                 break;
         }
+        
 
         edgeController.PaintEdges();
         itemController.PaintItems();
@@ -115,7 +126,7 @@ public class ConversationEditorWindow : EditorWindow
 
     private void BreakEditorWindow()
     {
-        EditorGUILayout.LabelField("Nie został wczytany plik danych!");
+        EditorGUILayout.LabelField("Nie został wczytany plik danych!", globalStyle);
 
         EndWindows();
         GUI.EndScrollView();
@@ -125,7 +136,7 @@ public class ConversationEditorWindow : EditorWindow
     private static void DrawDialogDataLoader()
     {
         EditorGUILayout.BeginHorizontal();
-        EditorGUILayout.LabelField("Gdzie znajduje się porządany dialog: ");
+        EditorGUILayout.LabelField("Gdzie znajduje się porządany dialog: ", globalStyle);
         dataType = (DataType)EditorGUILayout.EnumPopup(dataType);
         EditorGUILayout.Space();
         EditorGUILayout.Space();
@@ -136,7 +147,7 @@ public class ConversationEditorWindow : EditorWindow
         {
             case DataType.Dialogs:
                 EditorGUILayout.BeginHorizontal();
-                EditorGUILayout.LabelField("Podaj plik Dialogów: ");
+                EditorGUILayout.LabelField("Podaj plik Dialogów: ", globalStyle);
                 dialogData = (DialogData)EditorGUILayout.ObjectField(dialogData, typeof(DialogData), true);
                 EditorGUILayout.Space();
                 EditorGUILayout.Space();
@@ -145,7 +156,7 @@ public class ConversationEditorWindow : EditorWindow
                 break;
             case DataType.Missions:
                 EditorGUILayout.BeginHorizontal();
-                EditorGUILayout.LabelField("Podaj plik Misji: ");
+                EditorGUILayout.LabelField("Podaj plik Misji: ", globalStyle);
                 missionData = (MissionData)EditorGUILayout.ObjectField(missionData, typeof(MissionData), true);
                 EditorGUILayout.Space();
                 EditorGUILayout.Space();

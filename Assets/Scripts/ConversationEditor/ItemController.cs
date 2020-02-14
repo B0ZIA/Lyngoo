@@ -9,8 +9,8 @@ public class ItemController
     private Conversation conversation = null;
     public bool movingItem = false;
 
-    public static Color sentenceBoxColor = new Color32(51,63,72,255);
-    public static Color answerBoxColor = new Color32(0,92,76,255);
+    public static Color sentenceBoxColor = new Color32(78, 28, 28, 255);
+    public static Color answerBoxColor = new Color32(34, 41, 48, 255);
 
     //private ConversationItem editingItem = null;
     //private bool editItem = false;

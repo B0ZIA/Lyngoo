@@ -30,11 +30,11 @@ public class ConversationItem
 #if UNITY_EDITOR
         if (type == ItemType.Answer)
         {
-            Handles.DrawSolidRectangleWithOutline(Box, ItemController.answerBoxColor, Color.grey);
+            Handles.DrawSolidRectangleWithOutline(Box, ItemController.answerBoxColor, ItemController.answerBoxColor);
         }
         else if (type == ItemType.Sentence)
         {
-            Handles.DrawSolidRectangleWithOutline(Box, ItemController.sentenceBoxColor, Color.grey);
+            Handles.DrawSolidRectangleWithOutline(Box, ItemController.sentenceBoxColor, ItemController.sentenceBoxColor);
         }
 
         var centeredStyle = GUI.skin.GetStyle("Label");
