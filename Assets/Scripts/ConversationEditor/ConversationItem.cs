@@ -20,7 +20,7 @@ public class ConversationItem
 
     public ConversationItem(Vector2 position, float width, float height, string text)
     {
-        Box = new Rect(position, new Vector2(width, height));
+        Box = new Rect(position, new Vector2(325, height));
         Text = text;
         ID = Guid.NewGuid().ToString();
     }
@@ -30,15 +30,18 @@ public class ConversationItem
 #if UNITY_EDITOR
         if (type == ItemType.Answer)
         {
-            Handles.DrawSolidRectangleWithOutline(Box, Color.cyan, Color.grey);
+            Handles.DrawSolidRectangleWithOutline(Box, ItemController.answerBoxColor, Color.grey);
         }
         else if (type == ItemType.Sentence)
         {
-            Handles.DrawSolidRectangleWithOutline(Box, Color.magenta, Color.grey);
+            Handles.DrawSolidRectangleWithOutline(Box, ItemController.sentenceBoxColor, Color.grey);
         }
 
         var centeredStyle = GUI.skin.GetStyle("Label");
         centeredStyle.alignment = TextAnchor.MiddleCenter;
+        centeredStyle.normal.textColor = Color.white;
+        centeredStyle.fontStyle = FontStyle.Bold;
+        Box.width = 325;
         GUI.Label(Box, Text, centeredStyle);
 #endif
     }

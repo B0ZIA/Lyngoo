@@ -9,6 +9,9 @@ public class ItemController
     private Conversation conversation = null;
     public bool movingItem = false;
 
+    public static Color sentenceBoxColor = new Color32(51,63,72,255);
+    public static Color answerBoxColor = new Color32(0,92,76,255);
+
     //private ConversationItem editingItem = null;
     //private bool editItem = false;
 
@@ -37,7 +40,7 @@ public class ItemController
     public void CreateItem(object obj)
     {
         Vector2 mousePosition = (Vector2)obj;
-        ConversationItem item = new ConversationItem(mousePosition, 200, 30, "Default Text");
+        ConversationItem item = new ConversationItem(mousePosition, 400, 30, "Default Text");
 
         conversation.Items.Add(item);
         item.Text = conversation.Items.Count - 1 + ". is your ID";

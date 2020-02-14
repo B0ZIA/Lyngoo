@@ -10,7 +10,7 @@ public abstract class Person : MonoBehaviour
     [SerializeField]
     private string shortDialogText = "Cześć, co tam?";
     [SerializeField]
-    private Text exhibitText;
+    protected Text exhibitText;
     [SerializeField]
     protected bool available = false;
     [SerializeField]

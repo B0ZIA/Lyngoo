@@ -7,7 +7,7 @@ public class MapPerson : Person
 {
     public float distanceFromCenterMap;
 
-    [SerializeField] private Text exhibitText;
+    //[SerializeField] private Text exhibitText;
     [SerializeField] private Image personImage;
     [SerializeField] private BackgroudSlider slider;
 
