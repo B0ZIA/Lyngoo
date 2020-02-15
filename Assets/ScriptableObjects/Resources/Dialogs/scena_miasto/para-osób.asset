@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892c545a8b8208e479bbd58def962b86, type: 3}
+  m_Name: "para-os\xF3b"
+  m_EditorClassIdentifier: 
+  locked: 1
+  title: family and frendly
+  teksture: {fileID: 21300000, guid: 0b2422c1d83dc9249b555491cc0acbd5, type: 3}
+  firstName: Sandra
+  shortDescription: NAILED, STRONG PERSONALITY, EXTRAVERTIC, RELIABLE
+  longDescritorin: Sandra is upset because she has problems organizing a trip abroad.
+    Despite sending queries on Couchsurfing on the route of the trip, no one answered.
+    Sandra needs to talk to someone to break away from the topic and distance herself
+    from it. He knows that everything will work out, he doesn't need comforting. People
+    with a strong personality like Sara take too obvious consolation as pitying him
+    and reacting badly to it. Today he cannot afford to talk too long, tomorrow he
+    has many important activities, but the next day he will start free and will be
+    happy to meet someone. It is a born extrovert with a person with this trait willingly
+    spends time in a larger group. Confident, concrete actions should be proposed
+    when talking to her, the greater the flexibility of the councils proposed, the
+    less chance for successful discussions.
+  longDescritorinInSpanish: "Sandra jest przybita, poniewa\u017C ma problemy ze zorganizowaniem
+    wyjazdu za granic\u0119. Pomimo wysy\u0142ania zapyta\u0144 na Couchsurfing na
+    trasie wycieczki nikt nie odpowiedzia\u0142. Sandra potrzebuje porozmawia\u0107,
+    z kim\u015B, by na chwile oderwa\u0107 si\u0119 od tematu i zdystansowa\u0107
+    si\u0119 do niego.  Wie, \u017Ce wszystko si\u0119 u\u0142o\u017Cy, nie potrzebuje
+    pocieszania. Osoby z siln\u0105 osobowo\u015Bci\u0105 jak Sara zbyt oczywiste
+    pocieszanie traktuj\u0105 jako u\u017Calanie si\u0119  nad nim i \u017Ale na to
+    reaguj\u0105. W dniu dzisiejszym nie mo\u017Ce pozwoli\u0107 sobie na zbyt d\u0142ug\u0105
+    rozmow\u0119, jutro ma wiele wa\u017Cnych zaj\u0119\u0107, jednak nast\u0119pnego
+    dnia zaczna wolne i ch\u0119tnie si\u0119 z kim\u015B spotka. To urodzona ekstrawertyczka
+    z osoba z t\u0105 cech\u0105 ch\u0119tnie sp\u0119dza czas w wi\u0119kszym gronie.
+    Pewna siebie, w rozmowach z ni\u0105 nale\u017Cy proponowa\u0107 konkretne dzia\u0142ania
+    im wi\u0119ksza elastyczno\u015B\u0107 proponowanych rad, tym mniejsza szansa
+    na udan\u0105 dyskusj\u0119."
+  conversation:
+    Items:
+    - type: 0
+      Text: "Cze\u015B\u0107!"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      Box:
+        serializedVersion: 2
+        x: 522
+        y: 39
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Potrzebuj\u0119 dosta\u0107 si\u0119 do Barcelony"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      Box:
+        serializedVersion: 2
+        x: 217
+        y: 98
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Jest st\u0105d jeszcze jaki\u015B poci\u0105g do Barcelony ?"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+      Box:
+        serializedVersion: 2
+        x: 806
+        y: 111
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Ostatni poci\u0105g ju\u017C odjecha\u0142, proponuj\u0119 busa"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      Box:
+        serializedVersion: 2
+        x: 107
+        y: 148
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Jedzie bezpo\u015Brednio do Barcelony ?"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      Box:
+        serializedVersion: 2
+        x: 42
+        y: 224
+        width: 200
+        height: 30
+    - type: 0
+      Text: Niestety nie
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      Box:
+        serializedVersion: 2
+        x: 102
+        y: 350
+        width: 200
+        height: 30
+    - type: 0
+      Text: Poszukaj informacj na przystanku autobusowym
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      Box:
+        serializedVersion: 2
+        x: 797
+        y: 195
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Nie pami\u0119tam, musisz sprawdzi\u0107 na rozk\u0142adzie"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 4030a197-1b39-4356-897d-a43dda9dd42f
+      Box:
+        serializedVersion: 2
+        x: -31
+        y: 394
+        width: 200
+        height: 30
+    - type: 0
+      Text: "My\u015Bl\u0119, \u017Ce ostatni odje\u017Cd\u017Ca ko\u0142o 20"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 852ff578-8332-4123-8866-b97c368023ff
+      Box:
+        serializedVersion: 2
+        x: 806
+        y: 340
+        width: 200
+        height: 30
+    - type: 1
+      Text: "A wiesz o kt\xF3rej odje\u017Cd\u017Ca ostatni ?"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      Box:
+        serializedVersion: 2
+        x: 685
+        y: 261
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Jest tam rozk\u0142ad po angielsku ?"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      Box:
+        serializedVersion: 2
+        x: 1144
+        y: 258
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Co\u015B jeszcze powinno by\u0107, odje\u017Cd\u017Caj\u0105 co 30 min"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 1ca71008-ad15-4385-9976-55a141d72802
+      Box:
+        serializedVersion: 2
+        x: 574
+        y: 334
+        width: 200
+        height: 30
+    - type: 0
+      Text: Nie ma za co -powodzenia
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 537436dc-d425-4562-9e9a-2ec57f65572a
+      Box:
+        serializedVersion: 2
+        x: 661
+        y: 643
+        width: 200
+        height: 30
+    - type: 0
+      Text: Nie, ale zrozumiesz bez problemu
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
+      Box:
+        serializedVersion: 2
+        x: 1264
+        y: 341
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Przykro mi, nie pami\u0119tam"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+      Box:
+        serializedVersion: 2
+        x: 1043
+        y: 338
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Dzi\u0119kuj\u0119, za pomoc"
+      animator: {fileID: 0}
+      audioClip:
+      - {fileID: 0}
+      ID: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      Box:
+        serializedVersion: 2
+        x: 662
+        y: 567
+        width: 200
+        height: 30
+    - type: 1
+      Text: Gdzie jest przystanek ?
+      animator: {fileID: 0}
+      audioClip: []
+      ID: b885a53c-08d0-4847-90bd-381c2f1a823a
+      Box:
+        serializedVersion: 2
+        x: 296
+        y: 219
+        width: 200
+        height: 30
+    - type: 0
+      Text: Widzisz to wysokie drzewo ? Tam jest przystanek
+      animator: {fileID: 0}
+      audioClip: []
+      ID: b3c91bdb-0342-4468-b01a-ee57da37dbcc
+      Box:
+        serializedVersion: 2
+        x: 184
+        y: 296
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Pod\u0105\u017Caj ta drog\u0105, za 3 min dojdziesz"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: b905726b-d7ae-40f2-9248-f08244086e50
+      Box:
+        serializedVersion: 2
+        x: 354
+        y: 331
+        width: 200
+        height: 30
+    Edges:
+    - FromId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      ToId: 1ca71008-ad15-4385-9976-55a141d72802
+    - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+    - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      ToId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+    - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      ToId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+    - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+    - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+    - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+      ToId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+    - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+    - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      ToId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+    - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      ToId: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+    - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      ToId: c868682b-0ddd-4919-91d8-2b426b77d4bd
+    - FromId: 1ca71008-ad15-4385-9976-55a141d72802
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+    - FromId: 852ff578-8332-4123-8866-b97c368023ff
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+    - FromId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      ToId: 852ff578-8332-4123-8866-b97c368023ff
+    - FromId: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+    - FromId: c868682b-0ddd-4919-91d8-2b426b77d4bd
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+    - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      ToId: b885a53c-08d0-4847-90bd-381c2f1a823a
+    - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      ToId: 4030a197-1b39-4356-897d-a43dda9dd42f
+    - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      ToId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+    - FromId: b885a53c-08d0-4847-90bd-381c2f1a823a
+      ToId: b3c91bdb-0342-4468-b01a-ee57da37dbcc
+    - FromId: b885a53c-08d0-4847-90bd-381c2f1a823a
+      ToId: b905726b-d7ae-40f2-9248-f08244086e50
+    - FromId: b905726b-d7ae-40f2-9248-f08244086e50
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+    - FromId: b3c91bdb-0342-4468-b01a-ee57da37dbcc
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+    - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+    - FromId: 4030a197-1b39-4356-897d-a43dda9dd42f
+      ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07

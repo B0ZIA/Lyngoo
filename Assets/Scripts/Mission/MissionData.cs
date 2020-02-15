@@ -13,7 +13,7 @@ public class MissionData : ScriptableObject
 }
 
 [Serializable]
-public struct PersonDialog
+public class PersonDialog
 {
     public string personName;
     public Conversation conversation;

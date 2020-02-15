@@ -12,6 +12,8 @@ public class ConversationItem
 {
     public ItemType type = ItemType.Sentence;
     public string Text;
+    public string TextInPolish;
+    public string TextInSpanish;
     public RuntimeAnimatorController animator;
     public AudioClip[] audioClip;
     public string ID;
@@ -38,11 +40,26 @@ public class ConversationItem
         }
 
         var centeredStyle = GUI.skin.GetStyle("Label");
-        centeredStyle.alignment = TextAnchor.MiddleCenter;
+        centeredStyle.alignment = TextAnchor.UpperCenter;
         centeredStyle.normal.textColor = Color.white;
         centeredStyle.fontStyle = FontStyle.Bold;
-        Box.width = 325;
-        GUI.Label(Box, Text, centeredStyle);
+
+        Box.width = TextInPolish.Length*8;
+        Box.height = 40;
+        if (TextInSpanish == "")
+        {
+            Box.height /= 2;
+        }
+        GUI.Label(Box, TextInPolish, centeredStyle);
+
+        if (TextInSpanish != "")
+        {
+            var secondLine = Box;
+            var style = centeredStyle;
+            style.normal.textColor = Color.green;
+            secondLine.y += 20;
+            GUI.Label(secondLine, TextInSpanish, style);
+        }
 #endif
     }
 

@@ -13,17 +13,26 @@ public class ItemEditor
 
     public void DrawItemEditor()
     {
+        var style = new GUIStyle();
+        style.normal.textColor = Color.white;
+        style.fontStyle = FontStyle.Bold;
+
 #if UNITY_EDITOR
 
         GUILayout.Space(10);
 
-        EditorGUILayout.LabelField("Edytujesz item o ID: " + editingItem.ID);
+        EditorGUILayout.LabelField("Edytujesz item o ID: " + editingItem.ID, style);
 
         GUILayout.Space(30);
 
         EditorGUILayout.BeginHorizontal();
-        EditorGUILayout.LabelField("Tekst: ");
-        editingItem.Text = EditorGUILayout.TextField(editingItem.Text);
+        EditorGUILayout.LabelField("Tekst po polsku: ", style);
+        editingItem.TextInPolish = EditorGUILayout.TextField(editingItem.TextInPolish);
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal();
+        EditorGUILayout.LabelField("Tekst po hiszpańsku: ", style);
+        editingItem.TextInSpanish = EditorGUILayout.TextField(editingItem.TextInSpanish);
         EditorGUILayout.EndHorizontal();
 
         //EditorGUILayout.BeginHorizontal();

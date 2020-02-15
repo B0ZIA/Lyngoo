@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892c545a8b8208e479bbd58def962b86, type: 3}
+  m_Name: para_po_prawej
+  m_EditorClassIdentifier: 
+  locked: 1
+  title: hill time
+  teksture: {fileID: 21300000, guid: 2eb79396650bd984f9d4735d181c64e7, type: 3}
+  firstName: Sandra
+  shortDescription: NAILED, STRONG PERSONALITY, EXTRAVERTIC, RELIABLE
+  longDescritorin: Sandra is upset because she has problems organizing a trip abroad.
+    Despite sending queries on Couchsurfing on the route of the trip, no one answered.
+    Sandra needs to talk to someone to break away from the topic and distance herself
+    from it. He knows that everything will work out, he doesn't need comforting. People
+    with a strong personality like Sara take too obvious consolation as pitying him
+    and reacting badly to it. Today he cannot afford to talk too long, tomorrow he
+    has many important activities, but the next day he will start free and will be
+    happy to meet someone. It is a born extrovert with a person with this trait willingly
+    spends time in a larger group. Confident, concrete actions should be proposed
+    when talking to her, the greater the flexibility of the councils proposed, the
+    less chance for successful discussions.
+  longDescritorinInSpanish: "Sandra jest przybita, poniewa\u017C ma problemy ze zorganizowaniem
+    wyjazdu za granic\u0119. Pomimo wysy\u0142ania zapyta\u0144 na Couchsurfing na
+    trasie wycieczki nikt nie odpowiedzia\u0142. Sandra potrzebuje porozmawia\u0107,
+    z kim\u015B, by na chwile oderwa\u0107 si\u0119 od tematu i zdystansowa\u0107
+    si\u0119 do niego.  Wie, \u017Ce wszystko si\u0119 u\u0142o\u017Cy, nie potrzebuje
+    pocieszania. Osoby z siln\u0105 osobowo\u015Bci\u0105 jak Sara zbyt oczywiste
+    pocieszanie traktuj\u0105 jako u\u017Calanie si\u0119  nad nim i \u017Ale na to
+    reaguj\u0105. W dniu dzisiejszym nie mo\u017Ce pozwoli\u0107 sobie na zbyt d\u0142ug\u0105
+    rozmow\u0119, jutro ma wiele wa\u017Cnych zaj\u0119\u0107, jednak nast\u0119pnego
+    dnia zaczna wolne i ch\u0119tnie si\u0119 z kim\u015B spotka. To urodzona ekstrawertyczka
+    z osoba z t\u0105 cech\u0105 ch\u0119tnie sp\u0119dza czas w wi\u0119kszym gronie.
+    Pewna siebie, w rozmowach z ni\u0105 nale\u017Cy proponowa\u0107 konkretne dzia\u0142ania
+    im wi\u0119ksza elastyczno\u015B\u0107 proponowanych rad, tym mniejsza szansa
+    na udan\u0105 dyskusj\u0119."
+  conversation:
+    Items:
+    - type: 0
+      Text: "Co si\u0119 sta\u0142o ?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      Box:
+        serializedVersion: 2
+        x: 549
+        y: 41
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Uciek\u0142 mi ostatni, poci\u0105g s\u0105 jeszcze jakie\u015B po\u0142aczenia
+        busowe ?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      Box:
+        serializedVersion: 2
+        x: 406
+        y: 106
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Jest jeszcze jaki\u015B transport do Barcelony dzisiaj ?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+      Box:
+        serializedVersion: 2
+        x: 691
+        y: 96
+        width: 200
+        height: 30
+    - type: 0
+      Text: Jedynie Bolt, lub Uber
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      Box:
+        serializedVersion: 2
+        x: 507
+        y: 178
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Te\u017C, czekacie tu do jutra ?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      Box:
+        serializedVersion: 2
+        x: 323
+        y: 377
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Te\u017C, tu ukn\u0119li\u015Bcie ?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      Box:
+        serializedVersion: 2
+        x: 1043
+        y: 346
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Niestety, nie zd\u0105\u017Cyli\u015Bmy"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      Box:
+        serializedVersion: 2
+        x: 865
+        y: 450
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Chcia\u0142abym zje\u015B\u0107 co\u015B z Kuchni W\u0142oskiej"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 4030a197-1b39-4356-897d-a43dda9dd42f
+      Box:
+        serializedVersion: 2
+        x: 369
+        y: 467
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Tak, mamy karty, jak chcesz mo\u017Cesz p\xF3\u017Aniej si\u0105\u015B\u0107
+        z nami"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 852ff578-8332-4123-8866-b97c368023ff
+      Box:
+        serializedVersion: 2
+        x: 1255
+        y: 463
+        width: 200
+        height: 30
+    - type: 1
+      Text: "[zoom na dziewczyn\u0119]"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      Box:
+        serializedVersion: 2
+        x: 1243
+        y: 420
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Ok, dzi\u0119ki. Popytam jeszcze na stacji, czy kto\u015B co\u015B wie"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      Box:
+        serializedVersion: 2
+        x: 62
+        y: 575
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Tak, na szcz\u0119\u015Bcie ta stacja jest ca\u0142odobowa"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 1ca71008-ad15-4385-9976-55a141d72802
+      Box:
+        serializedVersion: 2
+        x: 32
+        y: 483
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Sprawdza\u0142am, niestety nic tu nie kursuje, za daleko od miasta"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 537436dc-d425-4562-9e9a-2ec57f65572a
+      Box:
+        serializedVersion: 2
+        x: 510
+        y: 288
+        width: 200
+        height: 30
+    - type: 1
+      Text: "[Zoom na dzieczyn\u0119]"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
+      Box:
+        serializedVersion: 2
+        x: 33
+        y: 438
+        width: 200
+        height: 30
+    - type: 1
+      Text: '[Zoom na faceta]'
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+      Box:
+        serializedVersion: 2
+        x: 370
+        y: 429
+        width: 200
+        height: 30
+    - type: 1
+      Text: "[Zoom na dzieczyn\u0119 z telefonem]"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      Box:
+        serializedVersion: 2
+        x: 506
+        y: 239
+        width: 200
+        height: 30
+    - type: 1
+      Text: '[zoom na faceta]'
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 266c9abb-0c64-4cee-8eb1-dd6c9e959d70
+      Box:
+        serializedVersion: 2
+        x: 883
+        y: 406
+        width: 200
+        height: 30
+    - type: 0
+      Text: Trzymamy kciuki
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 93d91bb7-c531-429f-ad67-44839de64fac
+      Box:
+        serializedVersion: 2
+        x: -13
+        y: 676
+        width: 200
+        height: 30
+    - type: 0
+      Text: "W razie czego, dawaj zna\u0107"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: fff88065-c4fb-4b52-bc75-b926cf661b2f
+      Box:
+        serializedVersion: 2
+        x: 192
+        y: 722
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Dzi\u0119ki za pomoc, popytam jeszcze na peronie"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 6fa6bdd1-5344-4ff5-8afc-90711ba2b3bc
+      Box:
+        serializedVersion: 2
+        x: 324
+        y: 571
+        width: 200
+        height: 30
+    - type: 0
+      Text: Spoko
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 9398f0cd-04e7-4391-b2e8-85e76f8bf383
+      Box:
+        serializedVersion: 2
+        x: 310
+        y: 644
+        width: 200
+        height: 30
+    - type: 0
+      Text: Dobrze
+      animator: {fileID: 0}
+      audioClip: []
+      ID: a3d6c049-b3bc-4533-a21f-281dd1936701
+      Box:
+        serializedVersion: 2
+        x: 528
+        y: 663
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Ja te\u017C, m\xF3g\u0142by by\u0107 mniej punktualny"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 4267e353-7ec9-40dc-806b-2e2742dd3183
+      Box:
+        serializedVersion: 2
+        x: 716
+        y: 586
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Ch\u0119tnie, jeszcze sie rozgl\u0105dne i pryjd\u0119 p\xF3\u017Aniej"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: e091e0a3-f9ea-468d-9f77-0f4c295a01ed
+      Box:
+        serializedVersion: 2
+        x: 1180
+        y: 579
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Co\u015B wymy\u015Blimy :)"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: a0f79a31-c4d4-4415-be69-c3a4fea20179
+      Box:
+        serializedVersion: 2
+        x: 936
+        y: 586
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Pewnie, p\xF3\u017Aniej ch\u0119tnie si\u0119 do\u0142\u0105cz\u0119"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 05fdce07-3677-4455-ac4b-0e2c23f0a635
+      Box:
+        serializedVersion: 2
+        x: 1426
+        y: 576
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Daj prosz\u0119 zan\u0107 jak znajdziesz jaki\u015B transport"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
+      Box:
+        serializedVersion: 2
+        x: 832
+        y: 697
+        width: 200
+        height: 30
+    - type: 1
+      Text: Spoko, nie ma problemu
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 6a504bd5-4fdc-4c65-9c17-066f1284193c
+      Box:
+        serializedVersion: 2
+        x: 757
+        y: 810
+        width: 200
+        height: 30
+    - type: 1
+      Text: Ok, i vice versa
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 240bdc6a-2567-4c3e-b79d-8a05c21214c4
+      Box:
+        serializedVersion: 2
+        x: 961
+        y: 807
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Do zobaczenia p\xF3\u017Aniej :)"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: a5929258-8ce1-462b-b3ab-f695ee424926
+      Box:
+        serializedVersion: 2
+        x: 1363
+        y: 678
+        width: 200
+        height: 30
+    - type: 1
+      Text: 'Do zobaczenia '
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 1ee44565-05ee-475d-abb2-1f6cfdbcc0f3
+      Box:
+        serializedVersion: 2
+        x: 1267
+        y: 819
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Jasne w grupie zawsze ra\u017Aniej"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 6a8a6cef-d1b9-491c-831b-2f9c0b836cab
+      Box:
+        serializedVersion: 2
+        x: 1478
+        y: 821
+        width: 200
+        height: 30
+    - type: 1
+      Text: Do zobaczenia
+      animator: {fileID: 0}
+      audioClip: []
+      ID: d1f15940-2461-4cf4-9753-6477bcd8e286
+      Box:
+        serializedVersion: 2
+        x: 193
+        y: 931
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Cze\u015B\u0107 !"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 7996ed48-4055-4a41-923b-583675143583
+      Box:
+        serializedVersion: 2
+        x: 443
+        y: 932
+        width: 200
+        height: 30
+    Edges:
+    - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      ToId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+    - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      ToId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+    - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+    - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+      ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+    - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+      ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+    - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+      ToId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+    - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      ToId: 1ca71008-ad15-4385-9976-55a141d72802
+    - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      ToId: 4030a197-1b39-4356-897d-a43dda9dd42f
+    - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      ToId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+    - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      ToId: 852ff578-8332-4123-8866-b97c368023ff
+    - FromId: 1ca71008-ad15-4385-9976-55a141d72802
+      ToId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+    - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      ToId: 93d91bb7-c531-429f-ad67-44839de64fac
+    - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      ToId: fff88065-c4fb-4b52-bc75-b926cf661b2f
+    - FromId: 1ca71008-ad15-4385-9976-55a141d72802
+      ToId: 6fa6bdd1-5344-4ff5-8afc-90711ba2b3bc
+    - FromId: 6fa6bdd1-5344-4ff5-8afc-90711ba2b3bc
+      ToId: 9398f0cd-04e7-4391-b2e8-85e76f8bf383
+    - FromId: 6fa6bdd1-5344-4ff5-8afc-90711ba2b3bc
+      ToId: a3d6c049-b3bc-4533-a21f-281dd1936701
+    - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      ToId: 4267e353-7ec9-40dc-806b-2e2742dd3183
+    - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      ToId: a0f79a31-c4d4-4415-be69-c3a4fea20179
+    - FromId: 852ff578-8332-4123-8866-b97c368023ff
+      ToId: e091e0a3-f9ea-468d-9f77-0f4c295a01ed
+    - FromId: 852ff578-8332-4123-8866-b97c368023ff
+      ToId: 05fdce07-3677-4455-ac4b-0e2c23f0a635
+    - FromId: 4267e353-7ec9-40dc-806b-2e2742dd3183
+      ToId: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
+    - FromId: a0f79a31-c4d4-4415-be69-c3a4fea20179
+      ToId: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
+    - FromId: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
+      ToId: 6a504bd5-4fdc-4c65-9c17-066f1284193c
+    - FromId: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
+      ToId: 240bdc6a-2567-4c3e-b79d-8a05c21214c4
+    - FromId: e091e0a3-f9ea-468d-9f77-0f4c295a01ed
+      ToId: a5929258-8ce1-462b-b3ab-f695ee424926
+    - FromId: 05fdce07-3677-4455-ac4b-0e2c23f0a635
+      ToId: a5929258-8ce1-462b-b3ab-f695ee424926
+    - FromId: a5929258-8ce1-462b-b3ab-f695ee424926
+      ToId: 1ee44565-05ee-475d-abb2-1f6cfdbcc0f3
+    - FromId: a5929258-8ce1-462b-b3ab-f695ee424926
+      ToId: 6a8a6cef-d1b9-491c-831b-2f9c0b836cab
+    - FromId: 93d91bb7-c531-429f-ad67-44839de64fac
+      ToId: d1f15940-2461-4cf4-9753-6477bcd8e286
+    - FromId: fff88065-c4fb-4b52-bc75-b926cf661b2f
+      ToId: d1f15940-2461-4cf4-9753-6477bcd8e286
+    - FromId: 9398f0cd-04e7-4391-b2e8-85e76f8bf383
+      ToId: d1f15940-2461-4cf4-9753-6477bcd8e286
+    - FromId: a3d6c049-b3bc-4533-a21f-281dd1936701
+      ToId: d1f15940-2461-4cf4-9753-6477bcd8e286
+    - FromId: 93d91bb7-c531-429f-ad67-44839de64fac
+      ToId: 7996ed48-4055-4a41-923b-583675143583
+    - FromId: fff88065-c4fb-4b52-bc75-b926cf661b2f
+      ToId: 7996ed48-4055-4a41-923b-583675143583
+    - FromId: 9398f0cd-04e7-4391-b2e8-85e76f8bf383
+      ToId: 7996ed48-4055-4a41-923b-583675143583
+    - FromId: a3d6c049-b3bc-4533-a21f-281dd1936701
+      ToId: 7996ed48-4055-4a41-923b-583675143583

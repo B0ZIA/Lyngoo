@@ -15,7 +15,15 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 63899faf3e1108843a0960e1315408c2, type: 3}
   title: after training
   personDialogs:
-  - personName: Bezimienny w szkole
+  - personName: Pierwsza Osoba
+    conversation:
+      Items: []
+      Edges: []
+  - personName: Druga Osoba
+    conversation:
+      Items: []
+      Edges: []
+  - personName: Trzecia Osoba
     conversation:
       Items: []
       Edges: []

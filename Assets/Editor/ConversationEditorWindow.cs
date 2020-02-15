@@ -16,7 +16,7 @@ public class ConversationEditorWindow : EditorWindow
 
     public Vector2 scrollPos = Vector2.zero;
     private static GUIStyle globalStyle;
-
+    DialogData data;
     [MenuItem("Window/Conversation Editor")]
     public static ConversationEditorWindow OpenConversationEditorWindow()
     {
@@ -31,6 +31,7 @@ public class ConversationEditorWindow : EditorWindow
         var style = new GUIStyle();
         style.normal.textColor = Color.white;
         style.fontStyle = FontStyle.Bold;
+        style.fontSize *= 2;
 
         globalStyle = style;
     }
@@ -85,6 +86,15 @@ public class ConversationEditorWindow : EditorWindow
                 }
                 else
                 {
+                    EditorGUILayout.BeginHorizontal();
+
+                    data = (DialogData)EditorGUILayout.ObjectField(data, typeof(DialogData), true);
+                    if (GUILayout.Button("Impotruj"))
+                    {
+                        missionData.personDialogs[selectedMissionData].conversation = data.conversation;
+                    }
+                    EditorGUILayout.EndHorizontal();
+
                     edgeController.Setup(currentMissionConversation);
                     itemController.Setup(currentMissionConversation);
                 }

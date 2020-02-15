@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892c545a8b8208e479bbd58def962b86, type: 3}
+  m_Name: rowerzysta
+  m_EditorClassIdentifier: 
+  locked: 0
+  title: hill time
+  teksture: {fileID: 21300000, guid: 2eb79396650bd984f9d4735d181c64e7, type: 3}
+  firstName: Sandra
+  shortDescription: NAILED, STRONG PERSONALITY, EXTRAVERTIC, RELIABLE
+  longDescritorin: Sandra is upset because she has problems organizing a trip abroad.
+    Despite sending queries on Couchsurfing on the route of the trip, no one answered.
+    Sandra needs to talk to someone to break away from the topic and distance herself
+    from it. He knows that everything will work out, he doesn't need comforting. People
+    with a strong personality like Sara take too obvious consolation as pitying him
+    and reacting badly to it. Today he cannot afford to talk too long, tomorrow he
+    has many important activities, but the next day he will start free and will be
+    happy to meet someone. It is a born extrovert with a person with this trait willingly
+    spends time in a larger group. Confident, concrete actions should be proposed
+    when talking to her, the greater the flexibility of the councils proposed, the
+    less chance for successful discussions.
+  longDescritorinInSpanish: "Sandra jest przybita, poniewa\u017C ma problemy ze zorganizowaniem
+    wyjazdu za granic\u0119. Pomimo wysy\u0142ania zapyta\u0144 na Couchsurfing na
+    trasie wycieczki nikt nie odpowiedzia\u0142. Sandra potrzebuje porozmawia\u0107,
+    z kim\u015B, by na chwile oderwa\u0107 si\u0119 od tematu i zdystansowa\u0107
+    si\u0119 do niego.  Wie, \u017Ce wszystko si\u0119 u\u0142o\u017Cy, nie potrzebuje
+    pocieszania. Osoby z siln\u0105 osobowo\u015Bci\u0105 jak Sara zbyt oczywiste
+    pocieszanie traktuj\u0105 jako u\u017Calanie si\u0119  nad nim i \u017Ale na to
+    reaguj\u0105. W dniu dzisiejszym nie mo\u017Ce pozwoli\u0107 sobie na zbyt d\u0142ug\u0105
+    rozmow\u0119, jutro ma wiele wa\u017Cnych zaj\u0119\u0107, jednak nast\u0119pnego
+    dnia zaczna wolne i ch\u0119tnie si\u0119 z kim\u015B spotka. To urodzona ekstrawertyczka
+    z osoba z t\u0105 cech\u0105 ch\u0119tnie sp\u0119dza czas w wi\u0119kszym gronie.
+    Pewna siebie, w rozmowach z ni\u0105 nale\u017Cy proponowa\u0107 konkretne dzia\u0142ania
+    im wi\u0119ksza elastyczno\u015B\u0107 proponowanych rad, tym mniejsza szansa
+    na udan\u0105 dyskusj\u0119."
+  conversation:
+    Items:
+    - type: 0
+      Text: "Tak, ale nast\u0119pny bus dopiero o 8 rano"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      Box:
+        serializedVersion: 2
+        x: 696
+        y: 143
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Przepraszam dojad\u0119 st\u0105d do Barcelony?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      Box:
+        serializedVersion: 2
+        x: 528
+        y: 66
+        width: 200
+        height: 30
+    - type: 1
+      Text: Hej
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+      Box:
+        serializedVersion: 2
+        x: 76
+        y: 855
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Niestety, ostatni bus z przesiadk\u0105 ju\u017C odjecha\u0142"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      Box:
+        serializedVersion: 2
+        x: 385
+        y: 137
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Jest, st\u0105d jaki\u015B inny transport ?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      Box:
+        serializedVersion: 2
+        x: 695
+        y: 236
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Kurcz\u0119, potrzebuj\u0119 wyjecha\u0107 dzi\u015B Barcelony"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      Box:
+        serializedVersion: 2
+        x: 334
+        y: 218
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Lubisz kuchni\u0119 w\u0142osk\u0105?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      Box:
+        serializedVersion: 2
+        x: 49
+        y: 914
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Tylko autostop, zapytaj ch\u0142opak\xF3w po drugirj stronie"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 4030a197-1b39-4356-897d-a43dda9dd42f
+      Box:
+        serializedVersion: 2
+        x: 397
+        y: 295
+        width: 200
+        height: 30
+    - type: 0
+      Text: "samoch\xF3d po drugiej stronie jedzie w tamtym kierunku"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 852ff578-8332-4123-8866-b97c368023ff
+      Box:
+        serializedVersion: 2
+        x: 662
+        y: 302
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Dzi\u0119kuj\u0119, mi\u0142ego wieczoru"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      Box:
+        serializedVersion: 2
+        x: 519
+        y: 390
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Proponuj\u0119 Spaghetti"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      Box:
+        serializedVersion: 2
+        x: 62
+        y: 966
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Wola\u0142abym co\u015B lekkostrawnego"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 1ca71008-ad15-4385-9976-55a141d72802
+      Box:
+        serializedVersion: 2
+        x: 55
+        y: 624
+        width: 200
+        height: 30
+    - type: 0
+      Text: "Ok, mo\u017Ce by\u0107. Zawo\u0142am kelnera..."
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 537436dc-d425-4562-9e9a-2ec57f65572a
+      Box:
+        serializedVersion: 2
+        x: 82
+        y: 787
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Mo\u017Ce by\u0107 tortellini?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
+      Box:
+        serializedVersion: 2
+        x: 66
+        y: 668
+        width: 200
+        height: 30
+    - type: 1
+      Text: "Mo\u017Ce ravioli?"
+      animator: {fileID: 0}
+      audioClip: []
+      ID: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+      Box:
+        serializedVersion: 2
+        x: 108
+        y: 716
+        width: 200
+        height: 30
+    - type: 1
+      Text: EXIT
+      animator: {fileID: 0}
+      audioClip: []
+      ID: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      Box:
+        serializedVersion: 2
+        x: 52
+        y: 1030
+        width: 200
+        height: 30
+    Edges:
+    - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+    - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      ToId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+    - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      ToId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+    - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+    - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+    - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      ToId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+    - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      ToId: 4030a197-1b39-4356-897d-a43dda9dd42f
+    - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      ToId: 852ff578-8332-4123-8866-b97c368023ff
+    - FromId: 4030a197-1b39-4356-897d-a43dda9dd42f
+      ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+    - FromId: 852ff578-8332-4123-8866-b97c368023ff
+      ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
