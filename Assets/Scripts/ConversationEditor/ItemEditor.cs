@@ -27,7 +27,7 @@ public class ItemEditor
 
         EditorGUILayout.BeginHorizontal();
         EditorGUILayout.LabelField("Tekst po polsku: ", style);
-        editingItem.TextInPolish = EditorGUILayout.TextField(editingItem.TextInPolish);
+        editingItem.Text = EditorGUILayout.TextField(editingItem.Text);
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal();

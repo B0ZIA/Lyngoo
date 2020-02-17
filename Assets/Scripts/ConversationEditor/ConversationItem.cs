@@ -44,13 +44,14 @@ public class ConversationItem
         centeredStyle.normal.textColor = Color.white;
         centeredStyle.fontStyle = FontStyle.Bold;
 
-        Box.width = TextInPolish.Length*8;
+        if (Text.Length > 0)
+            Box.width = Text.Length*8;
         Box.height = 40;
         if (TextInSpanish == "")
         {
             Box.height /= 2;
         }
-        GUI.Label(Box, TextInPolish, centeredStyle);
+        GUI.Label(Box, Text, centeredStyle);
 
         if (TextInSpanish != "")
         {
