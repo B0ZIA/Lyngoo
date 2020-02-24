@@ -11,7 +11,6 @@ using UnityEngine.Audio;
 public class ConversationItem
 {
     public ItemType type = ItemType.Sentence;
-    public string Text;
     public string TextInPolish;
     public string TextInSpanish;
     public RuntimeAnimatorController animator;
@@ -20,10 +19,10 @@ public class ConversationItem
     [HideInInspector]
     public Rect Box;
 
-    public ConversationItem(Vector2 position, float width, float height, string text)
+    public ConversationItem(Vector2 position, float width, float height, string textInPolish)
     {
         Box = new Rect(position, new Vector2(325, height));
-        Text = text;
+        TextInPolish = textInPolish;
         ID = Guid.NewGuid().ToString();
     }
 
@@ -44,14 +43,14 @@ public class ConversationItem
         centeredStyle.normal.textColor = Color.white;
         centeredStyle.fontStyle = FontStyle.Bold;
 
-        if (Text.Length > 0)
-            Box.width = Text.Length*8;
+        if (TextInPolish.Length > 0)
+            Box.width = TextInPolish.Length*8;
         Box.height = 40;
         if (TextInSpanish == "")
         {
             Box.height /= 2;
         }
-        GUI.Label(Box, Text, centeredStyle);
+        GUI.Label(Box, TextInPolish, centeredStyle);
 
         if (TextInSpanish != "")
         {

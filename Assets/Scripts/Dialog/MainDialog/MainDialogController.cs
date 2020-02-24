@@ -57,7 +57,7 @@ public class MainDialogController : MonoBehaviour
 
     public void SetDialogPart(ConversationItem item)
     {
-        components.botText.text = item.Text;
+        components.botText.text = item.TextInPolish;
         if (item.animator != null)
         {
             animator.runtimeAnimatorController = item.animator;

@@ -80,7 +80,7 @@ public class MissionController : MonoBehaviour
 
     public void SetDialogPart(ConversationItem item)
     {
-        currentPersonText.text = item.Text;
+        currentPersonText.text = item.TextInPolish;
         if (item.animator != null)
         {
             //animator.runtimeAnimatorController = item.animator;

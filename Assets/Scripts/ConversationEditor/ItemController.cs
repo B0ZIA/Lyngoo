@@ -43,7 +43,7 @@ public class ItemController
         ConversationItem item = new ConversationItem(mousePosition, 400, 30, "Default Text");
 
         conversation.Items.Add(item);
-        item.Text = conversation.Items.Count - 1 + ". is your ID";
+        item.TextInPolish = conversation.Items.Count - 1 + ". is your ID";
     }
 
     public void EditItem(object obj)

@@ -24,10 +24,10 @@ public class Sentence : MonoBehaviour
     {
         this.item = item;
 
-        this.sentenceAnSpanish = item.Text;
-        sentenceText.text = sentenceAnSpanish;
+        this.sentenceAnSpanish = item.TextInSpanish;
 
-        this.sentenceAnPolish = item.Text;
+        this.sentenceAnPolish = item.TextInPolish;
+        sentenceText.text = sentenceAnPolish;
     }
 
     public void OnClick()
