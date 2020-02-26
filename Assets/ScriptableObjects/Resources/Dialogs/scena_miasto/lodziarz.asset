@@ -45,7 +45,9 @@ MonoBehaviour:
   conversation:
     Items:
     - type: 0
+      TextInPolish: "Cze\u015B\u0107, co dla Ciebie ?"
       Text: "Cze\u015B\u0107, co dla Ciebie ?"
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: 43c346278ae0dd04f95e7ad1001e9424, type: 2}
       audioClip:
       - {fileID: 8300000, guid: 672876da47342b940b17aeda34da007a, type: 3}
@@ -54,10 +56,13 @@ MonoBehaviour:
         serializedVersion: 2
         x: 524
         y: 54
-        width: 200
-        height: 30
+        width: 176
+        height: 20
     - type: 1
+      TextInPolish: "Oczywi\u015Bcie poprosze ga\u0142k\u0119 cytrynowych, a dla Ciebie
+        ...?"
       Text: "Oczywi\u015Bcie poprosze ga\u0142k\u0119 cytrynowych, a dla Ciebie ...?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: b6443eeb-340b-47dc-9bc9-792520f8dd24
@@ -65,10 +70,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 288
         y: 493
-        width: 200
-        height: 30
+        width: 448
+        height: 20
     - type: 0
+      TextInPolish: w wafelku, czy w kubeczku ?
       Text: w wafelku, czy w kubeczku ?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: dc7b9f14-9ca5-474e-bd33-f11d01e6b5d9
@@ -76,10 +83,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 851
         y: 180
-        width: 200
-        height: 30
+        width: 216
+        height: 20
     - type: 1
+      TextInPolish: na nazwisko Perez
       Text: na nazwisko Perez
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: 6d07a4ba0e268024c8d21c22c09a7d3f, type: 2}
       audioClip:
       - {fileID: 8300000, guid: fdb9813870899874b950c47190ad82c4, type: 3}
@@ -88,10 +97,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1596
         y: 418
-        width: 200
-        height: 30
+        width: 136
+        height: 20
     - type: 0
+      TextInPolish: "Mi te\u017C mo\u017Cesz kupi\u0107 :)"
       Text: "Mi te\u017C mo\u017Cesz kupi\u0107 :)"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 0d43b16d-4208-4367-bc9d-46403fab0aa0
@@ -99,10 +110,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 505
         y: 406
-        width: 200
-        height: 30
+        width: 176
+        height: 20
     - type: 1
+      TextInPolish: "Prosze o rezerwacj\u0119 na jutro na 18, stolik przy oknie"
       Text: "Prosze o rezerwacj\u0119 na jutro na 18, stolik przy oknie"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 0500d65e-cfbb-4349-a311-bca5896af2fb
@@ -110,10 +123,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1524
         y: 293
-        width: 200
-        height: 30
+        width: 424
+        height: 20
     - type: 0
+      TextInPolish: "Tylko, je\u015Bli co\u015B kupisz"
       Text: "Tylko, je\u015Bli co\u015B kupisz"
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: da3def12a17fa774581640b5b359ebed, type: 2}
       audioClip:
       - {fileID: 8300000, guid: bbcb35b31ceed0d4590c60b07b5c6e00, type: 3}
@@ -123,10 +138,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 475
         y: 174
-        width: 200
-        height: 30
+        width: 184
+        height: 20
     - type: 1
+      TextInPolish: "Kart\u0105 poprosz\u0119"
       Text: "Kart\u0105 poprosz\u0119"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 88fde1ff-ef14-4ac6-b6bc-9b1552a899f0
@@ -134,10 +151,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 480
         y: 905
-        width: 200
-        height: 30
+        width: 112
+        height: 20
     - type: 1
+      TextInPolish: Dwa razy waniliowe w kubku
       Text: Dwa razy waniliowe w kubku
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: de53e753-7d49-4abc-8a0f-c56ad2104932
@@ -145,10 +164,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1089
         y: 676
-        width: 200
-        height: 30
+        width: 208
+        height: 20
     - type: 1
+      TextInPolish: "Got\xF3wka"
       Text: "Got\xF3wka"
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: ca09529cc12d8584a8a2ff568001034e, type: 2}
       audioClip:
       - {fileID: 8300000, guid: fdb9813870899874b950c47190ad82c4, type: 3}
@@ -158,10 +179,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1013
         y: 893
-        width: 200
-        height: 30
+        width: 56
+        height: 20
     - type: 1
+      TextInPolish: "Dzi\u0119kuj\u0119"
       Text: "Dzi\u0119kuj\u0119"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: ba120513-044f-48b3-bed1-ca2458c4d6d7
@@ -169,10 +192,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 865
         y: 1070
-        width: 200
-        height: 30
+        width: 64
+        height: 20
     - type: 1
+      TextInPolish: "Poprosz\u0119"
       Text: "Poprosz\u0119"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 2d39ff1c-a9e6-4bba-9db3-95d9cb68affa
@@ -180,10 +205,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 639
         y: 1077
-        width: 200
-        height: 30
+        width: 64
+        height: 20
     - type: 0
+      TextInPolish: "Dziekuj\u0119, mi\u0142ego dnia"
       Text: "Dziekuj\u0119, mi\u0142ego dnia"
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: dff84d6eb5dd06f4daa7c331f74780d0, type: 2}
       audioClip:
       - {fileID: 8300000, guid: e38605d792ae22149bdfc28784de77b9, type: 3}
@@ -192,10 +219,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 967
         y: 1176
-        width: 200
-        height: 30
+        width: 168
+        height: 20
     - type: 0
+      TextInPolish: "Dzi\u0119kuj\u0119, mi\u0142ego dnia"
       Text: "Dzi\u0119kuj\u0119, mi\u0142ego dnia"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 531e54ac-d013-4d0f-8f50-021f4d835c26
@@ -203,10 +232,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 584
         y: 1169
-        width: 200
-        height: 30
+        width: 168
+        height: 20
     - type: 0
+      TextInPolish: Potrzebne potwierdzenie ?
       Text: Potrzebne potwierdzenie ?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: d1b54129-5b52-43e3-b045-33de9f114478
@@ -215,9 +246,11 @@ MonoBehaviour:
         x: 447
         y: 992
         width: 200
-        height: 30
+        height: 20
     - type: 1
+      TextInPolish: "Nie trzeba, dzi\u0119kuj\u0119"
       Text: "Nie trzeba, dzi\u0119kuj\u0119"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 76f332da-a224-43c3-ac39-df62aa8393ca
@@ -225,10 +258,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 414
         y: 1076
-        width: 200
-        height: 30
+        width: 160
+        height: 20
     - type: 1
+      TextInPolish: EXIT
       Text: EXIT
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 71bf81c5-62bd-4dbf-ba84-5b25309f91f2
@@ -236,10 +271,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 774
         y: 1299
-        width: 200
-        height: 30
+        width: 32
+        height: 20
     - type: 0
+      TextInPolish: Na miejscu, czy na wynos ?
       Text: Na miejscu, czy na wynos ?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 50dfd888-a95d-4317-9151-91e857331075
@@ -247,10 +284,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1076
         y: 177
-        width: 200
-        height: 30
+        width: 208
+        height: 20
     - type: 1
+      TextInPolish: "Mia\u0142by\u015B rozmieni\u0107 mi 20 euro ?"
       Text: "Mia\u0142by\u015B rozmieni\u0107 mi 20 euro ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 91363fc7-bbd2-40f3-a9ba-ce2c3d19a7ec
@@ -258,10 +297,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 327
         y: 119
-        width: 200
-        height: 30
+        width: 240
+        height: 20
     - type: 0
+      TextInPolish: Niestety nie mam drobnych w kasie
       Text: Niestety nie mam drobnych w kasie
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: cdc9bd37-2870-47d1-b00b-8da5cbb8c043
@@ -269,10 +310,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 118
         y: 172
-        width: 200
-        height: 30
+        width: 264
+        height: 20
     - type: 1
+      TextInPolish: '[KADR NA BLONDYNKE]'
       Text: '[KADR NA BLONDYNKE]'
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 108e1c5d-154f-44f1-9048-a4ef08c3a543
@@ -280,10 +323,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 689
         y: 323
-        width: 200
-        height: 30
+        width: 152
+        height: 20
     - type: 0
+      TextInPolish: "Waniliowe poprosz\u0119"
       Text: "Waniliowe poprosz\u0119"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 78cb7acc-88a4-41ed-9c35-dad11009dc79
@@ -291,10 +336,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1166
         y: 571
-        width: 200
-        height: 30
+        width: 144
+        height: 20
     - type: 0
+      TextInPolish: "Prosz\u0119, reszta i paragon"
       Text: "Prosz\u0119, reszta i paragon"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: c0ef87df-0c64-4da3-adfe-d39347c49324
@@ -302,10 +349,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1032
         y: 967
-        width: 200
-        height: 30
+        width: 192
+        height: 20
     - type: 0
+      TextInPolish: "12 euro, p\u0142atne karta czy got\xF3wk\u0105 ?"
       Text: "12 euro, p\u0142atne karta czy got\xF3wk\u0105 ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 766afffe-2b03-48b4-923c-35134cb86dd4
@@ -313,10 +362,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 723
         y: 822
-        width: 200
-        height: 30
+        width: 280
+        height: 20
     - type: 1
+      TextInPolish: Reszty nie trzeba
       Text: Reszty nie trzeba
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 10080e3f-4112-4571-ab91-846ab2e1e5c7
@@ -324,10 +375,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1121
         y: 1069
-        width: 200
-        height: 30
+        width: 136
+        height: 20
     - type: 1
+      TextInPolish: Jasne, jaki smak lubisz ?
       Text: Jasne, jaki smak lubisz ?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: dd72e65c-0034-457f-9630-889abc04d840
@@ -336,9 +389,11 @@ MonoBehaviour:
         x: 570
         y: 494
         width: 200
-        height: 30
+        height: 20
     - type: 1
+      TextInPolish: "Na co masz ochot\u0119 ?"
       Text: "Na co masz ochot\u0119 ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 8b1f8cda-6559-446a-982f-1032cd24cd93
@@ -346,10 +401,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1152
         y: 484
-        width: 200
-        height: 30
+        width: 152
+        height: 20
     - type: 1
+      TextInPolish: A dla mnie kubek truskawkowych
       Text: A dla mnie kubek truskawkowych
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: ec1058fd-5391-4a71-860d-5f0dded49d40
@@ -357,10 +414,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 888
         y: 678
-        width: 200
-        height: 30
+        width: 240
+        height: 20
     - type: 0
+      TextInPolish: "Jedn\u0105 ga\u0142k\u0119 \u015Bmietankowych w kubeczku"
       Text: "Jedn\u0105 ga\u0142k\u0119 \u015Bmietankowych w kubeczku"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 1ca72a56-b1c5-4449-a09c-9b9db7da7d51
@@ -368,10 +427,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 452
         y: 572
-        width: 200
-        height: 30
+        width: 288
+        height: 20
     - type: 1
+      TextInPolish: "Mog\u0119 zaproponowa\u0107 ga\u0142k\u0119 lod\xF3w, ja stawiam"
       Text: "Mog\u0119 zaproponowa\u0107 ga\u0142k\u0119 lod\xF3w, ja stawiam"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: fa0909d3-ef8f-4ae4-8161-e1a670dff3ad
@@ -379,10 +440,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 906
         y: 481
-        width: 200
-        height: 30
+        width: 328
+        height: 20
     - type: 1
+      TextInPolish: "P\u0142atne razem"
       Text: "P\u0142atne razem"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 252bde1c-eb8a-4734-8f53-639e18308de1
@@ -390,10 +453,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 335
         y: 689
-        width: 200
-        height: 30
+        width: 96
+        height: 20
     - type: 1
+      TextInPolish: "...i ga\u0142k\u0119 \u015Bmietankowych"
       Text: "...i ga\u0142k\u0119 \u015Bmietankowych"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 26ac5ebc-b6d4-4f05-ad14-2180569f5460
@@ -401,10 +466,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 592
         y: 686
-        width: 200
-        height: 30
+        width: 192
+        height: 20
     - type: 0
+      TextInPolish: Skoro nalegasz :) dla mnie kubek waniliowych
       Text: Skoro nalegasz :) dla mnie kubek waniliowych
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 22f18308-3eb3-4615-8ac0-5fece67da37d
@@ -412,10 +479,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 877
         y: 565
-        width: 200
-        height: 30
+        width: 352
+        height: 20
     - type: 1
+      TextInPolish: "Prosz\u0119 jedn\u0105 ga\u0142k\u0119 lod\xF3w truskawkowych"
       Text: "Prosz\u0119 jedn\u0105 ga\u0142k\u0119 lod\xF3w truskawkowych"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: cb792c6a-1ca6-4d35-b580-0b331997ac5f
@@ -423,10 +492,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1040
         y: 106
-        width: 200
-        height: 30
+        width: 304
+        height: 20
     - type: 0
+      TextInPolish: "Hej, mi\u0142o mi Ci\u0119 zn\xF3w widzie\u0107"
       Text: "Hej, mi\u0142o mi Ci\u0119 zn\xF3w widzie\u0107"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: a4e18e3c-83f5-4dfd-acec-4304c6441b8a
@@ -434,8 +505,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1017
         y: 401
-        width: 200
-        height: 30
+        width: 232
+        height: 20
     Edges:
     - FromId: 91363fc7-bbd2-40f3-a9ba-ce2c3d19a7ec
       ToId: cdc9bd37-2870-47d1-b00b-8da5cbb8c043

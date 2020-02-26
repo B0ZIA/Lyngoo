@@ -45,7 +45,9 @@ MonoBehaviour:
   conversation:
     Items:
     - type: 0
+      TextInPolish: "Cze\u015B\u0107!"
       Text: "Cze\u015B\u0107!"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -54,10 +56,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 522
         y: 39
-        width: 200
-        height: 30
+        width: 48
+        height: 20
     - type: 1
+      TextInPolish: "Potrzebuj\u0119 dosta\u0107 si\u0119 do Barcelony"
       Text: "Potrzebuj\u0119 dosta\u0107 si\u0119 do Barcelony"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -66,10 +70,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 217
         y: 98
-        width: 200
-        height: 30
+        width: 272
+        height: 20
     - type: 1
+      TextInPolish: "Jest st\u0105d jeszcze jaki\u015B poci\u0105g do Barcelony ?"
       Text: "Jest st\u0105d jeszcze jaki\u015B poci\u0105g do Barcelony ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -78,10 +84,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 806
         y: 111
-        width: 200
-        height: 30
+        width: 360
+        height: 20
     - type: 0
+      TextInPolish: "Ostatni poci\u0105g ju\u017C odjecha\u0142, proponuj\u0119 busa"
       Text: "Ostatni poci\u0105g ju\u017C odjecha\u0142, proponuj\u0119 busa"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -90,10 +98,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 107
         y: 148
-        width: 200
-        height: 30
+        width: 344
+        height: 20
     - type: 1
+      TextInPolish: "Jedzie bezpo\u015Brednio do Barcelony ?"
       Text: "Jedzie bezpo\u015Brednio do Barcelony ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -102,10 +112,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 42
         y: 224
-        width: 200
-        height: 30
+        width: 272
+        height: 20
     - type: 0
+      TextInPolish: Niestety nie
       Text: Niestety nie
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -114,10 +126,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 102
         y: 350
-        width: 200
-        height: 30
+        width: 96
+        height: 20
     - type: 0
+      TextInPolish: Poszukaj informacj na przystanku autobusowym
       Text: Poszukaj informacj na przystanku autobusowym
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -126,10 +140,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 797
         y: 195
-        width: 200
-        height: 30
+        width: 352
+        height: 20
     - type: 0
+      TextInPolish: "Nie pami\u0119tam, musisz sprawdzi\u0107 na rozk\u0142adzie"
       Text: "Nie pami\u0119tam, musisz sprawdzi\u0107 na rozk\u0142adzie"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -138,10 +154,13 @@ MonoBehaviour:
         serializedVersion: 2
         x: -31
         y: 394
-        width: 200
-        height: 30
+        width: 352
+        height: 20
     - type: 0
+      TextInPolish: "My\u015Bl\u0119, \u017Ce ostatni odje\u017Cd\u017Ca ko\u0142o
+        20"
       Text: "My\u015Bl\u0119, \u017Ce ostatni odje\u017Cd\u017Ca ko\u0142o 20"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -150,10 +169,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 806
         y: 340
-        width: 200
-        height: 30
+        width: 272
+        height: 20
     - type: 1
+      TextInPolish: "A wiesz o kt\xF3rej odje\u017Cd\u017Ca ostatni ?"
       Text: "A wiesz o kt\xF3rej odje\u017Cd\u017Ca ostatni ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -162,10 +183,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 685
         y: 261
-        width: 200
-        height: 30
+        width: 280
+        height: 20
     - type: 1
+      TextInPolish: "Jest tam rozk\u0142ad po angielsku ?"
       Text: "Jest tam rozk\u0142ad po angielsku ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -174,10 +197,13 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1144
         y: 258
-        width: 200
-        height: 30
+        width: 248
+        height: 20
     - type: 0
+      TextInPolish: "Co\u015B jeszcze powinno by\u0107, odje\u017Cd\u017Caj\u0105
+        co 30 min"
       Text: "Co\u015B jeszcze powinno by\u0107, odje\u017Cd\u017Caj\u0105 co 30 min"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -186,10 +212,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 574
         y: 334
-        width: 200
-        height: 30
+        width: 360
+        height: 20
     - type: 0
+      TextInPolish: Nie ma za co -powodzenia
       Text: Nie ma za co -powodzenia
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -198,10 +226,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 661
         y: 643
-        width: 200
-        height: 30
+        width: 192
+        height: 20
     - type: 0
+      TextInPolish: Nie, ale zrozumiesz bez problemu
       Text: Nie, ale zrozumiesz bez problemu
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -210,10 +240,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1264
         y: 341
-        width: 200
-        height: 30
+        width: 256
+        height: 20
     - type: 0
+      TextInPolish: "Przykro mi, nie pami\u0119tam"
       Text: "Przykro mi, nie pami\u0119tam"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -222,10 +254,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1043
         y: 338
-        width: 200
-        height: 30
+        width: 192
+        height: 20
     - type: 1
+      TextInPolish: "Dzi\u0119kuj\u0119, za pomoc"
       Text: "Dzi\u0119kuj\u0119, za pomoc"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -234,10 +268,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 662
         y: 567
-        width: 200
-        height: 30
+        width: 144
+        height: 20
     - type: 1
+      TextInPolish: Gdzie jest przystanek ?
       Text: Gdzie jest przystanek ?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: b885a53c-08d0-4847-90bd-381c2f1a823a
@@ -245,10 +281,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 296
         y: 219
-        width: 200
-        height: 30
+        width: 184
+        height: 20
     - type: 0
+      TextInPolish: Widzisz to wysokie drzewo ? Tam jest przystanek
       Text: Widzisz to wysokie drzewo ? Tam jest przystanek
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: b3c91bdb-0342-4468-b01a-ee57da37dbcc
@@ -256,10 +294,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 184
         y: 296
-        width: 200
-        height: 30
+        width: 376
+        height: 20
     - type: 0
+      TextInPolish: "Pod\u0105\u017Caj ta drog\u0105, za 3 min dojdziesz"
       Text: "Pod\u0105\u017Caj ta drog\u0105, za 3 min dojdziesz"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: b905726b-d7ae-40f2-9248-f08244086e50
@@ -267,8 +307,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 354
         y: 331
-        width: 200
-        height: 30
+        width: 288
+        height: 20
     Edges:
     - FromId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
       ToId: 1ca71008-ad15-4385-9976-55a141d72802

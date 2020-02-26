@@ -11,7 +11,11 @@ using UnityEngine.Audio;
 public class ConversationItem
 {
     public ItemType type = ItemType.Sentence;
+    [SerializeField]
     public string TextInPolish;
+    [SerializeField]
+    private string Text;
+    [SerializeField] 
     public string TextInSpanish;
     public RuntimeAnimatorController animator;
     public AudioClip[] audioClip;
@@ -43,8 +47,17 @@ public class ConversationItem
         centeredStyle.normal.textColor = Color.white;
         centeredStyle.fontStyle = FontStyle.Bold;
 
-        if (TextInPolish.Length > 0)
-            Box.width = TextInPolish.Length*8;
+        if (TextInPolish == "")
+        {
+            TextInPolish = Text;
+        }
+
+        if (TextInPolish != null)
+        {
+            if (TextInPolish.Length > 0)
+                Box.width = TextInPolish.Length * 8;
+    }
+    
         Box.height = 40;
         if (TextInSpanish == "")
         {

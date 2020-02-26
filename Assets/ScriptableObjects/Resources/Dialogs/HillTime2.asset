@@ -45,7 +45,9 @@ MonoBehaviour:
   conversation:
     Items:
     - type: 0
+      TextInPolish: "Cze\u015B\u0107!"
       Text: "Cze\u015B\u0107!"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -54,10 +56,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 586
         y: 52
-        width: 200
-        height: 30
+        width: 48
+        height: 20
     - type: 1
+      TextInPolish: Serwus!
       Text: Serwus!
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -66,10 +70,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 397
         y: 113
-        width: 200
-        height: 30
+        width: 56
+        height: 20
     - type: 1
+      TextInPolish: Hej
       Text: Hej
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -78,10 +84,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 775
         y: 106
-        width: 200
-        height: 30
+        width: 24
+        height: 20
     - type: 0
+      TextInPolish: "Zamawiamy co\u015B?"
       Text: "Zamawiamy co\u015B?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -90,10 +98,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 582
         y: 174
-        width: 200
-        height: 30
+        width: 112
+        height: 20
     - type: 1
+      TextInPolish: "Na co masz ochot\u0119?"
       Text: "Na co masz ochot\u0119?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -102,10 +112,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 349
         y: 256
-        width: 200
-        height: 30
+        width: 144
+        height: 20
     - type: 1
+      TextInPolish: "Tak! Proponuj\u0119 kurczaka"
       Text: "Tak! Proponuj\u0119 kurczaka"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -114,10 +126,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 572
         y: 255
-        width: 200
-        height: 30
+        width: 184
+        height: 20
     - type: 1
+      TextInPolish: "Lubisz kuchni\u0119 w\u0142osk\u0105?"
       Text: "Lubisz kuchni\u0119 w\u0142osk\u0105?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -126,10 +140,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 798
         y: 256
-        width: 200
-        height: 30
+        width: 176
+        height: 20
     - type: 0
+      TextInPolish: "Chcia\u0142abym zje\u015B\u0107 co\u015B z Kuchni W\u0142oskiej"
       Text: "Chcia\u0142abym zje\u015B\u0107 co\u015B z Kuchni W\u0142oskiej"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -138,10 +154,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 426
         y: 377
-        width: 200
-        height: 30
+        width: 304
+        height: 20
     - type: 0
+      TextInPolish: Tak, uwielbiam!
       Text: Tak, uwielbiam!
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -150,10 +168,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 800
         y: 375
-        width: 200
-        height: 30
+        width: 120
+        height: 20
     - type: 1
+      TextInPolish: Proponuje pizze
       Text: Proponuje pizze
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -162,10 +182,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 426
         y: 512
-        width: 200
-        height: 30
+        width: 120
+        height: 20
     - type: 1
+      TextInPolish: "Proponuj\u0119 Spaghetti"
       Text: "Proponuj\u0119 Spaghetti"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -174,10 +196,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 798
         y: 513
-        width: 200
-        height: 30
+        width: 152
+        height: 20
     - type: 0
+      TextInPolish: "Wola\u0142abym co\u015B lekkostrawnego"
       Text: "Wola\u0142abym co\u015B lekkostrawnego"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -186,10 +210,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 183
         y: 591
-        width: 200
-        height: 30
+        width: 224
+        height: 20
     - type: 0
+      TextInPolish: "Ok, mo\u017Ce by\u0107. Zawo\u0142am kelnera..."
       Text: "Ok, mo\u017Ce by\u0107. Zawo\u0142am kelnera..."
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -198,10 +224,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 474
         y: 805
-        width: 200
-        height: 30
+        width: 256
+        height: 20
     - type: 1
+      TextInPolish: "Mo\u017Ce by\u0107 tortellini?"
       Text: "Mo\u017Ce by\u0107 tortellini?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -210,10 +238,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 13
         y: 686
-        width: 200
-        height: 30
+        width: 160
+        height: 20
     - type: 1
+      TextInPolish: "Mo\u017Ce ravioli?"
       Text: "Mo\u017Ce ravioli?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -222,10 +252,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 345
         y: 682
-        width: 200
-        height: 30
+        width: 104
+        height: 20
     - type: 1
+      TextInPolish: EXIT
       Text: EXIT
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -234,8 +266,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 463
         y: 915
-        width: 200
-        height: 30
+        width: 32
+        height: 20
     Edges:
     - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
       ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb

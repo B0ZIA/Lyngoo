@@ -45,7 +45,9 @@ MonoBehaviour:
   conversation:
     Items:
     - type: 0
+      TextInPolish: "Dzie\u0144 dobry!"
       Text: "Dzie\u0144 dobry!"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -54,10 +56,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 430
         y: 49
-        width: 200
-        height: 30
+        width: 96
+        height: 20
     - type: 1
+      TextInPolish: "Poprosze stolik dla dw\xF3ch os\xF3b"
       Text: "Poprosze stolik dla dw\xF3ch os\xF3b"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -66,10 +70,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 253
         y: 102
-        width: 200
-        height: 30
+        width: 240
+        height: 20
     - type: 1
+      TextInPolish: Jaki to rodzaj restauracji ?
       Text: Jaki to rodzaj restauracji ?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -78,10 +84,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1571
         y: 76
-        width: 200
-        height: 30
+        width: 224
+        height: 20
     - type: 0
+      TextInPolish: "Miejsce na zewnatrz, czy w \u015Brodku ?"
       Text: "Miejsce na zewnatrz, czy w \u015Brodku ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -90,10 +98,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 96
         y: 165
-        width: 200
-        height: 30
+        width: 280
+        height: 20
     - type: 1
+      TextInPolish: "Na zewn\u0105trz poprosz\u0119"
       Text: "Na zewn\u0105trz poprosz\u0119"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -102,10 +112,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 9
         y: 234
-        width: 200
-        height: 30
+        width: 160
+        height: 20
     - type: 1
+      TextInPolish: "Poprosz\u0119 w \u015Brodku"
       Text: "Poprosz\u0119 w \u015Brodku"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -114,10 +126,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 271
         y: 234
-        width: 200
-        height: 30
+        width: 136
+        height: 20
     - type: 1
+      TextInPolish: Tak, nie przeszkadza nam to
       Text: Tak, nie przeszkadza nam to
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -126,10 +140,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 265
         y: 391
-        width: 200
-        height: 30
+        width: 216
+        height: 20
     - type: 0
+      TextInPolish: "Miejsce dla pal\u0105cych ?"
       Text: "Miejsce dla pal\u0105cych ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -138,10 +154,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 230
         y: 306
-        width: 200
-        height: 30
+        width: 176
+        height: 20
     - type: 1
+      TextInPolish: "Mo\u017Cemy zrobi\u0107 rezerwacje na inny dzie\u0144 ?"
       Text: "Mo\u017Cemy zrobi\u0107 rezerwacje na inny dzie\u0144 ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -150,10 +168,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 533
         y: 234
-        width: 200
-        height: 30
+        width: 320
+        height: 20
     - type: 1
+      TextInPolish: "Nie, dla niepal\u0105cych"
       Text: "Nie, dla niepal\u0105cych"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -162,11 +182,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 51
         y: 391
-        width: 200
-        height: 30
+        width: 160
+        height: 20
     - type: 1
+      TextInPolish: "Mog\u0119 zostawi\u0107 numer i je\u015Bli si\u0119 co\u015B
+        zwolni zadzwonicie ?"
       Text: "Mog\u0119 zostawi\u0107 numer i je\u015Bli si\u0119 co\u015B zwolni zadzwonicie
         ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -175,10 +198,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 719
         y: 257
-        width: 200
-        height: 30
+        width: 448
+        height: 20
     - type: 0
+      TextInPolish: Miejsce przy oknie, czy w rogu sali ?
       Text: Miejsce przy oknie, czy w rogu sali ?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -187,10 +212,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 145
         y: 476
-        width: 200
-        height: 30
+        width: 296
+        height: 20
     - type: 0
+      TextInPolish: "Tak, mo\u017Cna dokona\u0107 rezerwacji przy kasie"
       Text: "Tak, mo\u017Cna dokona\u0107 rezerwacji przy kasie"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -199,10 +226,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 478
         y: 305
-        width: 200
-        height: 30
+        width: 320
+        height: 20
     - type: 1
+      TextInPolish: Przy oknie poprosimy
       Text: Przy oknie poprosimy
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -211,10 +240,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 16
         y: 571
-        width: 200
-        height: 30
+        width: 160
+        height: 20
     - type: 1
+      TextInPolish: "W rogu sali jest w porz\u0105dku"
       Text: "W rogu sali jest w porz\u0105dku"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -223,10 +254,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 238
         y: 567
-        width: 200
-        height: 30
+        width: 216
+        height: 20
     - type: 1
+      TextInPolish: '[PRZEJSCIE DO KELNERKI]'
       Text: '[PRZEJSCIE DO KELNERKI]'
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
@@ -235,10 +268,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 610
         y: 432
-        width: 200
-        height: 30
+        width: 184
+        height: 20
     - type: 0
+      TextInPolish: Niestety, nie mamy teraz wolnych miejsc
       Text: Niestety, nie mamy teraz wolnych miejsc
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 54ac32b1-5433-4785-a76f-acb138a91d58
@@ -246,10 +281,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 602
         y: 161
-        width: 200
-        height: 30
+        width: 312
+        height: 20
     - type: 0
+      TextInPolish: "Niestety, nie mamy ju\u017C wolnych miejsc na zewn\u0105trz"
       Text: "Niestety, nie mamy ju\u017C wolnych miejsc na zewn\u0105trz"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 1dcacc16-a7c7-4619-b222-544cdd0392fb
@@ -257,10 +294,13 @@ MonoBehaviour:
         serializedVersion: 2
         x: 10
         y: 303
-        width: 200
-        height: 30
+        width: 392
+        height: 20
     - type: 0
+      TextInPolish: "Prosz\u0119, przyj\u015B\u0107 za 30 min na pewno co\u015B si\u0119
+        zwolni"
       Text: "Prosz\u0119, przyj\u015B\u0107 za 30 min na pewno co\u015B si\u0119 zwolni"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: b2fe8eb7-6ad0-45d8-aa54-6b9b2eed8ff6
@@ -268,10 +308,13 @@ MonoBehaviour:
         serializedVersion: 2
         x: 583
         y: 344
-        width: 200
-        height: 30
+        width: 392
+        height: 20
     - type: 0
+      TextInPolish: "Prosz\u0119, przyj\u015B\u0107 za godzin\u0119 -b\u0119dzie nieco
+        lu\u017Aniej"
       Text: "Prosz\u0119, przyj\u015B\u0107 za godzin\u0119 -b\u0119dzie nieco lu\u017Aniej"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: dfe5d843-73be-4286-a22b-1d43dc9612f8
@@ -279,10 +322,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 705
         y: 301
-        width: 200
-        height: 30
+        width: 384
+        height: 20
     - type: 0
+      TextInPolish: "Prosz\u0119 porozmawia\u0107 z dziewczyna przy kasie"
       Text: "Prosz\u0119 porozmawia\u0107 z dziewczyna przy kasie"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: a3402ff5-abd0-48d4-9d56-47571dff798d
@@ -290,10 +335,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 801
         y: 339
-        width: 200
-        height: 30
+        width: 336
+        height: 20
     - type: 0
+      TextInPolish: "Dobrze, prosz\u0119 t\u0119dy"
       Text: "Dobrze, prosz\u0119 t\u0119dy"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 63fdeaba-7f02-4acf-a1d3-4724138f5a26
@@ -301,10 +348,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 146
         y: 633
-        width: 200
-        height: 30
+        width: 152
+        height: 20
     - type: 0
+      TextInPolish: "To restauracja z kuchni\u0105 hiszpa\u0144sk\u0105"
       Text: "To restauracja z kuchni\u0105 hiszpa\u0144sk\u0105"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: dba5043e-488d-45dd-ba70-7d5a673a17a7
@@ -312,10 +361,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1136
         y: 328
-        width: 200
-        height: 30
+        width: 280
+        height: 20
     - type: 0
+      TextInPolish: Nie rozumiem
       Text: Nie rozumiem
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 6b9a1997-3357-4069-a1b7-f5a5171ca13a
@@ -323,10 +374,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1799
         y: 282
-        width: 200
-        height: 30
+        width: 96
+        height: 20
     - type: 1
+      TextInPolish: "\u015Bwietnie, gdzie mo\u017Cemy usi\u0105\u015B\u0107 ?"
       Text: "\u015Bwietnie, gdzie mo\u017Cemy usi\u0105\u015B\u0107 ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: da834337-a05b-44e3-8769-f9a9ad766853
@@ -334,10 +387,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1007
         y: 416
-        width: 200
-        height: 30
+        width: 248
+        height: 20
     - type: 1
+      TextInPolish: "Macie jaki\u015B stolik na zewn\u0105trz ?"
       Text: "Macie jaki\u015B stolik na zewn\u0105trz ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 35efc11a-5edf-4eae-adf8-14ffb3a1414f
@@ -345,10 +400,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1251
         y: 414
-        width: 200
-        height: 30
+        width: 256
+        height: 20
     - type: 0
+      TextInPolish: "Mamy tylko miejsca wewn\u0105trz"
       Text: "Mamy tylko miejsca wewn\u0105trz"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 9e520532-f866-4f55-9b39-e34438d83895
@@ -356,10 +413,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1109
         y: 483
-        width: 200
-        height: 30
+        width: 216
+        height: 20
     - type: 1
+      TextInPolish: "Dobrze, poprosze stolik dla 2 os\xF3b"
       Text: "Dobrze, poprosze stolik dla 2 os\xF3b"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 96341169-537f-49fe-bf7c-fe154929a9bd
@@ -367,10 +426,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 982
         y: 544
-        width: 200
-        height: 30
+        width: 272
+        height: 20
     - type: 1
+      TextInPolish: "Czy jest tam miejsce dla pal\u0105cych ?"
       Text: "Czy jest tam miejsce dla pal\u0105cych ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: cecde506-423c-4529-960d-b51bd13f62bd
@@ -378,10 +439,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1217
         y: 543
-        width: 200
-        height: 30
+        width: 280
+        height: 20
     - type: 0
+      TextInPolish: "Niestety, wszystkie miejsca dla pal\u0105cych zaj\u0119te"
       Text: "Niestety, wszystkie miejsca dla pal\u0105cych zaj\u0119te"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 5a6362fa-e8ed-47b4-a770-c99272f35a88
@@ -389,10 +452,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1032
         y: 620
-        width: 200
-        height: 30
+        width: 376
+        height: 20
     - type: 0
+      TextInPolish: "Tak, za mn\u0105 prosz\u0119"
       Text: "Tak, za mn\u0105 prosz\u0119"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 14dc7c4f-7727-4d5b-832d-651592d76954
@@ -400,10 +465,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1248
         y: 621
-        width: 200
-        height: 30
+        width: 144
+        height: 20
     - type: 1
+      TextInPolish: "Jaka kuchnia, hiszpa\u0144ska, w\u0142oska... ?"
       Text: "Jaka kuchnia, hiszpa\u0144ska, w\u0142oska... ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: d50bc250-f408-4e04-9ad1-e80e13285fe3
@@ -411,10 +478,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1524
         y: 433
-        width: 200
-        height: 30
+        width: 296
+        height: 20
     - type: 1
+      TextInPolish: "Czy macie dania wegetaria\u0144skie ?"
       Text: "Czy macie dania wegetaria\u0144skie ?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: a2cc2365-b9e9-4f65-a31b-f866a3ff2b83
@@ -422,10 +491,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1808
         y: 406
-        width: 200
-        height: 30
+        width: 256
+        height: 20
     - type: 0
+      TextInPolish: "G\u0142ownie hiszpa\u0144ska i \u015Br\xF3dziemnomorska"
       Text: "G\u0142ownie hiszpa\u0144ska i \u015Br\xF3dziemnomorska"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 3ede8210-42c3-451c-8d03-0e0525e59c38
@@ -433,10 +504,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1523
         y: 506
-        width: 200
-        height: 30
+        width: 296
+        height: 20
     - type: 0
+      TextInPolish: "Tak, s\u0105 w menu"
       Text: "Tak, s\u0105 w menu"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 6c25801b-ca8a-4b41-9b4d-65ffa6484a42
@@ -444,8 +517,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1802
         y: 484
-        width: 200
-        height: 30
+        width: 112
+        height: 20
     Edges:
     - FromId: 1ca71008-ad15-4385-9976-55a141d72802
       ToId: c868682b-0ddd-4919-91d8-2b426b77d4bd

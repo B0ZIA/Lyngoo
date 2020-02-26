@@ -45,7 +45,9 @@ MonoBehaviour:
   conversation:
     Items:
     - type: 0
+      TextInPolish: Hola
       Text: Hola
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: 43c346278ae0dd04f95e7ad1001e9424, type: 2}
       audioClip:
       - {fileID: 8300000, guid: 672876da47342b940b17aeda34da007a, type: 3}
@@ -54,10 +56,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 603
         y: 69
-        width: 200
-        height: 30
+        width: 32
+        height: 20
     - type: 1
+      TextInPolish: "\xBFque tal?"
       Text: "\xBFque tal?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: b6443eeb-340b-47dc-9bc9-792520f8dd24
@@ -65,10 +69,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 151
         y: 137
-        width: 200
-        height: 30
+        width: 72
+        height: 20
     - type: 1
+      TextInPolish: "\xBFcomo te llamas?"
       Text: "\xBFcomo te llamas?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: dc7b9f14-9ca5-474e-bd33-f11d01e6b5d9
@@ -76,10 +82,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1118
         y: 132
-        width: 200
-        height: 30
+        width: 128
+        height: 20
     - type: 0
+      TextInPolish: Patricia
       Text: Patricia
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: 6d07a4ba0e268024c8d21c22c09a7d3f, type: 2}
       audioClip:
       - {fileID: 8300000, guid: fdb9813870899874b950c47190ad82c4, type: 3}
@@ -88,10 +96,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1118
         y: 182
-        width: 200
-        height: 30
+        width: 64
+        height: 20
     - type: 1
+      TextInPolish: '? de donde eres?'
       Text: '? de donde eres?'
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 0d43b16d-4208-4367-bc9d-46403fab0aa0
@@ -99,10 +109,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 979
         y: 445
-        width: 200
-        height: 30
+        width: 128
+        height: 20
     - type: 1
+      TextInPolish: "\xBFque tal?"
       Text: "\xBFque tal?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 0500d65e-cfbb-4349-a311-bca5896af2fb
@@ -110,10 +122,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1340
         y: 403
-        width: 200
-        height: 30
+        width: 72
+        height: 20
     - type: 0
+      TextInPolish: "bien,  \xBFy tu?"
       Text: "bien,  \xBFy tu?"
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: da3def12a17fa774581640b5b359ebed, type: 2}
       audioClip:
       - {fileID: 8300000, guid: bbcb35b31ceed0d4590c60b07b5c6e00, type: 3}
@@ -123,10 +137,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 163
         y: 323
-        width: 200
-        height: 30
+        width: 104
+        height: 20
     - type: 1
+      TextInPolish: "muy, bien \xBFcomo te llamas?"
       Text: "muy, bien \xBFcomo te llamas?"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 88fde1ff-ef14-4ac6-b6bc-9b1552a899f0
@@ -134,10 +150,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 88
         y: 554
-        width: 200
-        height: 30
+        width: 208
+        height: 20
     - type: 1
+      TextInPolish: muy, bien ?de donde eres?
       Text: muy, bien ?de donde eres?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: de53e753-7d49-4abc-8a0f-c56ad2104932
@@ -146,9 +164,11 @@ MonoBehaviour:
         x: 430
         y: 384
         width: 200
-        height: 30
+        height: 20
     - type: 0
+      TextInPolish: "Patricia, \xBFytu?"
       Text: "Patricia, \xBFytu?"
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: ca09529cc12d8584a8a2ff568001034e, type: 2}
       audioClip:
       - {fileID: 8300000, guid: fdb9813870899874b950c47190ad82c4, type: 3}
@@ -158,10 +178,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 387
         y: 688
-        width: 200
-        height: 30
+        width: 120
+        height: 20
     - type: 1
+      TextInPolish: Yo, soy Alejandro
       Text: Yo, soy Alejandro
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: ba120513-044f-48b3-bed1-ca2458c4d6d7
@@ -169,10 +191,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 136
         y: 751
-        width: 200
-        height: 30
+        width: 136
+        height: 20
     - type: 1
+      TextInPolish: Yo, soy Alejandro, Soy, de Pamplona
       Text: Yo, soy Alejandro, Soy, de Pamplona
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 2d39ff1c-a9e6-4bba-9db3-95d9cb68affa
@@ -180,10 +204,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 626
         y: 753
-        width: 200
-        height: 30
+        width: 280
+        height: 20
     - type: 0
+      TextInPolish: Encantada, Alejandro
       Text: Encantada, Alejandro
+      TextInSpanish: 
       animator: {fileID: 9100000, guid: dff84d6eb5dd06f4daa7c331f74780d0, type: 2}
       audioClip:
       - {fileID: 8300000, guid: e38605d792ae22149bdfc28784de77b9, type: 3}
@@ -192,10 +218,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 385
         y: 840
-        width: 200
-        height: 30
+        width: 160
+        height: 20
     - type: 1
+      TextInPolish: Exit
       Text: Exit
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 531e54ac-d013-4d0f-8f50-021f4d835c26
@@ -203,10 +231,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 903
         y: 941
-        width: 200
-        height: 30
+        width: 32
+        height: 20
     - type: 0
+      TextInPolish: de Madrit. y to?
       Text: de Madrit. y to?
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: d1b54129-5b52-43e3-b045-33de9f114478
@@ -214,10 +244,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 550
         y: 471
-        width: 200
-        height: 30
+        width: 128
+        height: 20
     - type: 1
+      TextInPolish: Soy, de Pamplona
       Text: Soy, de Pamplona
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 76f332da-a224-43c3-ac39-df62aa8393ca
@@ -225,10 +257,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 382
         y: 549
-        width: 200
-        height: 30
+        width: 128
+        height: 20
     - type: 1
+      TextInPolish: Yo, soy Alejando
       Text: Yo, soy Alejando
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 71bf81c5-62bd-4dbf-ba84-5b25309f91f2
@@ -236,10 +270,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 754
         y: 559
-        width: 200
-        height: 30
+        width: 128
+        height: 20
     - type: 0
+      TextInPolish: de Madrit
       Text: de Madrit
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 50dfd888-a95d-4317-9151-91e857331075
@@ -247,8 +283,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 977
         y: 558
-        width: 200
-        height: 30
+        width: 72
+        height: 20
     Edges:
     - FromId: 6a62c7e8-6566-4d78-a3df-45ca968ff637
       ToId: b6443eeb-340b-47dc-9bc9-792520f8dd24

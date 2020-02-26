@@ -45,22 +45,22 @@ MonoBehaviour:
   conversation:
     Items:
     - type: 0
-      Text: "Cze\u015B\u0107"
       TextInPolish: "Cze\u015B\u0107"
-      TextInSpanish: Hola
+      Text: "Cze\u015B\u0107"
+      TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
       - {fileID: 0}
       ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
       Box:
         serializedVersion: 2
-        x: 630.5
-        y: 53
-        width: 45
-        height: 40
+        x: 648
+        y: 41
+        width: 40
+        height: 20
     - type: 1
-      Text: "Mo\u017Ce co\u015B zjemy ?"
       TextInPolish: "Mo\u017Ce co\u015B zjemy ?"
+      Text: "Mo\u017Ce co\u015B zjemy ?"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -68,13 +68,13 @@ MonoBehaviour:
       ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
       Box:
         serializedVersion: 2
-        x: 339.5
-        y: 104
-        width: 144
-        height: 40
+        x: 467
+        y: 95
+        width: 128
+        height: 20
     - type: 1
-      Text: "Mo\u017Ce gdzie\u015B usi\u0105dziemy?"
       TextInPolish: "Mo\u017Ce gdzie\u015B usi\u0105dziemy?"
+      Text: "Mo\u017Ce gdzie\u015B usi\u0105dziemy?"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -84,11 +84,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 773
         y: 101
-        width: 207
-        height: 40
+        width: 184
+        height: 20
     - type: 0
-      Text: "Tak, bardzo ch\u0119tnie"
       TextInPolish: "Tak, bardzo ch\u0119tnie"
+      Text: "Tak, bardzo ch\u0119tnie"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -98,11 +98,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 568
         y: 171
-        width: 171
-        height: 40
+        width: 152
+        height: 20
     - type: 1
-      Text: "Na co masz ochot\u0119 ?"
       TextInPolish: "Na co masz ochot\u0119 ?"
+      Text: "Na co masz ochot\u0119 ?"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -112,11 +112,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 311
         y: 250
-        width: 171
-        height: 40
+        width: 152
+        height: 20
     - type: 1
-      Text: Co to za rodzaj restauracji ?
       TextInPolish: Co to za rodzaj restauracji ?
+      Text: Co to za rodzaj restauracji ?
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -126,11 +126,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 122
         y: 395
-        width: 261
-        height: 40
+        width: 232
+        height: 20
     - type: 1
-      Text: "Masz jakie\u015B ulubione miejsce ?"
       TextInPolish: "Masz jakie\u015B ulubione miejsce ?"
+      Text: "Masz jakie\u015B ulubione miejsce ?"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -140,11 +140,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1544
         y: 233
-        width: 270
-        height: 40
+        width: 240
+        height: 20
     - type: 0
-      Text: "Niedaleko jest restauracja, chod\u017Amy tam"
       TextInPolish: "Niedaleko jest restauracja, chod\u017Amy tam"
+      Text: "Niedaleko jest restauracja, chod\u017Amy tam"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -154,11 +154,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 309
         y: 326
-        width: 351
-        height: 40
+        width: 312
+        height: 20
     - type: 0
-      Text: "Nie, chod\u017Amy gdzie chcesz"
       TextInPolish: "Nie, chod\u017Amy gdzie chcesz"
+      Text: "Nie, chod\u017Amy gdzie chcesz"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -168,11 +168,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1611
         y: 288
-        width: 225
-        height: 40
+        width: 200
+        height: 20
     - type: 0
-      Text: "to lokalna restauracja, nie \u0142atwo tam trafi\u0107"
       TextInPolish: "to lokalna restauracja, nie \u0142atwo tam trafi\u0107"
+      Text: "to lokalna restauracja, nie \u0142atwo tam trafi\u0107"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -182,11 +182,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1111
         y: 458
-        width: 396
-        height: 40
+        width: 352
+        height: 20
     - type: 0
-      Text: "Dobrze, mam nadziej\u0119 \u017Ce si\u0119 nie zgubimy"
       TextInPolish: "Dobrze, mam nadziej\u0119 \u017Ce si\u0119 nie zgubimy"
+      Text: "Dobrze, mam nadziej\u0119 \u017Ce si\u0119 nie zgubimy"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -196,11 +196,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 936
         y: 877
-        width: 351
-        height: 40
+        width: 312
+        height: 20
     - type: 0
-      Text: "Tak, ale wa\u017Cny jest te\u017C klimat"
       TextInPolish: "Tak, ale wa\u017Cny jest te\u017C klimat"
+      Text: "Tak, ale wa\u017Cny jest te\u017C klimat"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -210,11 +210,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 29
         y: 656
-        width: 270
-        height: 40
+        width: 240
+        height: 20
     - type: 0
-      Text: "Wierz\u0119, \u017Ce damy rad\u0119"
       TextInPolish: "Wierz\u0119, \u017Ce damy rad\u0119"
+      Text: "Wierz\u0119, \u017Ce damy rad\u0119"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -224,11 +224,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 557
         y: 1086
-        width: 180
-        height: 40
+        width: 160
+        height: 20
     - type: 1
-      Text: "To najwa\u017Cniejsze, chod\u017Amy !"
       TextInPolish: "To najwa\u017Cniejsze, chod\u017Amy !"
+      Text: "To najwa\u017Cniejsze, chod\u017Amy !"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -238,11 +238,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 64
         y: 558
-        width: 243
-        height: 40
+        width: 216
+        height: 20
     - type: 1
-      Text: "Ch\u0119tnie poznam, jaki klimat Tobie odpowiada"
       TextInPolish: "Ch\u0119tnie poznam, jaki klimat Tobie odpowiada"
+      Text: "Ch\u0119tnie poznam, jaki klimat Tobie odpowiada"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -252,11 +252,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: -49
         y: 727
-        width: 387
-        height: 40
+        width: 344
+        height: 20
     - type: 0
-      Text: EXIT
       TextInPolish: EXIT
+      Text: EXIT
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip:
@@ -266,11 +266,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 711
         y: 1474
-        width: 36
-        height: 40
+        width: 32
+        height: 20
     - type: 1
-      Text: "Lepiej znasz miasto -prowad\u017A !"
       TextInPolish: "Lepiej znasz miasto -prowad\u017A !"
+      Text: "Lepiej znasz miasto -prowad\u017A !"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -279,11 +279,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 947
         y: 400
-        width: 270
-        height: 40
+        width: 240
+        height: 20
     - type: 0
-      Text: Nie wiem, zobaczymy
       TextInPolish: Nie wiem, zobaczymy
+      Text: Nie wiem, zobaczymy
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -292,11 +292,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 398
         y: 461
-        width: 171
-        height: 40
+        width: 152
+        height: 20
     - type: 0
-      Text: "Ci\u0119\u017Cko powiedzie\u0107, poprostu dobra"
       TextInPolish: "Ci\u0119\u017Cko powiedzie\u0107, poprostu dobra"
+      Text: "Ci\u0119\u017Cko powiedzie\u0107, poprostu dobra"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -305,11 +305,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 66
         y: 477
-        width: 297
-        height: 40
+        width: 264
+        height: 20
     - type: 1
-      Text: "Maj\u0105 tam dania wegetaria\u0144skie ?"
       TextInPolish: "Maj\u0105 tam dania wegetaria\u0144skie ?"
+      Text: "Maj\u0105 tam dania wegetaria\u0144skie ?"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -318,11 +318,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 574
         y: 632
-        width: 279
-        height: 40
+        width: 248
+        height: 20
     - type: 0
-      Text: "Tak, to do\u015B\u0107 istotne"
       TextInPolish: "Tak, to do\u015B\u0107 istotne"
+      Text: "Tak, to do\u015B\u0107 istotne"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -331,11 +331,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 333
         y: 673
-        width: 180
-        height: 40
+        width: 160
+        height: 20
     - type: 1
-      Text: "Najwy\u017Cej zam\xF3wimy wi\u0119cej wina"
       TextInPolish: "Najwy\u017Cej zam\xF3wimy wi\u0119cej wina"
+      Text: "Najwy\u017Cej zam\xF3wimy wi\u0119cej wina"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -344,11 +344,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 94
         y: 759
-        width: 261
-        height: 40
+        width: 232
+        height: 20
     - type: 1
-      Text: "Priorytety ustalone, teraz chod\u017Amy"
       TextInPolish: "Priorytety ustalone, teraz chod\u017Amy"
+      Text: "Priorytety ustalone, teraz chod\u017Amy"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -357,11 +357,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 73
         y: 885
-        width: 306
-        height: 40
+        width: 272
+        height: 20
     - type: 1
-      Text: "w sumie to bez znaczenia, bo jestem g\u0142odny"
       TextInPolish: "w sumie to bez znaczenia, bo jestem g\u0142odny"
+      Text: "w sumie to bez znaczenia, bo jestem g\u0142odny"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -370,11 +370,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 251
         y: 835
-        width: 378
-        height: 40
+        width: 336
+        height: 20
     - type: 0
-      Text: "Nie pami\u0119tam, ale chyba tak"
       TextInPolish: "Nie pami\u0119tam, ale chyba tak"
+      Text: "Nie pami\u0119tam, ale chyba tak"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -383,11 +383,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 528
         y: 752
-        width: 243
-        height: 40
+        width: 216
+        height: 20
     - type: 0
-      Text: 25. is your ID
       TextInPolish: 25. is your ID
+      Text: 25. is your ID
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -396,11 +396,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 748
         y: 692
-        width: 126
-        height: 40
+        width: 112
+        height: 20
     - type: 0
-      Text: "Tak, jeste\u015B wegetatrianinem ?"
       TextInPolish: "Tak, jeste\u015B wegetatrianinem ?"
+      Text: "Tak, jeste\u015B wegetatrianinem ?"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -409,24 +409,24 @@ MonoBehaviour:
         serializedVersion: 2
         x: 700
         y: 808
-        width: 261
-        height: 40
+        width: 232
+        height: 20
     - type: 1
-      Text: "Pewnie ma, teraz wi\u0119kszo\u015B\u0107 knajp ma je w menu"
       TextInPolish: "Pewnie ma, teraz wi\u0119kszo\u015B\u0107 knajp ma je w menu"
+      Text: "Pewnie ma, teraz wi\u0119kszo\u015B\u0107 knajp ma je w menu"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
       ID: 6e1f9efd-86bc-4894-9015-7f9dc1bdf4bb
       Box:
         serializedVersion: 2
-        x: 183.5
-        y: 946
-        width: 405
-        height: 40
+        x: 250
+        y: 951
+        width: 360
+        height: 20
     - type: 1
-      Text: "Na pewno co\u015B znajd\u0119"
       TextInPolish: "Na pewno co\u015B znajd\u0119"
+      Text: "Na pewno co\u015B znajd\u0119"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -435,11 +435,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 355
         y: 1008
-        width: 171
-        height: 40
+        width: 152
+        height: 20
     - type: 1
-      Text: "nie wa\u017Cne, nikt mnie tu nie zna -nie"
       TextInPolish: "nie wa\u017Cne, nikt mnie tu nie zna -nie"
+      Text: "nie wa\u017Cne, nikt mnie tu nie zna -nie"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -448,11 +448,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 552
         y: 880
-        width: 324
-        height: 40
+        width: 288
+        height: 20
     - type: 1
-      Text: tak, ale piwo i wino jest wege
       TextInPolish: tak, ale piwo i wino jest wege
+      Text: tak, ale piwo i wino jest wege
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -461,11 +461,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 623
         y: 947
-        width: 270
-        height: 40
+        width: 240
+        height: 20
     - type: 1
-      Text: "Ch\u0119tnie poznam to miejsce"
       TextInPolish: "Ch\u0119tnie poznam to miejsce"
+      Text: "Ch\u0119tnie poznam to miejsce"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -474,11 +474,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 814
         y: 535
-        width: 225
-        height: 40
+        width: 200
+        height: 20
     - type: 1
-      Text: "super, zrobi\u0119 pierwszy wpis na Trip Advisor"
       TextInPolish: "super, zrobi\u0119 pierwszy wpis na Trip Advisor"
+      Text: "super, zrobi\u0119 pierwszy wpis na Trip Advisor"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -487,11 +487,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1138
         y: 562
-        width: 387
-        height: 40
+        width: 344
+        height: 20
     - type: 0
-      Text: "My\u015Bl\u0119, \u017Ce Ci si\u0119 spodoba"
       TextInPolish: "My\u015Bl\u0119, \u017Ce Ci si\u0119 spodoba"
+      Text: "My\u015Bl\u0119, \u017Ce Ci si\u0119 spodoba"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -500,11 +500,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 780
         y: 613
-        width: 216
-        height: 40
+        width: 192
+        height: 20
     - type: 0
-      Text: "To ca\u0142kiem przyjemne miejsce"
       TextInPolish: "To ca\u0142kiem przyjemne miejsce"
+      Text: "To ca\u0142kiem przyjemne miejsce"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -513,11 +513,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 887
         y: 647
-        width: 252
-        height: 40
+        width: 224
+        height: 20
     - type: 0
-      Text: "nie jest, a\u017C tak niszowe"
       TextInPolish: "nie jest, a\u017C tak niszowe"
+      Text: "nie jest, a\u017C tak niszowe"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -526,11 +526,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1099
         y: 644
-        width: 216
-        height: 40
+        width: 192
+        height: 20
     - type: 0
-      Text: "w\u0142a\u015Bciciel si\u0119 na pewno ucieszy"
       TextInPolish: "w\u0142a\u015Bciciel si\u0119 na pewno ucieszy"
+      Text: "w\u0142a\u015Bciciel si\u0119 na pewno ucieszy"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -539,11 +539,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1237
         y: 680
-        width: 279
-        height: 40
+        width: 248
+        height: 20
     - type: 1
-      Text: "Zapytamy kogo\u015B po drodze"
       TextInPolish: "Zapytamy kogo\u015B po drodze"
+      Text: "Zapytamy kogo\u015B po drodze"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -552,11 +552,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 801
         y: 998
-        width: 216
-        height: 40
+        width: 192
+        height: 20
     - type: 1
-      Text: "Jesli znasz nazw\u0119 wpisze w GPS"
       TextInPolish: "Jesli znasz nazw\u0119 wpisze w GPS"
+      Text: "Jesli znasz nazw\u0119 wpisze w GPS"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -565,11 +565,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1302
         y: 974
-        width: 270
-        height: 40
+        width: 240
+        height: 20
     - type: 0
-      Text: "Dobrze, ale Ty si\u0119 pytasz"
       TextInPolish: "Dobrze, ale Ty si\u0119 pytasz"
+      Text: "Dobrze, ale Ty si\u0119 pytasz"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -578,11 +578,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 744
         y: 1146
-        width: 225
-        height: 40
+        width: 200
+        height: 20
     - type: 0
-      Text: "Je\u015Bli masz internet, ustaw prosz\u0119"
       TextInPolish: "Je\u015Bli masz internet, ustaw prosz\u0119"
+      Text: "Je\u015Bli masz internet, ustaw prosz\u0119"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -591,11 +591,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1109
         y: 1065
-        width: 297
-        height: 40
+        width: 264
+        height: 20
     - type: 0
-      Text: "\u017Bartowa\u0142am, trafi\u0119 z zamkni\u0119tymi oczami"
       TextInPolish: "\u017Bartowa\u0142am, trafi\u0119 z zamkni\u0119tymi oczami"
+      Text: "\u017Bartowa\u0142am, trafi\u0119 z zamkni\u0119tymi oczami"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -604,11 +604,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1459
         y: 1060
-        width: 351
-        height: 40
+        width: 312
+        height: 20
     - type: 1
-      Text: "Mo\u017Ce kawiarnia z churrios ?"
       TextInPolish: "Mo\u017Ce kawiarnia z churrios ?"
+      Text: "Mo\u017Ce kawiarnia z churrios ?"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -617,11 +617,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1465
         y: 361
-        width: 243
-        height: 40
+        width: 216
+        height: 20
     - type: 1
-      Text: "Jestem g\u0142odny, proponuj\u0119 pael\u0119"
       TextInPolish: "Jestem g\u0142odny, proponuj\u0119 pael\u0119"
+      Text: "Jestem g\u0142odny, proponuj\u0119 pael\u0119"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -630,11 +630,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1634
         y: 590
-        width: 270
-        height: 40
+        width: 240
+        height: 20
     - type: 0
-      Text: "Tak, ch\u0119tnie zjem co\u015B s\u0142odkiego"
       TextInPolish: "Tak, ch\u0119tnie zjem co\u015B s\u0142odkiego"
+      Text: "Tak, ch\u0119tnie zjem co\u015B s\u0142odkiego"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -643,11 +643,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1302
         y: 409
-        width: 279
-        height: 40
+        width: 248
+        height: 20
     - type: 0
-      Text: "Za du\u017Co s\u0142odkiego, mo\u017Ce co\u015B z kuchni hiszpa\u0144skiej"
       TextInPolish: "Za du\u017Co s\u0142odkiego, mo\u017Ce co\u015B z kuchni hiszpa\u0144skiej"
+      Text: "Za du\u017Co s\u0142odkiego, mo\u017Ce co\u015B z kuchni hiszpa\u0144skiej"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -656,11 +656,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1546
         y: 425
-        width: 441
-        height: 40
+        width: 392
+        height: 20
     - type: 1
-      Text: "Super, ja te\u017C si\u0119 do\u0142acz\u0119"
       TextInPolish: "Super, ja te\u017C si\u0119 do\u0142acz\u0119"
+      Text: "Super, ja te\u017C si\u0119 do\u0142acz\u0119"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -669,11 +669,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1278
         y: 496
-        width: 225
-        height: 40
+        width: 200
+        height: 20
     - type: 1
-      Text: "kawa i churrios, zrobi\u0105 ten wiecz\xF3r"
       TextInPolish: "kawa i churrios, zrobi\u0105 ten wiecz\xF3r"
+      Text: "kawa i churrios, zrobi\u0105 ten wiecz\xF3r"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -682,11 +682,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1376
         y: 531
-        width: 315
-        height: 40
+        width: 280
+        height: 20
     - type: 1
-      Text: "Ch\u0119tnie, na pewno co\u015B polecisz"
       TextInPolish: "Ch\u0119tnie, na pewno co\u015B polecisz"
+      Text: "Ch\u0119tnie, na pewno co\u015B polecisz"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -695,11 +695,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1500
         y: 476
-        width: 270
-        height: 40
+        width: 240
+        height: 20
     - type: 1
-      Text: "To chyba lepszy pomys\u0142, ok"
       TextInPolish: "To chyba lepszy pomys\u0142, ok"
+      Text: "To chyba lepszy pomys\u0142, ok"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -708,11 +708,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1612
         y: 521
-        width: 234
-        height: 40
+        width: 208
+        height: 20
     - type: 0
-      Text: "zgoda, ale Ty jesz wi\u0119ksz\u0105 cz\u0119\u015B\u0107"
       TextInPolish: "zgoda, ale Ty jesz wi\u0119ksz\u0105 cz\u0119\u015B\u0107"
+      Text: "zgoda, ale Ty jesz wi\u0119ksz\u0105 cz\u0119\u015B\u0107"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -721,11 +721,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1510
         y: 655
-        width: 288
-        height: 40
+        width: 256
+        height: 20
     - type: 0
-      Text: "dobrze, zadecyduj\u0119 w restauracji"
       TextInPolish: "dobrze, zadecyduj\u0119 w restauracji"
+      Text: "dobrze, zadecyduj\u0119 w restauracji"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -734,11 +734,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1774
         y: 647
-        width: 288
-        height: 40
+        width: 256
+        height: 20
     - type: 1
-      Text: Umowa stoi
       TextInPolish: Umowa stoi
+      Text: Umowa stoi
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -747,11 +747,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1426
         y: 733
-        width: 90
-        height: 40
+        width: 80
+        height: 20
     - type: 1
-      Text: Nie ma problemu
       TextInPolish: Nie ma problemu
+      Text: Nie ma problemu
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -760,11 +760,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1573
         y: 777
-        width: 135
-        height: 40
+        width: 120
+        height: 20
     - type: 1
-      Text: "Super, co\u015B na pewno znajdziemy"
       TextInPolish: "Super, co\u015B na pewno znajdziemy"
+      Text: "Super, co\u015B na pewno znajdziemy"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -773,11 +773,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1703
         y: 711
-        width: 270
-        height: 40
+        width: 240
+        height: 20
     - type: 1
-      Text: "Dobrze, ja te\u017C musz\u0119 si\u0119 jeszcze zastanowi\u0107"
       TextInPolish: "Dobrze, ja te\u017C musz\u0119 si\u0119 jeszcze zastanowi\u0107"
+      Text: "Dobrze, ja te\u017C musz\u0119 si\u0119 jeszcze zastanowi\u0107"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -786,11 +786,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1828
         y: 761
-        width: 387
-        height: 40
+        width: 344
+        height: 20
     - type: 1
-      Text: "Co\u015B, na pewno znajdziemy"
       TextInPolish: "Co\u015B, na pewno znajdziemy"
+      Text: "Co\u015B, na pewno znajdziemy"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -799,11 +799,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 371
         y: 1139
-        width: 216
-        height: 40
+        width: 192
+        height: 20
     - type: 1
-      Text: "Jak nie ta to inna te\u017C mo\u017Ce by\u0107"
       TextInPolish: "Jak nie ta to inna te\u017C mo\u017Ce by\u0107"
+      Text: "Jak nie ta to inna te\u017C mo\u017Ce by\u0107"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -812,11 +812,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 482
         y: 1180
-        width: 279
-        height: 40
+        width: 248
+        height: 20
     - type: 1
-      Text: "Nie ma problemu z moim hiszpa\u0144skim to \u017Caden k\u0142opot"
       TextInPolish: "Nie ma problemu z moim hiszpa\u0144skim to \u017Caden k\u0142opot"
+      Text: "Nie ma problemu z moim hiszpa\u0144skim to \u017Caden k\u0142opot"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -825,11 +825,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 613
         y: 1246
-        width: 450
-        height: 40
+        width: 400
+        height: 20
     - type: 1
-      Text: 'Lepiej nie '
       TextInPolish: 'Lepiej nie '
+      Text: 'Lepiej nie '
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -838,11 +838,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 824
         y: 1247
-        width: 99
-        height: 40
+        width: 88
+        height: 20
     - type: 1
-      Text: "Prosz\u0119, wpisz nazw\u0119"
       TextInPolish: "Prosz\u0119, wpisz nazw\u0119"
+      Text: "Prosz\u0119, wpisz nazw\u0119"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -851,11 +851,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1012
         y: 1143
-        width: 171
-        height: 40
+        width: 152
+        height: 20
     - type: 1
-      Text: "Gotowe, chod\u017Amy za GPS-em"
       TextInPolish: "Gotowe, chod\u017Amy za GPS-em"
+      Text: "Gotowe, chod\u017Amy za GPS-em"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -864,11 +864,11 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1132
         y: 1180
-        width: 225
-        height: 40
+        width: 200
+        height: 20
     - type: 1
-      Text: "Ok, dzisiaj spr\xF3bujmy z otwartymi"
       TextInPolish: "Ok, dzisiaj spr\xF3bujmy z otwartymi"
+      Text: "Ok, dzisiaj spr\xF3bujmy z otwartymi"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -877,13 +877,13 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1378
         y: 1142
-        width: 297
-        height: 40
+        width: 264
+        height: 20
     - type: 1
-      Text: "Dobrze, wiedzie\u0107 mo\u017Ce braknie pr\u0105du i wykorzystamy t\u0105
-        umiej\u0119tno\u015B\u0107"
       TextInPolish: "Dobrze, wiedzie\u0107 mo\u017Ce braknie pr\u0105du i wykorzystamy
         t\u0105 umiej\u0119tno\u015B\u0107"
+      Text: "Dobrze, wiedzie\u0107 mo\u017Ce braknie pr\u0105du i wykorzystamy t\u0105
+        umiej\u0119tno\u015B\u0107"
       TextInSpanish: 
       animator: {fileID: 0}
       audioClip: []
@@ -892,8 +892,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1592
         y: 1153
-        width: 585
-        height: 40
+        width: 520
+        height: 20
     Edges:
     - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
       ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
