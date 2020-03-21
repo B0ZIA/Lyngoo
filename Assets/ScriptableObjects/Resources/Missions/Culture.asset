@@ -12,18 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb060590c70c9b940a0d74d0f4cf25c7, type: 3}
   m_Name: Culture
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 63899faf3e1108843a0960e1315408c2, type: 3}
+  icon: {fileID: 21300000, guid: 2e3eb3266b13777469cb656bc38e9d98, type: 3}
   title: after training
+  mapPrefab: {fileID: 6349634332690763798, guid: 7c0983bbcd497a94fbc5ede3f3bf4563,
+    type: 3}
   personDialogs:
   - personName: Pierwsza Osoba
     conversation:
+      masterItemID: 
       Items: []
       Edges: []
+    isComplete: 0
   - personName: Druga Osoba
     conversation:
+      masterItemID: 
       Items: []
       Edges: []
+    isComplete: 0
   - personName: Trzecia Osoba
     conversation:
+      masterItemID: 
       Items: []
       Edges: []
+    isComplete: 0

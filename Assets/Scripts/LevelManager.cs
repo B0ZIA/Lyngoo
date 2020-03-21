@@ -6,6 +6,15 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
 
+    public FollowToTarget follow;
+
+    [SerializeField]
+    private GameObject dicotionaryTarget;
+    [SerializeField]
+    private GameObject dialogsTarget;
+    [SerializeField]
+    private GameObject missionsTarget;
+
     [SerializeField]
     private GameObject DictionaryArea;
     [SerializeField]
@@ -13,6 +22,10 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private GameObject MissionsArea;
 
+    [SerializeField]
+    private GameObject missions;
+    [SerializeField]
+    private GameObject mainMission;
 
 
     private void Awake()
@@ -23,22 +36,19 @@ public class LevelManager : MonoBehaviour
 
     public void ShowDictionary()
     {
-        DictionaryArea.SetActive(true);
-        DialogsArea.SetActive(false);
-        MissionsArea.SetActive(false);
+        follow.target = dicotionaryTarget;
     }
 
     public void ShowDialogs()
     {
-        DictionaryArea.SetActive(false);
-        DialogsArea.SetActive(true);
-        MissionsArea.SetActive(false);
+        follow.target = dialogsTarget;
     }
 
     public void ShowMissions()
     {
-        DictionaryArea.SetActive(false);
-        DialogsArea.SetActive(false);
-        MissionsArea.SetActive(true);
+        follow.target = missionsTarget;
+
+        missions.SetActive(true);
+        mainMission.SetActive(false);
     }
 }

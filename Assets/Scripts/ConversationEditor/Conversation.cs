@@ -6,7 +6,9 @@ using UnityEngine;
 [Serializable]
 public class Conversation
 {
-    private List<ConversationItem> conversationItem;
+    //private List<ConversationItem> conversationItem;
+    [SerializeField]
+    private string masterItemID;
 
     public List<ConversationItem> Items = new List<ConversationItem>();
     public List<Edge> Edges = new List<Edge>();
@@ -37,6 +39,23 @@ public class Conversation
         return null;
     }
 
+    public ConversationItem GetMasterItem()
+    {
+        foreach (var item in Items)
+        {
+            if (item.ID == masterItemID)
+                return item;
+        }
+
+        Debug.LogWarning("Can not find MasterItem!");
+        return null;
+    }
+
+    public void SetMasterItem(ConversationItem item)
+    {
+        masterItemID = item.ID;
+    }
+
     public Edge FindEdgeByFromID(string fromID)
     {
         foreach (var edge in Edges)
@@ -58,5 +77,4 @@ public class Conversation
 
         return null;
     }
-
 }

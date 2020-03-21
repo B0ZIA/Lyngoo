@@ -284,6 +284,7 @@ public class ConversationEditorWindow : EditorWindow
     private void DrawItemMenu(Event currentEvent, ConversationItem item)
     {
         GenericMenu menu = new GenericMenu();
+        menu.AddItem(new GUIContent("Ustaw jako zdanie rozpoczynające"), false, itemController.SetAsMasterItem, item);
         menu.AddItem(new GUIContent("Edytuj"), false, itemController.EditItem, item);
         menu.AddSeparator("");
 

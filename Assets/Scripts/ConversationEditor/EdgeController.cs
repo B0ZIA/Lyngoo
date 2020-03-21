@@ -29,6 +29,7 @@ public class EdgeController
 
     public void MakeEdge(Event currentEvent)
     {
+#if UNITY_EDITOR
         currentEdge.Paint(Event.current.mousePosition, conversation);
 
         if (currentEvent.type == EventType.MouseDown)
@@ -51,6 +52,7 @@ public class EdgeController
                 }
             }
         }
+#endif
     }
 
     public void DestroyBelowEdges(object obj)

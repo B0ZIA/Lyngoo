@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Video;
-using UnityEngine.Audio;
-
 
 [Serializable]
 public class ConversationItem
@@ -23,6 +18,8 @@ public class ConversationItem
     [HideInInspector]
     public Rect Box;
 
+
+#if UNITY_EDITOR
     public ConversationItem(Vector2 position, float width, float height, string textInPolish)
     {
         Box = new Rect(position, new Vector2(325, height));
@@ -32,7 +29,56 @@ public class ConversationItem
 
     public void Paint()
     {
-#if UNITY_EDITOR
+        PaintBox();
+        GUI.Label(Box, TextInPolish, ItemGUIStyle());
+        SetPolishText();
+        SetBoxHeight();
+
+        if (TextInSpanish != "")
+        {
+            DrawSecondLine();
+        }
+    }
+
+    private void DrawSecondLine()
+    {
+        Rect secondLine = Box;
+        secondLine.y += 20;
+
+        var style = ItemGUIStyle();
+        style.normal.textColor = Color.green;
+        GUI.Label(secondLine, TextInSpanish, style);
+    }
+
+    private void SetPolishText()
+    {
+        if (TextInPolish != null)
+        {
+            if (TextInPolish.Length > 0)
+                Box.width = TextInPolish.Length * 8;
+        }
+    }
+
+    private void SetBoxHeight()
+    {
+        Box.height = 40;
+        if (TextInSpanish == "")
+        {
+            Box.height /= 2;
+        }
+    }
+
+    private static GUIStyle ItemGUIStyle()
+    {
+        var centeredStyle = GUI.skin.GetStyle("Label");
+        centeredStyle.alignment = TextAnchor.UpperCenter;
+        centeredStyle.normal.textColor = Color.white;
+        centeredStyle.fontStyle = FontStyle.Bold;
+        return centeredStyle;
+    }
+
+    private void PaintBox()
+    {
         if (type == ItemType.Answer)
         {
             Handles.DrawSolidRectangleWithOutline(Box, ItemController.answerBoxColor, ItemController.answerBoxColor);
@@ -41,39 +87,20 @@ public class ConversationItem
         {
             Handles.DrawSolidRectangleWithOutline(Box, ItemController.sentenceBoxColor, ItemController.sentenceBoxColor);
         }
-
-        var centeredStyle = GUI.skin.GetStyle("Label");
-        centeredStyle.alignment = TextAnchor.UpperCenter;
-        centeredStyle.normal.textColor = Color.white;
-        centeredStyle.fontStyle = FontStyle.Bold;
-
-        if (TextInPolish == "")
-        {
-            TextInPolish = Text;
-        }
-
-        if (TextInPolish != null)
-        {
-            if (TextInPolish.Length > 0)
-                Box.width = TextInPolish.Length * 8;
     }
-    
-        Box.height = 40;
-        if (TextInSpanish == "")
-        {
-            Box.height /= 2;
-        }
-        GUI.Label(Box, TextInPolish, centeredStyle);
+
+    public void PaintAsMaster()
+    {
+        Handles.DrawSolidRectangleWithOutline(Box, ItemController.masterBoxColor, ItemController.masterBoxColor);
+
+        GUI.Label(Box, TextInPolish, ItemGUIStyle());
+        SetPolishText();
+        SetBoxHeight();
 
         if (TextInSpanish != "")
         {
-            var secondLine = Box;
-            var style = centeredStyle;
-            style.normal.textColor = Color.green;
-            secondLine.y += 20;
-            GUI.Label(secondLine, TextInSpanish, style);
+            DrawSecondLine();
         }
-#endif
     }
 
     public void SetupChildrenType(ItemType parentType)
@@ -88,12 +115,13 @@ public class ConversationItem
     {
         Box.position = Event.current.mousePosition - new Vector2(Box.width / 2, Box.height / 2);
     }
+#endif
 
 
 
     public enum ItemType
     {
         Sentence = 0,
-        Answer = 1
+        Answer = 1,
     }
 }

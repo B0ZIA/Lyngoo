@@ -14,16 +14,996 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: c545e31836c15ba429538c7cb1e3bae6, type: 3}
   title: free time
+  mapPrefab: {fileID: 5802927604765793812, guid: 21366516744ecbb4ebfa2d9498b8b68a,
+    type: 3}
   personDialogs:
   - personName: Biegaczka
     conversation:
-      Items: []
-      Edges: []
+      masterItemID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      Items:
+      - type: 0
+        TextInPolish: "Cze\u015B\u0107"
+        Text: "Cze\u015B\u0107"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+        Box:
+          serializedVersion: 2
+          x: 628
+          y: 80
+          width: 40
+          height: 20
+      - type: 1
+        TextInPolish: "Mo\u017Ce co\u015B zjemy ?"
+        Text: "Mo\u017Ce co\u015B zjemy ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
+        Box:
+          serializedVersion: 2
+          x: 441
+          y: 127
+          width: 128
+          height: 20
+      - type: 1
+        TextInPolish: "Mo\u017Ce gdzie\u015B usi\u0105dziemy?"
+        Text: "Mo\u017Ce gdzie\u015B usi\u0105dziemy?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+        Box:
+          serializedVersion: 2
+          x: 709
+          y: 129
+          width: 184
+          height: 20
+      - type: 0
+        TextInPolish: "Tak, bardzo ch\u0119tnie"
+        Text: "Tak, bardzo ch\u0119tnie"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+        Box:
+          serializedVersion: 2
+          x: 568
+          y: 171
+          width: 152
+          height: 20
+      - type: 1
+        TextInPolish: "Na co masz ochot\u0119 ?"
+        Text: "Na co masz ochot\u0119 ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+        Box:
+          serializedVersion: 2
+          x: 311
+          y: 250
+          width: 152
+          height: 20
+      - type: 1
+        TextInPolish: Co to za rodzaj restauracji ?
+        Text: Co to za rodzaj restauracji ?
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+        Box:
+          serializedVersion: 2
+          x: 122
+          y: 395
+          width: 232
+          height: 20
+      - type: 1
+        TextInPolish: "Masz jakie\u015B ulubione miejsce ?"
+        Text: "Masz jakie\u015B ulubione miejsce ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
+        Box:
+          serializedVersion: 2
+          x: 1544
+          y: 233
+          width: 240
+          height: 20
+      - type: 0
+        TextInPolish: "Niedaleko jest restauracja, chod\u017Amy tam"
+        Text: "Niedaleko jest restauracja, chod\u017Amy tam"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 4030a197-1b39-4356-897d-a43dda9dd42f
+        Box:
+          serializedVersion: 2
+          x: 309
+          y: 326
+          width: 312
+          height: 20
+      - type: 0
+        TextInPolish: "Nie, chod\u017Amy gdzie chcesz"
+        Text: "Nie, chod\u017Amy gdzie chcesz"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 852ff578-8332-4123-8866-b97c368023ff
+        Box:
+          serializedVersion: 2
+          x: 1611
+          y: 288
+          width: 200
+          height: 20
+      - type: 0
+        TextInPolish: "to lokalna restauracja, nie \u0142atwo tam trafi\u0107"
+        Text: "to lokalna restauracja, nie \u0142atwo tam trafi\u0107"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+        Box:
+          serializedVersion: 2
+          x: 1111
+          y: 458
+          width: 352
+          height: 20
+      - type: 0
+        TextInPolish: "Dobrze, mam nadziej\u0119 \u017Ce si\u0119 nie zgubimy"
+        Text: "Dobrze, mam nadziej\u0119 \u017Ce si\u0119 nie zgubimy"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+        Box:
+          serializedVersion: 2
+          x: 936
+          y: 877
+          width: 312
+          height: 20
+      - type: 0
+        TextInPolish: "Tak, ale wa\u017Cny jest te\u017C klimat"
+        Text: "Tak, ale wa\u017Cny jest te\u017C klimat"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 1ca71008-ad15-4385-9976-55a141d72802
+        Box:
+          serializedVersion: 2
+          x: 29
+          y: 656
+          width: 240
+          height: 20
+      - type: 0
+        TextInPolish: "Wierz\u0119, \u017Ce damy rad\u0119"
+        Text: "Wierz\u0119, \u017Ce damy rad\u0119"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 537436dc-d425-4562-9e9a-2ec57f65572a
+        Box:
+          serializedVersion: 2
+          x: 557
+          y: 1086
+          width: 160
+          height: 20
+      - type: 1
+        TextInPolish: "To najwa\u017Cniejsze, chod\u017Amy !"
+        Text: "To najwa\u017Cniejsze, chod\u017Amy !"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
+        Box:
+          serializedVersion: 2
+          x: 64
+          y: 558
+          width: 216
+          height: 20
+      - type: 1
+        TextInPolish: "Ch\u0119tnie poznam, jaki klimat Tobie odpowiada"
+        Text: "Ch\u0119tnie poznam, jaki klimat Tobie odpowiada"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+        Box:
+          serializedVersion: 2
+          x: -49
+          y: 727
+          width: 344
+          height: 20
+      - type: 0
+        TextInPolish: EXIT
+        Text: EXIT
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+        Box:
+          serializedVersion: 2
+          x: 711
+          y: 1474
+          width: 32
+          height: 20
+      - type: 1
+        TextInPolish: "Lepiej znasz miasto -prowad\u017A !"
+        Text: "Lepiej znasz miasto -prowad\u017A !"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 7cfda422-05db-4f79-9737-b53a97a79bcd
+        Box:
+          serializedVersion: 2
+          x: 947
+          y: 400
+          width: 240
+          height: 20
+      - type: 0
+        TextInPolish: Nie wiem, zobaczymy
+        Text: Nie wiem, zobaczymy
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: b5576693-d581-4d18-86a2-a6f44a89ffc8
+        Box:
+          serializedVersion: 2
+          x: 398
+          y: 461
+          width: 152
+          height: 20
+      - type: 0
+        TextInPolish: "Ci\u0119\u017Cko powiedzie\u0107, poprostu dobra"
+        Text: "Ci\u0119\u017Cko powiedzie\u0107, poprostu dobra"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: e2ef43b1-3990-4b96-b783-c97ecd48400d
+        Box:
+          serializedVersion: 2
+          x: 66
+          y: 477
+          width: 264
+          height: 20
+      - type: 1
+        TextInPolish: "Maj\u0105 tam dania wegetaria\u0144skie ?"
+        Text: "Maj\u0105 tam dania wegetaria\u0144skie ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: b3aa9a28-7c06-4e7f-b4a0-c58cae031631
+        Box:
+          serializedVersion: 2
+          x: 574
+          y: 632
+          width: 248
+          height: 20
+      - type: 0
+        TextInPolish: "Tak, to do\u015B\u0107 istotne"
+        Text: "Tak, to do\u015B\u0107 istotne"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: ed5b848a-33fc-4f5a-af3d-68f1f87a7b40
+        Box:
+          serializedVersion: 2
+          x: 333
+          y: 673
+          width: 160
+          height: 20
+      - type: 1
+        TextInPolish: "Najwy\u017Cej zam\xF3wimy wi\u0119cej wina"
+        Text: "Najwy\u017Cej zam\xF3wimy wi\u0119cej wina"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 99a41442-91c3-465a-9b12-70cc889fab27
+        Box:
+          serializedVersion: 2
+          x: 94
+          y: 759
+          width: 232
+          height: 20
+      - type: 1
+        TextInPolish: "Priorytety ustalone, teraz chod\u017Amy"
+        Text: "Priorytety ustalone, teraz chod\u017Amy"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 0139543d-2436-4988-8237-b5e761427533
+        Box:
+          serializedVersion: 2
+          x: 73
+          y: 885
+          width: 272
+          height: 20
+      - type: 1
+        TextInPolish: "w sumie to bez znaczenia, bo jestem g\u0142odny"
+        Text: "w sumie to bez znaczenia, bo jestem g\u0142odny"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: a628222b-cc82-4b6a-af81-3398ba886b4d
+        Box:
+          serializedVersion: 2
+          x: 251
+          y: 835
+          width: 336
+          height: 20
+      - type: 0
+        TextInPolish: "Nie pami\u0119tam, ale chyba tak"
+        Text: "Nie pami\u0119tam, ale chyba tak"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 2866a4b0-c2c2-4a0c-8433-2c9c86223efe
+        Box:
+          serializedVersion: 2
+          x: 528
+          y: 752
+          width: 216
+          height: 20
+      - type: 0
+        TextInPolish: 25. is your ID
+        Text: 25. is your ID
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 17098c89-1371-4447-8b5f-9b65cb15aac1
+        Box:
+          serializedVersion: 2
+          x: 748
+          y: 692
+          width: 112
+          height: 20
+      - type: 0
+        TextInPolish: "Tak, jeste\u015B wegetatrianinem ?"
+        Text: "Tak, jeste\u015B wegetatrianinem ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 43b4dde0-7753-4f4d-b09c-0ea54524e4b2
+        Box:
+          serializedVersion: 2
+          x: 700
+          y: 808
+          width: 232
+          height: 20
+      - type: 1
+        TextInPolish: "Pewnie ma, teraz wi\u0119kszo\u015B\u0107 knajp ma je w menu"
+        Text: "Pewnie ma, teraz wi\u0119kszo\u015B\u0107 knajp ma je w menu"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 6e1f9efd-86bc-4894-9015-7f9dc1bdf4bb
+        Box:
+          serializedVersion: 2
+          x: 250
+          y: 951
+          width: 360
+          height: 20
+      - type: 1
+        TextInPolish: "Na pewno co\u015B znajd\u0119"
+        Text: "Na pewno co\u015B znajd\u0119"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 0c59c487-9c0d-4db6-b4b2-ee7360ea7d1e
+        Box:
+          serializedVersion: 2
+          x: 355
+          y: 1008
+          width: 152
+          height: 20
+      - type: 1
+        TextInPolish: "nie wa\u017Cne, nikt mnie tu nie zna -nie"
+        Text: "nie wa\u017Cne, nikt mnie tu nie zna -nie"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: c17902ff-e871-466d-853c-88b31e50ba92
+        Box:
+          serializedVersion: 2
+          x: 552
+          y: 880
+          width: 288
+          height: 20
+      - type: 1
+        TextInPolish: tak, ale piwo i wino jest wege
+        Text: tak, ale piwo i wino jest wege
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 33b8fe2d-19f6-4af4-8389-a7330939216f
+        Box:
+          serializedVersion: 2
+          x: 623
+          y: 947
+          width: 240
+          height: 20
+      - type: 1
+        TextInPolish: "Ch\u0119tnie poznam to miejsce"
+        Text: "Ch\u0119tnie poznam to miejsce"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: dc8244b2-c1a8-4223-8ff9-06ddc7e9641c
+        Box:
+          serializedVersion: 2
+          x: 814
+          y: 535
+          width: 200
+          height: 20
+      - type: 1
+        TextInPolish: "super, zrobi\u0119 pierwszy wpis na Trip Advisor"
+        Text: "super, zrobi\u0119 pierwszy wpis na Trip Advisor"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 20549bfc-c7de-4946-9d5c-ba75c3220fdd
+        Box:
+          serializedVersion: 2
+          x: 1138
+          y: 562
+          width: 344
+          height: 20
+      - type: 0
+        TextInPolish: "My\u015Bl\u0119, \u017Ce Ci si\u0119 spodoba"
+        Text: "My\u015Bl\u0119, \u017Ce Ci si\u0119 spodoba"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: e54e66e0-9b1a-4bd6-8c21-c027aa0762c8
+        Box:
+          serializedVersion: 2
+          x: 780
+          y: 613
+          width: 192
+          height: 20
+      - type: 0
+        TextInPolish: "To ca\u0142kiem przyjemne miejsce"
+        Text: "To ca\u0142kiem przyjemne miejsce"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: b9bb914a-d936-443f-bbd0-f0e1abb55ae2
+        Box:
+          serializedVersion: 2
+          x: 887
+          y: 647
+          width: 224
+          height: 20
+      - type: 0
+        TextInPolish: "nie jest, a\u017C tak niszowe"
+        Text: "nie jest, a\u017C tak niszowe"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: cba9c9e3-0158-4456-8b2c-ca9d5e66a542
+        Box:
+          serializedVersion: 2
+          x: 1099
+          y: 644
+          width: 192
+          height: 20
+      - type: 0
+        TextInPolish: "w\u0142a\u015Bciciel si\u0119 na pewno ucieszy"
+        Text: "w\u0142a\u015Bciciel si\u0119 na pewno ucieszy"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 9932dd7c-b5e1-450b-87f2-03ae33f0aa43
+        Box:
+          serializedVersion: 2
+          x: 1237
+          y: 680
+          width: 248
+          height: 20
+      - type: 1
+        TextInPolish: "Zapytamy kogo\u015B po drodze"
+        Text: "Zapytamy kogo\u015B po drodze"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: d34b3098-7f39-4330-bdfc-2a902ab841e6
+        Box:
+          serializedVersion: 2
+          x: 801
+          y: 998
+          width: 192
+          height: 20
+      - type: 1
+        TextInPolish: "Jesli znasz nazw\u0119 wpisze w GPS"
+        Text: "Jesli znasz nazw\u0119 wpisze w GPS"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 8970f88b-e125-49dd-ac20-185fa38d0c91
+        Box:
+          serializedVersion: 2
+          x: 1302
+          y: 974
+          width: 240
+          height: 20
+      - type: 0
+        TextInPolish: "Dobrze, ale Ty si\u0119 pytasz"
+        Text: "Dobrze, ale Ty si\u0119 pytasz"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: d7c138bb-b2af-4e21-aaf4-62fff681e215
+        Box:
+          serializedVersion: 2
+          x: 744
+          y: 1146
+          width: 200
+          height: 20
+      - type: 0
+        TextInPolish: "Je\u015Bli masz internet, ustaw prosz\u0119"
+        Text: "Je\u015Bli masz internet, ustaw prosz\u0119"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: dd23b90b-0c7c-442e-8cd3-2c9a56109d6e
+        Box:
+          serializedVersion: 2
+          x: 1109
+          y: 1065
+          width: 264
+          height: 20
+      - type: 0
+        TextInPolish: "\u017Bartowa\u0142am, trafi\u0119 z zamkni\u0119tymi oczami"
+        Text: "\u017Bartowa\u0142am, trafi\u0119 z zamkni\u0119tymi oczami"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 176a9269-a763-4c2d-b7a2-44000697173b
+        Box:
+          serializedVersion: 2
+          x: 1459
+          y: 1060
+          width: 312
+          height: 20
+      - type: 1
+        TextInPolish: "Mo\u017Ce kawiarnia z churrios ?"
+        Text: "Mo\u017Ce kawiarnia z churrios ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 2a890afe-a3eb-41cf-8336-388e59571933
+        Box:
+          serializedVersion: 2
+          x: 1465
+          y: 361
+          width: 216
+          height: 20
+      - type: 1
+        TextInPolish: "Jestem g\u0142odny, proponuj\u0119 pael\u0119"
+        Text: "Jestem g\u0142odny, proponuj\u0119 pael\u0119"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 6b02f0d1-eace-411c-bd0b-03b765c4a0d2
+        Box:
+          serializedVersion: 2
+          x: 1634
+          y: 590
+          width: 240
+          height: 20
+      - type: 0
+        TextInPolish: "Tak, ch\u0119tnie zjem co\u015B s\u0142odkiego"
+        Text: "Tak, ch\u0119tnie zjem co\u015B s\u0142odkiego"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 2ee5806a-f722-4ce3-afe8-9b7910af46af
+        Box:
+          serializedVersion: 2
+          x: 1302
+          y: 409
+          width: 248
+          height: 20
+      - type: 0
+        TextInPolish: "Za du\u017Co s\u0142odkiego, mo\u017Ce co\u015B z kuchni hiszpa\u0144skiej"
+        Text: "Za du\u017Co s\u0142odkiego, mo\u017Ce co\u015B z kuchni hiszpa\u0144skiej"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 8b2c3782-b100-4668-8483-c853e1b17fa7
+        Box:
+          serializedVersion: 2
+          x: 1546
+          y: 425
+          width: 392
+          height: 20
+      - type: 1
+        TextInPolish: "Super, ja te\u017C si\u0119 do\u0142acz\u0119"
+        Text: "Super, ja te\u017C si\u0119 do\u0142acz\u0119"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 9ca2db02-738e-4d9d-a944-6e8d0b12f91a
+        Box:
+          serializedVersion: 2
+          x: 1278
+          y: 496
+          width: 200
+          height: 20
+      - type: 1
+        TextInPolish: "kawa i churrios, zrobi\u0105 ten wiecz\xF3r"
+        Text: "kawa i churrios, zrobi\u0105 ten wiecz\xF3r"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 99d90a87-57cc-49ef-a6cc-5f99f0ef178d
+        Box:
+          serializedVersion: 2
+          x: 1376
+          y: 531
+          width: 280
+          height: 20
+      - type: 1
+        TextInPolish: "Ch\u0119tnie, na pewno co\u015B polecisz"
+        Text: "Ch\u0119tnie, na pewno co\u015B polecisz"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: fe426001-56d4-4e3a-9797-6fe474cf881e
+        Box:
+          serializedVersion: 2
+          x: 1500
+          y: 476
+          width: 240
+          height: 20
+      - type: 1
+        TextInPolish: "To chyba lepszy pomys\u0142, ok"
+        Text: "To chyba lepszy pomys\u0142, ok"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 4716233a-5e71-44a1-b6c5-f581647faeba
+        Box:
+          serializedVersion: 2
+          x: 1612
+          y: 521
+          width: 208
+          height: 20
+      - type: 0
+        TextInPolish: "zgoda, ale Ty jesz wi\u0119ksz\u0105 cz\u0119\u015B\u0107"
+        Text: "zgoda, ale Ty jesz wi\u0119ksz\u0105 cz\u0119\u015B\u0107"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 5affb717-e992-42fa-9d5e-ddb06e5e4c07
+        Box:
+          serializedVersion: 2
+          x: 1510
+          y: 655
+          width: 256
+          height: 20
+      - type: 0
+        TextInPolish: "dobrze, zadecyduj\u0119 w restauracji"
+        Text: "dobrze, zadecyduj\u0119 w restauracji"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 899fe028-2e3f-4cdc-b296-3b0d2444d6f2
+        Box:
+          serializedVersion: 2
+          x: 1774
+          y: 647
+          width: 256
+          height: 20
+      - type: 1
+        TextInPolish: Umowa stoi
+        Text: Umowa stoi
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 7c3fda3d-958a-4764-a736-ccb0e0f1d474
+        Box:
+          serializedVersion: 2
+          x: 1426
+          y: 733
+          width: 80
+          height: 20
+      - type: 1
+        TextInPolish: Nie ma problemu
+        Text: Nie ma problemu
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 2289435a-7b6d-423f-89ff-14f14828ad9d
+        Box:
+          serializedVersion: 2
+          x: 1573
+          y: 777
+          width: 120
+          height: 20
+      - type: 1
+        TextInPolish: "Super, co\u015B na pewno znajdziemy"
+        Text: "Super, co\u015B na pewno znajdziemy"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: a3cb3da3-e273-43c0-9a2d-e4a8b5b7be8e
+        Box:
+          serializedVersion: 2
+          x: 1703
+          y: 711
+          width: 240
+          height: 20
+      - type: 1
+        TextInPolish: "Dobrze, ja te\u017C musz\u0119 si\u0119 jeszcze zastanowi\u0107"
+        Text: "Dobrze, ja te\u017C musz\u0119 si\u0119 jeszcze zastanowi\u0107"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 995163f5-6f0c-46ff-afc4-681c07bf0d3f
+        Box:
+          serializedVersion: 2
+          x: 1720
+          y: 761
+          width: 344
+          height: 20
+      - type: 1
+        TextInPolish: "Co\u015B, na pewno znajdziemy"
+        Text: "Co\u015B, na pewno znajdziemy"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: be9c8360-8fd7-4d5f-96c8-010484b06ca0
+        Box:
+          serializedVersion: 2
+          x: 371
+          y: 1139
+          width: 192
+          height: 20
+      - type: 1
+        TextInPolish: "Jak nie ta to inna te\u017C mo\u017Ce by\u0107"
+        Text: "Jak nie ta to inna te\u017C mo\u017Ce by\u0107"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: c7eff2c9-e0b6-43f9-8e1d-454e7e876769
+        Box:
+          serializedVersion: 2
+          x: 482
+          y: 1180
+          width: 248
+          height: 20
+      - type: 1
+        TextInPolish: "Nie ma problemu z moim hiszpa\u0144skim to \u017Caden k\u0142opot"
+        Text: "Nie ma problemu z moim hiszpa\u0144skim to \u017Caden k\u0142opot"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 1afef812-d07c-4194-88ff-e02f71d01031
+        Box:
+          serializedVersion: 2
+          x: 613
+          y: 1246
+          width: 400
+          height: 20
+      - type: 1
+        TextInPolish: 'Lepiej nie '
+        Text: 'Lepiej nie '
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 43280e33-c598-4bf7-bf2f-b51c326d9171
+        Box:
+          serializedVersion: 2
+          x: 824
+          y: 1247
+          width: 88
+          height: 20
+      - type: 1
+        TextInPolish: "Prosz\u0119, wpisz nazw\u0119"
+        Text: "Prosz\u0119, wpisz nazw\u0119"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: ca3d0d6a-50ae-4000-8ec4-67fa97bb3805
+        Box:
+          serializedVersion: 2
+          x: 1012
+          y: 1143
+          width: 152
+          height: 20
+      - type: 1
+        TextInPolish: "Gotowe, chod\u017Amy za GPS-em"
+        Text: "Gotowe, chod\u017Amy za GPS-em"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 172c6714-ba50-4939-ae1c-add3d5bd1393
+        Box:
+          serializedVersion: 2
+          x: 1132
+          y: 1180
+          width: 200
+          height: 20
+      - type: 1
+        TextInPolish: "Ok, dzisiaj spr\xF3bujmy z otwartymi"
+        Text: "Ok, dzisiaj spr\xF3bujmy z otwartymi"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: db0bc350-db36-4404-bc0d-927e9da2be9c
+        Box:
+          serializedVersion: 2
+          x: 1378
+          y: 1142
+          width: 264
+          height: 20
+      - type: 1
+        TextInPolish: "Dobrze, wiedzie\u0107 mo\u017Ce braknie pr\u0105du i wykorzystamy
+          t\u0105 umiej\u0119tno\u015B\u0107"
+        Text: "Dobrze, wiedzie\u0107 mo\u017Ce braknie pr\u0105du i wykorzystamy t\u0105
+          umiej\u0119tno\u015B\u0107"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 0aa38fe6-d916-46db-bc97-04d8a6733c02
+        Box:
+          serializedVersion: 2
+          x: 1594
+          y: 1182
+          width: 520
+          height: 20
+      Edges:
+      - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+        ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+        ToId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+        ToId: 852ff578-8332-4123-8866-b97c368023ff
+      - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+        ToId: 4030a197-1b39-4356-897d-a43dda9dd42f
+      - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+        ToId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+        ToId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+      - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+        ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+        ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      - FromId: 4030a197-1b39-4356-897d-a43dda9dd42f
+        ToId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      - FromId: 4030a197-1b39-4356-897d-a43dda9dd42f
+        ToId: 7cfda422-05db-4f79-9737-b53a97a79bcd
+      - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+        ToId: b5576693-d581-4d18-86a2-a6f44a89ffc8
+      - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+        ToId: e2ef43b1-3990-4b96-b783-c97ecd48400d
+      - FromId: e2ef43b1-3990-4b96-b783-c97ecd48400d
+        ToId: c868682b-0ddd-4919-91d8-2b426b77d4bd
+      - FromId: e2ef43b1-3990-4b96-b783-c97ecd48400d
+        ToId: b3aa9a28-7c06-4e7f-b4a0-c58cae031631
+      - FromId: c868682b-0ddd-4919-91d8-2b426b77d4bd
+        ToId: 1ca71008-ad15-4385-9976-55a141d72802
+      - FromId: c868682b-0ddd-4919-91d8-2b426b77d4bd
+        ToId: ed5b848a-33fc-4f5a-af3d-68f1f87a7b40
+      - FromId: 1ca71008-ad15-4385-9976-55a141d72802
+        ToId: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+      - FromId: 1ca71008-ad15-4385-9976-55a141d72802
+        ToId: 99a41442-91c3-465a-9b12-70cc889fab27
+      - FromId: ed5b848a-33fc-4f5a-af3d-68f1f87a7b40
+        ToId: 0139543d-2436-4988-8237-b5e761427533
+      - FromId: ed5b848a-33fc-4f5a-af3d-68f1f87a7b40
+        ToId: a628222b-cc82-4b6a-af81-3398ba886b4d
+      - FromId: b3aa9a28-7c06-4e7f-b4a0-c58cae031631
+        ToId: 43b4dde0-7753-4f4d-b09c-0ea54524e4b2
+      - FromId: 2866a4b0-c2c2-4a0c-8433-2c9c86223efe
+        ToId: 6e1f9efd-86bc-4894-9015-7f9dc1bdf4bb
+      - FromId: b3aa9a28-7c06-4e7f-b4a0-c58cae031631
+        ToId: 2866a4b0-c2c2-4a0c-8433-2c9c86223efe
+      - FromId: 2866a4b0-c2c2-4a0c-8433-2c9c86223efe
+        ToId: 0c59c487-9c0d-4db6-b4b2-ee7360ea7d1e
+      - FromId: 43b4dde0-7753-4f4d-b09c-0ea54524e4b2
+        ToId: c17902ff-e871-466d-853c-88b31e50ba92
+      - FromId: 43b4dde0-7753-4f4d-b09c-0ea54524e4b2
+        ToId: 33b8fe2d-19f6-4af4-8389-a7330939216f
+      - FromId: 7cfda422-05db-4f79-9737-b53a97a79bcd
+        ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      - FromId: 7cfda422-05db-4f79-9737-b53a97a79bcd
+        ToId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      - FromId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+        ToId: dc8244b2-c1a8-4223-8ff9-06ddc7e9641c
+      - FromId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+        ToId: 20549bfc-c7de-4946-9d5c-ba75c3220fdd
+      - FromId: dc8244b2-c1a8-4223-8ff9-06ddc7e9641c
+        ToId: e54e66e0-9b1a-4bd6-8c21-c027aa0762c8
+      - FromId: dc8244b2-c1a8-4223-8ff9-06ddc7e9641c
+        ToId: b9bb914a-d936-443f-bbd0-f0e1abb55ae2
+      - FromId: 20549bfc-c7de-4946-9d5c-ba75c3220fdd
+        ToId: cba9c9e3-0158-4456-8b2c-ca9d5e66a542
+      - FromId: 20549bfc-c7de-4946-9d5c-ba75c3220fdd
+        ToId: 9932dd7c-b5e1-450b-87f2-03ae33f0aa43
+      - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+        ToId: d34b3098-7f39-4330-bdfc-2a902ab841e6
+      - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+        ToId: 8970f88b-e125-49dd-ac20-185fa38d0c91
+      - FromId: d34b3098-7f39-4330-bdfc-2a902ab841e6
+        ToId: 537436dc-d425-4562-9e9a-2ec57f65572a
+      - FromId: d34b3098-7f39-4330-bdfc-2a902ab841e6
+        ToId: d7c138bb-b2af-4e21-aaf4-62fff681e215
+      - FromId: 8970f88b-e125-49dd-ac20-185fa38d0c91
+        ToId: dd23b90b-0c7c-442e-8cd3-2c9a56109d6e
+      - FromId: 8970f88b-e125-49dd-ac20-185fa38d0c91
+        ToId: 176a9269-a763-4c2d-b7a2-44000697173b
+      - FromId: 852ff578-8332-4123-8866-b97c368023ff
+        ToId: 2a890afe-a3eb-41cf-8336-388e59571933
+      - FromId: 852ff578-8332-4123-8866-b97c368023ff
+        ToId: 6b02f0d1-eace-411c-bd0b-03b765c4a0d2
+      - FromId: 2a890afe-a3eb-41cf-8336-388e59571933
+        ToId: 2ee5806a-f722-4ce3-afe8-9b7910af46af
+      - FromId: 2a890afe-a3eb-41cf-8336-388e59571933
+        ToId: 8b2c3782-b100-4668-8483-c853e1b17fa7
+      - FromId: 2ee5806a-f722-4ce3-afe8-9b7910af46af
+        ToId: 9ca2db02-738e-4d9d-a944-6e8d0b12f91a
+      - FromId: 2ee5806a-f722-4ce3-afe8-9b7910af46af
+        ToId: 99d90a87-57cc-49ef-a6cc-5f99f0ef178d
+      - FromId: 8b2c3782-b100-4668-8483-c853e1b17fa7
+        ToId: fe426001-56d4-4e3a-9797-6fe474cf881e
+      - FromId: 8b2c3782-b100-4668-8483-c853e1b17fa7
+        ToId: 4716233a-5e71-44a1-b6c5-f581647faeba
+      - FromId: 6b02f0d1-eace-411c-bd0b-03b765c4a0d2
+        ToId: 5affb717-e992-42fa-9d5e-ddb06e5e4c07
+      - FromId: 6b02f0d1-eace-411c-bd0b-03b765c4a0d2
+        ToId: 899fe028-2e3f-4cdc-b296-3b0d2444d6f2
+      - FromId: 5affb717-e992-42fa-9d5e-ddb06e5e4c07
+        ToId: 7c3fda3d-958a-4764-a736-ccb0e0f1d474
+      - FromId: 5affb717-e992-42fa-9d5e-ddb06e5e4c07
+        ToId: 2289435a-7b6d-423f-89ff-14f14828ad9d
+      - FromId: 899fe028-2e3f-4cdc-b296-3b0d2444d6f2
+        ToId: a3cb3da3-e273-43c0-9a2d-e4a8b5b7be8e
+      - FromId: 899fe028-2e3f-4cdc-b296-3b0d2444d6f2
+        ToId: 995163f5-6f0c-46ff-afc4-681c07bf0d3f
+      - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+        ToId: be9c8360-8fd7-4d5f-96c8-010484b06ca0
+      - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+        ToId: c7eff2c9-e0b6-43f9-8e1d-454e7e876769
+      - FromId: d7c138bb-b2af-4e21-aaf4-62fff681e215
+        ToId: 1afef812-d07c-4194-88ff-e02f71d01031
+      - FromId: d7c138bb-b2af-4e21-aaf4-62fff681e215
+        ToId: 43280e33-c598-4bf7-bf2f-b51c326d9171
+      - FromId: dd23b90b-0c7c-442e-8cd3-2c9a56109d6e
+        ToId: ca3d0d6a-50ae-4000-8ec4-67fa97bb3805
+      - FromId: dd23b90b-0c7c-442e-8cd3-2c9a56109d6e
+        ToId: 172c6714-ba50-4939-ae1c-add3d5bd1393
+      - FromId: 176a9269-a763-4c2d-b7a2-44000697173b
+        ToId: db0bc350-db36-4404-bc0d-927e9da2be9c
+      - FromId: 176a9269-a763-4c2d-b7a2-44000697173b
+        ToId: 0aa38fe6-d916-46db-bc97-04d8a6733c02
+    isComplete: 0
   - personName: Panowie
     conversation:
+      masterItemID: 9853c66f-ff35-4950-9f3f-2fc97d373763
       Items:
       - type: 1
         TextInPolish: "Przepraszam, jedziecie mo\u017Ce do Barcelony ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -36,18 +1016,20 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Cze\u015B\u0107, co si\u0119 sta\u0142o ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
         Box:
           serializedVersion: 2
-          x: 779
-          y: 88
+          x: 751
+          y: 81
           width: 168
           height: 20
       - type: 1
         TextInPolish: "Super, bardzo si\u0119 ciesz\u0119"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -61,6 +1043,7 @@ MonoBehaviour:
       - type: 1
         TextInPolish: "Mog\u0119 dorzuci\u0107 si\u0119 na benzyn\u0119 jesli jedziecie
           do Barcelony"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -73,6 +1056,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Nie tylko m\xF3j plecak"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -85,6 +1069,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Pewnie, a du\u017Co masz baga\u017C\xF3w ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -97,6 +1082,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Ja te\u017C, im wi\u0119cej os\xF3b tym lepiej dla mnie"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -109,6 +1095,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Do matar\xF3"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -122,30 +1109,33 @@ MonoBehaviour:
       - type: 0
         TextInPolish: "Nie szkodzi, tak tylko chcia\u0142em wiedzie\u0107 , czy u
           was te\u017C macie t\u0105 aplikacj\u0119 :)"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 852ff578-8332-4123-8866-b97c368023ff
         Box:
           serializedVersion: 2
-          x: 241
-          y: 730
+          x: 175
+          y: 748
           width: 624
           height: 20
       - type: 1
         TextInPolish: "Tak to chyb ami\u0119dzynarodowa organizacja"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
         Box:
           serializedVersion: 2
-          x: 53
-          y: 821
+          x: 3
+          y: 825
           width: 312
           height: 20
       - type: 1
         TextInPolish: "Nie, ale znajomy mi o was powiedzia\u0142"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -158,6 +1148,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Nie, my\u015Ble \u017Ce sie zmieszcz\u0105 z ty\u0142u"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -170,6 +1161,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "To po\u0142\xF3\u017C gdzie\u015B na tylnym siedzeniu"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -182,6 +1174,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Nie, ale mog\u0119 trzyma\u0107 je na kolanach"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -194,6 +1187,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Ty te\u017C z aplikacji blabla car ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -206,6 +1200,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Niestety jestem sam, ale mo\u017Cemy jeszcze chwil\u0119 poczeka\u0107"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -219,6 +1214,7 @@ MonoBehaviour:
       - type: 0
         TextInPolish: "Ma z nami jecha\u0107 jeszcze jeden ziomek, ale mocno si\u0119
           ju\u017C sp\xF3\u017Ania"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -231,30 +1227,33 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Dzielenie si\u0119 kosztami z innymi to teraz styl \u017Cycia"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 926ccf6a-1cd5-40c5-beea-b4c8d685f9f8
         Box:
           serializedVersion: 2
-          x: 288
-          y: 826
+          x: 262
+          y: 863
           width: 408
           height: 20
       - type: 1
         TextInPolish: Poczekam, dla mnie nie ma problemu
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 4e26a081-4dcb-4095-a46b-c792c19e3033
         Box:
           serializedVersion: 2
-          x: 519
-          y: 818
+          x: 543
+          y: 807
           width: 272
           height: 20
       - type: 1
         TextInPolish: "Je\u015Bli nic nie napisa\u0142, mo\u017Ce ju\u017C nie przyj\u015B\u0107"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -267,18 +1266,20 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Ok, zbierajmy si\u0119"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 2fb4905e-7f7b-4a52-b1fb-0216d48bf910
         Box:
           serializedVersion: 2
-          x: 399
-          y: 980
+          x: 405
+          y: 983
           width: 136
           height: 20
       - type: 0
         TextInPolish: Tak, w tamtym kierunku
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -291,6 +1292,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "To gdzie\u015B po drodze ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -303,6 +1305,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Super, dzi\u0119ki wielkie"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -315,6 +1318,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: Jak to daleko od Barcelony ?
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -327,6 +1331,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Jakie\u015B 20 km od Barcelony"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -339,6 +1344,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "To najwa\u017Cniejsze, ok wsiadam"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -351,6 +1357,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Stamt\u0105d bez problemu co\u015B z\u0142apiesz"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -363,6 +1370,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Ile si\u0119 nale\u017Cy za podw\xF3zk\u0119 ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -375,6 +1383,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Ile si\u0119 dorzucamy na benzyn\u0119 ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -387,6 +1396,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: 20 euro i ruszamy teraz
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -399,38 +1409,41 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Ok, niech bedzie, jed\u017Amy"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 22c63feb-41f5-4526-a2d2-27792288a0ca
         Box:
           serializedVersion: 2
-          x: 981
-          y: 762
+          x: 1108
+          y: 858
           width: 192
           height: 20
       - type: 1
         TextInPolish: "To uczciwa cena , prosz\u0119"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 97fff180-5857-4584-a6c9-21fec0da7dad
         Box:
           serializedVersion: 2
-          x: 1324
-          y: 772
+          x: 1415
+          y: 859
           width: 192
           height: 20
-      - type: 0
-        TextInPolish: EXIT
+      - type: 1
+        TextInPolish: Exit
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
-        ID: d9a289ac-62aa-44bd-8396-61355da2887a
+        ID: 0e70f8c7-16e7-4d58-943c-1bf5793232a0
         Box:
           serializedVersion: 2
-          x: 1166
-          y: 857
+          x: 456
+          y: 1040
           width: 32
           height: 20
       Edges:
@@ -516,39 +1529,42 @@ MonoBehaviour:
         ToId: 22c63feb-41f5-4526-a2d2-27792288a0ca
       - FromId: 0a16b16e-3f1e-4a12-a7ee-611751e048c5
         ToId: 97fff180-5857-4584-a6c9-21fec0da7dad
-      - FromId: 22c63feb-41f5-4526-a2d2-27792288a0ca
-        ToId: d9a289ac-62aa-44bd-8396-61355da2887a
-      - FromId: 97fff180-5857-4584-a6c9-21fec0da7dad
-        ToId: d9a289ac-62aa-44bd-8396-61355da2887a
+      - FromId: 2fb4905e-7f7b-4a52-b1fb-0216d48bf910
+        ToId: 0e70f8c7-16e7-4d58-943c-1bf5793232a0
+    isComplete: 0
   - personName: Rowerzysta
     conversation:
+      masterItemID: 0b8224ee-2aeb-4e82-b4b7-18b6553ea330
       Items:
       - type: 0
         TextInPolish: "Tak, ale nast\u0119pny bus dopiero o 8 rano"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
         Box:
           serializedVersion: 2
-          x: 826
-          y: 145
+          x: 820
+          y: 267
           width: 304
           height: 20
       - type: 1
         TextInPolish: "Przepraszam dojad\u0119 st\u0105d do Barcelony?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
         Box:
           serializedVersion: 2
-          x: 574
-          y: 88
+          x: 551
+          y: 197
           width: 296
           height: 20
       - type: 1
         TextInPolish: Hej
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -561,42 +1577,46 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Niestety, ostatni bus z przesiadk\u0105 ju\u017C odjecha\u0142"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
         Box:
           serializedVersion: 2
-          x: 204
-          y: 131
+          x: 233
+          y: 271
           width: 376
           height: 20
       - type: 1
         TextInPolish: "Jest, st\u0105d jaki\u015B inny transport ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
         Box:
           serializedVersion: 2
-          x: 846
-          y: 218
+          x: 858
+          y: 357
           width: 264
           height: 20
       - type: 1
         TextInPolish: "Kurcz\u0119, potrzebuj\u0119 wyjecha\u0107 dzi\u015B Barcelony"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
         Box:
           serializedVersion: 2
-          x: 223
-          y: 222
+          x: 255
+          y: 362
           width: 336
           height: 20
       - type: 1
         TextInPolish: "Lubisz kuchni\u0119 w\u0142osk\u0105?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -609,42 +1629,46 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Tylko autostop, zapytaj ch\u0142opak\xF3w po drugirj stronie"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 4030a197-1b39-4356-897d-a43dda9dd42f
         Box:
           serializedVersion: 2
-          x: 195
-          y: 310
+          x: 214
+          y: 433
           width: 416
           height: 20
       - type: 0
         TextInPolish: "samoch\xF3d po drugiej stronie jedzie w tamtym kierunku"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 852ff578-8332-4123-8866-b97c368023ff
         Box:
           serializedVersion: 2
-          x: 771
-          y: 304
+          x: 778
+          y: 444
           width: 416
           height: 20
       - type: 1
         TextInPolish: "Dzi\u0119kuj\u0119, mi\u0142ego wieczoru"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
         Box:
           serializedVersion: 2
-          x: 604
-          y: 415
+          x: 608
+          y: 559
           width: 200
           height: 20
       - type: 1
         TextInPolish: "Proponuj\u0119 Spaghetti"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -657,6 +1681,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Wola\u0142abym co\u015B lekkostrawnego"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -669,6 +1694,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Ok, mo\u017Ce by\u0107. Zawo\u0142am kelnera..."
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -681,6 +1707,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Mo\u017Ce by\u0107 tortellini?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -693,6 +1720,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Mo\u017Ce ravioli?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -705,6 +1733,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: EXIT
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -715,6 +1744,19 @@ MonoBehaviour:
           y: 1030
           width: 32
           height: 20
+      - type: 0
+        TextInPolish: '          '
+        Text: 
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 0b8224ee-2aeb-4e82-b4b7-18b6553ea330
+        Box:
+          serializedVersion: 2
+          x: 662
+          y: 93
+          width: 80
+          height: 40
       Edges:
       - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
         ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
@@ -736,499 +1778,355 @@ MonoBehaviour:
         ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
       - FromId: 852ff578-8332-4123-8866-b97c368023ff
         ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      - FromId: 0b8224ee-2aeb-4e82-b4b7-18b6553ea330
+        ToId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+    isComplete: 0
   - personName: Para
     conversation:
+      masterItemID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
       Items:
       - type: 0
-        TextInPolish: "Co si\u0119 sta\u0142o ?"
+        TextInPolish: "Cze\u015B\u0107!"
+        Text: "Cze\u015B\u0107!"
         TextInSpanish: 
         animator: {fileID: 0}
-        audioClip: []
+        audioClip:
+        - {fileID: 0}
         ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
         Box:
           serializedVersion: 2
-          x: 595
-          y: 86
-          width: 112
-          height: 20
-      - type: 1
-        TextInPolish: "Uciek\u0142 mi ostatni, poci\u0105g s\u0105 jeszcze jakie\u015B
-          po\u0142aczenia busowe ?"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
-        Box:
-          serializedVersion: 2
-          x: 0
-          y: 120
-          width: 504
-          height: 20
-      - type: 1
-        TextInPolish: "Jest jeszcze jaki\u015B transport do Barcelony dzisiaj ?"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
-        Box:
-          serializedVersion: 2
-          x: 861
-          y: 135
-          width: 408
-          height: 20
-      - type: 0
-        TextInPolish: Jedynie Bolt, lub Uber
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
-        Box:
-          serializedVersion: 2
-          x: 507
-          y: 178
-          width: 176
-          height: 20
-      - type: 1
-        TextInPolish: "Te\u017C, czekacie tu do jutra ?"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
-        Box:
-          serializedVersion: 2
-          x: 323
-          y: 377
-          width: 216
-          height: 20
-      - type: 1
-        TextInPolish: "Te\u017C, tu ukn\u0119li\u015Bcie ?"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
-        Box:
-          serializedVersion: 2
-          x: 1043
-          y: 346
-          width: 160
-          height: 20
-      - type: 0
-        TextInPolish: "Niestety, nie zd\u0105\u017Cyli\u015Bmy"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
-        Box:
-          serializedVersion: 2
-          x: 865
-          y: 450
-          width: 192
-          height: 20
-      - type: 0
-        TextInPolish: "Chcia\u0142abym zje\u015B\u0107 co\u015B z Kuchni W\u0142oskiej"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 4030a197-1b39-4356-897d-a43dda9dd42f
-        Box:
-          serializedVersion: 2
-          x: 369
-          y: 467
-          width: 304
-          height: 20
-      - type: 0
-        TextInPolish: "Tak, mamy karty, jak chcesz mo\u017Cesz p\xF3\u017Aniej si\u0105\u015B\u0107
-          z nami"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 852ff578-8332-4123-8866-b97c368023ff
-        Box:
-          serializedVersion: 2
-          x: 1255
-          y: 463
-          width: 440
-          height: 20
-      - type: 1
-        TextInPolish: "[zoom na dziewczyn\u0119]"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
-        Box:
-          serializedVersion: 2
-          x: 1243
-          y: 420
-          width: 160
-          height: 20
-      - type: 1
-        TextInPolish: "Ok, dzi\u0119ki. Popytam jeszcze na stacji, czy kto\u015B co\u015B
-          wie"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
-        Box:
-          serializedVersion: 2
-          x: 62
-          y: 575
-          width: 440
-          height: 20
-      - type: 0
-        TextInPolish: "Tak, na szcz\u0119\u015Bcie ta stacja jest ca\u0142odobowa"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 1ca71008-ad15-4385-9976-55a141d72802
-        Box:
-          serializedVersion: 2
-          x: 32
-          y: 483
-          width: 344
-          height: 20
-      - type: 0
-        TextInPolish: "Sprawdza\u0142am, niestety nic tu nie kursuje, za daleko od
-          miasta"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 537436dc-d425-4562-9e9a-2ec57f65572a
-        Box:
-          serializedVersion: 2
-          x: 510
-          y: 288
-          width: 488
-          height: 20
-      - type: 1
-        TextInPolish: "[Zoom na dzieczyn\u0119]"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
-        Box:
-          serializedVersion: 2
-          x: 33
-          y: 438
-          width: 152
-          height: 20
-      - type: 1
-        TextInPolish: '[Zoom na faceta]'
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
-        Box:
-          serializedVersion: 2
-          x: 370
-          y: 429
-          width: 128
-          height: 20
-      - type: 1
-        TextInPolish: "[Zoom na dzieczyn\u0119 z telefonem]"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
-        Box:
-          serializedVersion: 2
-          x: 506
-          y: 239
-          width: 248
-          height: 20
-      - type: 1
-        TextInPolish: '[zoom na faceta]'
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 266c9abb-0c64-4cee-8eb1-dd6c9e959d70
-        Box:
-          serializedVersion: 2
-          x: 883
-          y: 406
-          width: 128
-          height: 20
-      - type: 0
-        TextInPolish: Trzymamy kciuki
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 93d91bb7-c531-429f-ad67-44839de64fac
-        Box:
-          serializedVersion: 2
-          x: -13
-          y: 676
-          width: 120
-          height: 20
-      - type: 0
-        TextInPolish: "W razie czego, dawaj zna\u0107"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: fff88065-c4fb-4b52-bc75-b926cf661b2f
-        Box:
-          serializedVersion: 2
-          x: 192
-          y: 722
-          width: 200
-          height: 20
-      - type: 1
-        TextInPolish: "Dzi\u0119ki za pomoc, popytam jeszcze na peronie"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 6fa6bdd1-5344-4ff5-8afc-90711ba2b3bc
-        Box:
-          serializedVersion: 2
-          x: 324
-          y: 571
-          width: 344
-          height: 20
-      - type: 0
-        TextInPolish: Spoko
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 9398f0cd-04e7-4391-b2e8-85e76f8bf383
-        Box:
-          serializedVersion: 2
-          x: 310
-          y: 644
-          width: 40
-          height: 20
-      - type: 0
-        TextInPolish: Dobrze
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: a3d6c049-b3bc-4533-a21f-281dd1936701
-        Box:
-          serializedVersion: 2
-          x: 528
-          y: 663
+          x: 639
+          y: 74
           width: 48
           height: 20
       - type: 1
-        TextInPolish: "Ja te\u017C, m\xF3g\u0142by by\u0107 mniej punktualny"
+        TextInPolish: "Potrzebuj\u0119 dosta\u0107 si\u0119 do Barcelony"
+        Text: "Potrzebuj\u0119 dosta\u0107 si\u0119 do Barcelony"
         TextInSpanish: 
         animator: {fileID: 0}
-        audioClip: []
-        ID: 4267e353-7ec9-40dc-806b-2e2742dd3183
+        audioClip:
+        - {fileID: 0}
+        ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
         Box:
           serializedVersion: 2
-          x: 716
-          y: 586
+          x: 195
+          y: 110
+          width: 272
+          height: 20
+      - type: 1
+        TextInPolish: "Jest st\u0105d jeszcze jaki\u015B poci\u0105g do Barcelony
+          ?"
+        Text: "Jest st\u0105d jeszcze jaki\u015B poci\u0105g do Barcelony ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+        Box:
+          serializedVersion: 2
+          x: 806
+          y: 111
+          width: 360
+          height: 20
+      - type: 0
+        TextInPolish: "Ostatni poci\u0105g ju\u017C odjecha\u0142, proponuj\u0119
+          busa"
+        Text: "Ostatni poci\u0105g ju\u017C odjecha\u0142, proponuj\u0119 busa"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+        Box:
+          serializedVersion: 2
+          x: 107
+          y: 148
+          width: 344
+          height: 20
+      - type: 1
+        TextInPolish: "Jedzie bezpo\u015Brednio do Barcelony ?"
+        Text: "Jedzie bezpo\u015Brednio do Barcelony ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+        Box:
+          serializedVersion: 2
+          x: 42
+          y: 224
+          width: 272
+          height: 20
+      - type: 0
+        TextInPolish: Niestety nie
+        Text: Niestety nie
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+        Box:
+          serializedVersion: 2
+          x: 102
+          y: 350
+          width: 96
+          height: 20
+      - type: 0
+        TextInPolish: Poszukaj informacj na przystanku autobusowym
+        Text: Poszukaj informacj na przystanku autobusowym
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
+        Box:
+          serializedVersion: 2
+          x: 797
+          y: 195
+          width: 352
+          height: 20
+      - type: 0
+        TextInPolish: "Nie pami\u0119tam, musisz sprawdzi\u0107 na rozk\u0142adzie"
+        Text: "Nie pami\u0119tam, musisz sprawdzi\u0107 na rozk\u0142adzie"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 4030a197-1b39-4356-897d-a43dda9dd42f
+        Box:
+          serializedVersion: 2
+          x: -31
+          y: 394
+          width: 352
+          height: 20
+      - type: 0
+        TextInPolish: "My\u015Bl\u0119, \u017Ce ostatni odje\u017Cd\u017Ca ko\u0142o
+          20"
+        Text: "My\u015Bl\u0119, \u017Ce ostatni odje\u017Cd\u017Ca ko\u0142o 20"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 852ff578-8332-4123-8866-b97c368023ff
+        Box:
+          serializedVersion: 2
+          x: 806
+          y: 340
+          width: 272
+          height: 20
+      - type: 1
+        TextInPolish: "A wiesz o kt\xF3rej odje\u017Cd\u017Ca ostatni ?"
+        Text: "A wiesz o kt\xF3rej odje\u017Cd\u017Ca ostatni ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+        Box:
+          serializedVersion: 2
+          x: 685
+          y: 261
           width: 280
           height: 20
       - type: 1
-        TextInPolish: "Ch\u0119tnie, jeszcze sie rozgl\u0105dne i pryjd\u0119 p\xF3\u017Aniej"
+        TextInPolish: "Jest tam rozk\u0142ad po angielsku ?"
+        Text: "Jest tam rozk\u0142ad po angielsku ?"
         TextInSpanish: 
         animator: {fileID: 0}
-        audioClip: []
-        ID: e091e0a3-f9ea-468d-9f77-0f4c295a01ed
+        audioClip:
+        - {fileID: 0}
+        ID: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
         Box:
           serializedVersion: 2
-          x: 1180
-          y: 579
-          width: 376
-          height: 20
-      - type: 1
-        TextInPolish: "Co\u015B wymy\u015Blimy :)"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: a0f79a31-c4d4-4415-be69-c3a4fea20179
-        Box:
-          serializedVersion: 2
-          x: 936
-          y: 586
-          width: 128
-          height: 20
-      - type: 1
-        TextInPolish: "Pewnie, p\xF3\u017Aniej ch\u0119tnie si\u0119 do\u0142\u0105cz\u0119"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 05fdce07-3677-4455-ac4b-0e2c23f0a635
-        Box:
-          serializedVersion: 2
-          x: 1426
-          y: 576
-          width: 280
+          x: 1144
+          y: 258
+          width: 248
           height: 20
       - type: 0
-        TextInPolish: "Daj prosz\u0119 zan\u0107 jak znajdziesz jaki\u015B transport"
+        TextInPolish: "Co\u015B jeszcze powinno by\u0107, odje\u017Cd\u017Caj\u0105
+          co 30 min"
+        Text: "Co\u015B jeszcze powinno by\u0107, odje\u017Cd\u017Caj\u0105 co 30
+          min"
         TextInSpanish: 
         animator: {fileID: 0}
-        audioClip: []
-        ID: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
+        audioClip:
+        - {fileID: 0}
+        ID: 1ca71008-ad15-4385-9976-55a141d72802
         Box:
           serializedVersion: 2
-          x: 832
-          y: 697
-          width: 368
-          height: 20
-      - type: 1
-        TextInPolish: Spoko, nie ma problemu
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 6a504bd5-4fdc-4c65-9c17-066f1284193c
-        Box:
-          serializedVersion: 2
-          x: 757
-          y: 810
-          width: 176
-          height: 20
-      - type: 1
-        TextInPolish: Ok, i vice versa
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 240bdc6a-2567-4c3e-b79d-8a05c21214c4
-        Box:
-          serializedVersion: 2
-          x: 961
-          y: 807
-          width: 128
+          x: 574
+          y: 334
+          width: 360
           height: 20
       - type: 0
-        TextInPolish: "Do zobaczenia p\xF3\u017Aniej :)"
+        TextInPolish: Nie ma za co -powodzenia
+        Text: Nie ma za co -powodzenia
         TextInSpanish: 
         animator: {fileID: 0}
-        audioClip: []
-        ID: a5929258-8ce1-462b-b3ab-f695ee424926
+        audioClip:
+        - {fileID: 0}
+        ID: 537436dc-d425-4562-9e9a-2ec57f65572a
         Box:
           serializedVersion: 2
-          x: 1363
-          y: 678
+          x: 651
+          y: 639
+          width: 192
+          height: 20
+      - type: 0
+        TextInPolish: Nie, ale zrozumiesz bez problemu
+        Text: Nie, ale zrozumiesz bez problemu
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
+        Box:
+          serializedVersion: 2
+          x: 1264
+          y: 341
+          width: 256
+          height: 20
+      - type: 0
+        TextInPolish: "Przykro mi, nie pami\u0119tam"
+        Text: "Przykro mi, nie pami\u0119tam"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+        Box:
+          serializedVersion: 2
+          x: 1043
+          y: 338
           width: 192
           height: 20
       - type: 1
-        TextInPolish: 'Do zobaczenia '
+        TextInPolish: "Dzi\u0119kuj\u0119, za pomoc"
+        Text: "Dzi\u0119kuj\u0119, za pomoc"
         TextInSpanish: 
         animator: {fileID: 0}
-        audioClip: []
-        ID: 1ee44565-05ee-475d-abb2-1f6cfdbcc0f3
+        audioClip:
+        - {fileID: 0}
+        ID: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
         Box:
           serializedVersion: 2
-          x: 1267
-          y: 819
-          width: 112
+          x: 662
+          y: 567
+          width: 144
           height: 20
       - type: 1
-        TextInPolish: "Jasne w grupie zawsze ra\u017Aniej"
+        TextInPolish: Gdzie jest przystanek ?
+        Text: Gdzie jest przystanek ?
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
-        ID: 6a8a6cef-d1b9-491c-831b-2f9c0b836cab
+        ID: b885a53c-08d0-4847-90bd-381c2f1a823a
         Box:
           serializedVersion: 2
-          x: 1478
-          y: 821
-          width: 232
+          x: 296
+          y: 219
+          width: 184
+          height: 20
+      - type: 0
+        TextInPolish: Widzisz to wysokie drzewo ? Tam jest przystanek
+        Text: Widzisz to wysokie drzewo ? Tam jest przystanek
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: b3c91bdb-0342-4468-b01a-ee57da37dbcc
+        Box:
+          serializedVersion: 2
+          x: 184
+          y: 296
+          width: 376
+          height: 20
+      - type: 0
+        TextInPolish: "Pod\u0105\u017Caj ta drog\u0105, za 3 min dojdziesz"
+        Text: "Pod\u0105\u017Caj ta drog\u0105, za 3 min dojdziesz"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: b905726b-d7ae-40f2-9248-f08244086e50
+        Box:
+          serializedVersion: 2
+          x: 354
+          y: 331
+          width: 288
           height: 20
       - type: 1
-        TextInPolish: Do zobaczenia
+        TextInPolish: Exit
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
-        ID: d1f15940-2461-4cf4-9753-6477bcd8e286
+        ID: e30b2872-1897-4d23-94a4-01356249ea96
         Box:
           serializedVersion: 2
-          x: 193
-          y: 931
-          width: 104
-          height: 20
-      - type: 1
-        TextInPolish: "Cze\u015B\u0107 !"
-        TextInSpanish: 
-        animator: {fileID: 0}
-        audioClip: []
-        ID: 7996ed48-4055-4a41-923b-583675143583
-        Box:
-          serializedVersion: 2
-          x: 443
-          y: 932
-          width: 56
+          x: 732
+          y: 720
+          width: 32
           height: 20
       Edges:
+      - FromId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+        ToId: 1ca71008-ad15-4385-9976-55a141d72802
+      - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
       - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
         ToId: 9853c66f-ff35-4950-9f3f-2fc97d373763
       - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
         ToId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
       - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
         ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
-      - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
-        ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
-      - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+      - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
         ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
-      - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
-        ToId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
-      - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
-        ToId: 1ca71008-ad15-4385-9976-55a141d72802
-      - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
-        ToId: 4030a197-1b39-4356-897d-a43dda9dd42f
-      - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
         ToId: 873c1a79-e9a6-499c-952d-303382ae2c5c
-      - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
-        ToId: 852ff578-8332-4123-8866-b97c368023ff
-      - FromId: 1ca71008-ad15-4385-9976-55a141d72802
+      - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+        ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
         ToId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
       - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
-        ToId: 93d91bb7-c531-429f-ad67-44839de64fac
+        ToId: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
       - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
-        ToId: fff88065-c4fb-4b52-bc75-b926cf661b2f
+        ToId: c868682b-0ddd-4919-91d8-2b426b77d4bd
       - FromId: 1ca71008-ad15-4385-9976-55a141d72802
-        ToId: 6fa6bdd1-5344-4ff5-8afc-90711ba2b3bc
-      - FromId: 6fa6bdd1-5344-4ff5-8afc-90711ba2b3bc
-        ToId: 9398f0cd-04e7-4391-b2e8-85e76f8bf383
-      - FromId: 6fa6bdd1-5344-4ff5-8afc-90711ba2b3bc
-        ToId: a3d6c049-b3bc-4533-a21f-281dd1936701
-      - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
-        ToId: 4267e353-7ec9-40dc-806b-2e2742dd3183
-      - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
-        ToId: a0f79a31-c4d4-4415-be69-c3a4fea20179
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
       - FromId: 852ff578-8332-4123-8866-b97c368023ff
-        ToId: e091e0a3-f9ea-468d-9f77-0f4c295a01ed
-      - FromId: 852ff578-8332-4123-8866-b97c368023ff
-        ToId: 05fdce07-3677-4455-ac4b-0e2c23f0a635
-      - FromId: 4267e353-7ec9-40dc-806b-2e2742dd3183
-        ToId: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
-      - FromId: a0f79a31-c4d4-4415-be69-c3a4fea20179
-        ToId: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
-      - FromId: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
-        ToId: 6a504bd5-4fdc-4c65-9c17-066f1284193c
-      - FromId: 9aed2a57-ccf0-4c61-9428-4475b8884c3b
-        ToId: 240bdc6a-2567-4c3e-b79d-8a05c21214c4
-      - FromId: e091e0a3-f9ea-468d-9f77-0f4c295a01ed
-        ToId: a5929258-8ce1-462b-b3ab-f695ee424926
-      - FromId: 05fdce07-3677-4455-ac4b-0e2c23f0a635
-        ToId: a5929258-8ce1-462b-b3ab-f695ee424926
-      - FromId: a5929258-8ce1-462b-b3ab-f695ee424926
-        ToId: 1ee44565-05ee-475d-abb2-1f6cfdbcc0f3
-      - FromId: a5929258-8ce1-462b-b3ab-f695ee424926
-        ToId: 6a8a6cef-d1b9-491c-831b-2f9c0b836cab
-      - FromId: 93d91bb7-c531-429f-ad67-44839de64fac
-        ToId: d1f15940-2461-4cf4-9753-6477bcd8e286
-      - FromId: fff88065-c4fb-4b52-bc75-b926cf661b2f
-        ToId: d1f15940-2461-4cf4-9753-6477bcd8e286
-      - FromId: 9398f0cd-04e7-4391-b2e8-85e76f8bf383
-        ToId: d1f15940-2461-4cf4-9753-6477bcd8e286
-      - FromId: a3d6c049-b3bc-4533-a21f-281dd1936701
-        ToId: d1f15940-2461-4cf4-9753-6477bcd8e286
-      - FromId: 93d91bb7-c531-429f-ad67-44839de64fac
-        ToId: 7996ed48-4055-4a41-923b-583675143583
-      - FromId: fff88065-c4fb-4b52-bc75-b926cf661b2f
-        ToId: 7996ed48-4055-4a41-923b-583675143583
-      - FromId: 9398f0cd-04e7-4391-b2e8-85e76f8bf383
-        ToId: 7996ed48-4055-4a41-923b-583675143583
-      - FromId: a3d6c049-b3bc-4533-a21f-281dd1936701
-        ToId: 7996ed48-4055-4a41-923b-583675143583
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+        ToId: 852ff578-8332-4123-8866-b97c368023ff
+      - FromId: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: c868682b-0ddd-4919-91d8-2b426b77d4bd
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+        ToId: b885a53c-08d0-4847-90bd-381c2f1a823a
+      - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+        ToId: 4030a197-1b39-4356-897d-a43dda9dd42f
+      - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+        ToId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      - FromId: b885a53c-08d0-4847-90bd-381c2f1a823a
+        ToId: b3c91bdb-0342-4468-b01a-ee57da37dbcc
+      - FromId: b885a53c-08d0-4847-90bd-381c2f1a823a
+        ToId: b905726b-d7ae-40f2-9248-f08244086e50
+      - FromId: b905726b-d7ae-40f2-9248-f08244086e50
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: b3c91bdb-0342-4468-b01a-ee57da37dbcc
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: 4030a197-1b39-4356-897d-a43dda9dd42f
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+        ToId: e30b2872-1897-4d23-94a4-01356249ea96
+    isComplete: 0
   - personName: Gitarzysta
     conversation:
+      masterItemID: 1ca71008-ad15-4385-9976-55a141d72802
       Items:
       - type: 0
         TextInPolish: "oczywi\u015Bcie, mo\u017Ce by\u0107 \"Snow\" ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1241,6 +2139,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Tak, czekaj tylko rozmieni\u0119"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1253,6 +2152,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Ok, nigdzie si\u0119 st\u0105d nie ruszam "
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1265,6 +2165,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: RCHP ?
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1277,6 +2178,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: ich singiel to np. under the bridge
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1289,6 +2191,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: Red Hot chilli pepers
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1301,6 +2204,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Lubisz kuchni\u0119 w\u0142osk\u0105?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1313,6 +2217,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Jasne, co\u015B z najnowszego singla ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1325,6 +2230,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Oczywi\u015Bcie teraz czy za chwil\u0119 zagra\u0107 ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1337,6 +2243,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Ok, zaraz podejd\u0119 to zagrasz"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1349,6 +2256,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Proponuj\u0119 Spaghetti"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1361,18 +2269,20 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Kolego, zagra\u0107 Ci co\u015B konkretnego ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 1ca71008-ad15-4385-9976-55a141d72802
         Box:
           serializedVersion: 2
-          x: 616
-          y: 88
+          x: 644
+          y: 101
           width: 280
           height: 20
       - type: 1
         TextInPolish: "Tak, tylko p\xF3jd\u0119 po pieni\u0105dze"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1385,18 +2295,20 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Znasz jakie\u015B utwory RHCP ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
         Box:
           serializedVersion: 2
-          x: 656
-          y: 177
+          x: 663
+          y: 178
           width: 208
           height: 20
       - type: 1
         TextInPolish: "Super, zaraz podejd\u0119 to pogadamy"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1409,6 +2321,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: EXIT
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1450,11 +2363,14 @@ MonoBehaviour:
         ToId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
       - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
         ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
-  - personName: Kucharz
+    isComplete: 0
+  - personName: "Lodzia\u017C"
     conversation:
+      masterItemID: 6a62c7e8-6566-4d78-a3df-45ca968ff637
       Items:
       - type: 0
         TextInPolish: "Cze\u015B\u0107, co dla Ciebie ?"
+        Text: "Cze\u015B\u0107, co dla Ciebie ?"
         TextInSpanish: 
         animator: {fileID: 9100000, guid: 43c346278ae0dd04f95e7ad1001e9424, type: 2}
         audioClip:
@@ -1462,13 +2378,15 @@ MonoBehaviour:
         ID: 6a62c7e8-6566-4d78-a3df-45ca968ff637
         Box:
           serializedVersion: 2
-          x: 658
-          y: 84
+          x: 695
+          y: 77
           width: 176
           height: 20
       - type: 1
         TextInPolish: "Oczywi\u015Bcie poprosze ga\u0142k\u0119 cytrynowych, a dla
           Ciebie ...?"
+        Text: "Oczywi\u015Bcie poprosze ga\u0142k\u0119 cytrynowych, a dla Ciebie
+          ...?"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1481,6 +2399,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: w wafelku, czy w kubeczku ?
+        Text: w wafelku, czy w kubeczku ?
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1493,6 +2412,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: na nazwisko Perez
+        Text: na nazwisko Perez
         TextInSpanish: 
         animator: {fileID: 9100000, guid: 6d07a4ba0e268024c8d21c22c09a7d3f, type: 2}
         audioClip:
@@ -1500,12 +2420,13 @@ MonoBehaviour:
         ID: 02908706-086e-4624-b364-cac52363dc07
         Box:
           serializedVersion: 2
-          x: 1596
-          y: 418
+          x: 1591
+          y: 424
           width: 136
           height: 20
       - type: 0
         TextInPolish: "Mi te\u017C mo\u017Cesz kupi\u0107 :)"
+        Text: "Mi te\u017C mo\u017Cesz kupi\u0107 :)"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1518,6 +2439,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Prosze o rezerwacj\u0119 na jutro na 18, stolik przy oknie"
+        Text: "Prosze o rezerwacj\u0119 na jutro na 18, stolik przy oknie"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1530,6 +2452,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Tylko, je\u015Bli co\u015B kupisz"
+        Text: "Tylko, je\u015Bli co\u015B kupisz"
         TextInSpanish: 
         animator: {fileID: 9100000, guid: da3def12a17fa774581640b5b359ebed, type: 2}
         audioClip:
@@ -1544,6 +2467,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Kart\u0105 poprosz\u0119"
+        Text: "Kart\u0105 poprosz\u0119"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1556,6 +2480,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: Dwa razy waniliowe w kubku
+        Text: Dwa razy waniliowe w kubku
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1568,6 +2493,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Got\xF3wka"
+        Text: "Got\xF3wka"
         TextInSpanish: 
         animator: {fileID: 9100000, guid: ca09529cc12d8584a8a2ff568001034e, type: 2}
         audioClip:
@@ -1582,6 +2508,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Dzi\u0119kuj\u0119"
+        Text: "Dzi\u0119kuj\u0119"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1594,6 +2521,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Poprosz\u0119"
+        Text: "Poprosz\u0119"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1606,6 +2534,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Dziekuj\u0119, mi\u0142ego dnia"
+        Text: "Dziekuj\u0119, mi\u0142ego dnia"
         TextInSpanish: 
         animator: {fileID: 9100000, guid: dff84d6eb5dd06f4daa7c331f74780d0, type: 2}
         audioClip:
@@ -1619,6 +2548,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Dzi\u0119kuj\u0119, mi\u0142ego dnia"
+        Text: "Dzi\u0119kuj\u0119, mi\u0142ego dnia"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1631,6 +2561,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: Potrzebne potwierdzenie ?
+        Text: Potrzebne potwierdzenie ?
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1643,6 +2574,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Nie trzeba, dzi\u0119kuj\u0119"
+        Text: "Nie trzeba, dzi\u0119kuj\u0119"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1655,6 +2587,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: EXIT
+        Text: EXIT
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1667,6 +2600,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: Na miejscu, czy na wynos ?
+        Text: Na miejscu, czy na wynos ?
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1679,6 +2613,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Mia\u0142by\u015B rozmieni\u0107 mi 20 euro ?"
+        Text: "Mia\u0142by\u015B rozmieni\u0107 mi 20 euro ?"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1691,6 +2626,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: Niestety nie mam drobnych w kasie
+        Text: Niestety nie mam drobnych w kasie
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1703,6 +2639,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: '[KADR NA BLONDYNKE]'
+        Text: '[KADR NA BLONDYNKE]'
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1715,6 +2652,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Waniliowe poprosz\u0119"
+        Text: "Waniliowe poprosz\u0119"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1727,6 +2665,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Prosz\u0119, reszta i paragon"
+        Text: "Prosz\u0119, reszta i paragon"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1739,6 +2678,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "12 euro, p\u0142atne karta czy got\xF3wk\u0105 ?"
+        Text: "12 euro, p\u0142atne karta czy got\xF3wk\u0105 ?"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1751,6 +2691,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: Reszty nie trzeba
+        Text: Reszty nie trzeba
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1763,6 +2704,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: Jasne, jaki smak lubisz ?
+        Text: Jasne, jaki smak lubisz ?
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1775,6 +2717,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Na co masz ochot\u0119 ?"
+        Text: "Na co masz ochot\u0119 ?"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1787,6 +2730,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: A dla mnie kubek truskawkowych
+        Text: A dla mnie kubek truskawkowych
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1799,6 +2743,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Jedn\u0105 ga\u0142k\u0119 \u015Bmietankowych w kubeczku"
+        Text: "Jedn\u0105 ga\u0142k\u0119 \u015Bmietankowych w kubeczku"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1811,6 +2756,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Mog\u0119 zaproponowa\u0107 ga\u0142k\u0119 lod\xF3w, ja stawiam"
+        Text: "Mog\u0119 zaproponowa\u0107 ga\u0142k\u0119 lod\xF3w, ja stawiam"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1823,6 +2769,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "P\u0142atne razem"
+        Text: "P\u0142atne razem"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1835,6 +2782,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "...i ga\u0142k\u0119 \u015Bmietankowych"
+        Text: "...i ga\u0142k\u0119 \u015Bmietankowych"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1847,6 +2795,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: Skoro nalegasz :) dla mnie kubek waniliowych
+        Text: Skoro nalegasz :) dla mnie kubek waniliowych
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1859,6 +2808,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Prosz\u0119 jedn\u0105 ga\u0142k\u0119 lod\xF3w truskawkowych"
+        Text: "Prosz\u0119 jedn\u0105 ga\u0142k\u0119 lod\xF3w truskawkowych"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1871,6 +2821,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Hej, mi\u0142o mi Ci\u0119 zn\xF3w widzie\u0107"
+        Text: "Hej, mi\u0142o mi Ci\u0119 zn\xF3w widzie\u0107"
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -1970,11 +2921,14 @@ MonoBehaviour:
         ToId: 71bf81c5-62bd-4dbf-ba84-5b25309f91f2
       - FromId: 25cf6d4a-0f41-4fba-a6bc-503a0f8ffcdf
         ToId: 71bf81c5-62bd-4dbf-ba84-5b25309f91f2
+    isComplete: 0
   - personName: Kucharka
     conversation:
+      masterItemID: 6a62c7e8-6566-4d78-a3df-45ca968ff637
       Items:
       - type: 0
         TextInPolish: "Dzie\u0144 dobry"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 9100000, guid: 43c346278ae0dd04f95e7ad1001e9424, type: 2}
         audioClip:
@@ -1982,12 +2936,13 @@ MonoBehaviour:
         ID: 6a62c7e8-6566-4d78-a3df-45ca968ff637
         Box:
           serializedVersion: 2
-          x: 670
-          y: 76
+          x: 711
+          y: 99
           width: 88
           height: 20
       - type: 1
         TextInPolish: "Stolik dla 2 os\xF3b"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2000,6 +2955,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Niestety, nie ma dzi\u015B wolnych miejsc"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2012,6 +2968,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: na nazwisko Perez
+        Text: 
         TextInSpanish: 
         animator: {fileID: 9100000, guid: 6d07a4ba0e268024c8d21c22c09a7d3f, type: 2}
         audioClip:
@@ -2026,6 +2983,7 @@ MonoBehaviour:
       - type: 1
         TextInPolish: "Mo\u017Cemy zostawi\u0107 numer i gdyby co\u015B si\u0119 zwolni\u0142o
           zadzwonicie ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2038,6 +2996,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Prosze o rezerwacj\u0119 na jutro na 18, stolik przy oknie"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2050,6 +3009,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Tak, prosze zapisa\u0107"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 9100000, guid: da3def12a17fa774581640b5b359ebed, type: 2}
         audioClip:
@@ -2064,6 +3024,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Gdzie mo\u017Cemy zaczeka\u0107 ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2076,6 +3037,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Gdzie mo\u017Cemy zostawi\u0107 rzeczy ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2088,6 +3050,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Prosz\u0119 mi dac zanios\u0119 na wieszak"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 9100000, guid: ca09529cc12d8584a8a2ff568001034e, type: 2}
         audioClip:
@@ -2102,6 +3065,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Dzi\u0119kuj\u0119"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2114,6 +3078,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Ok, daj zna\u0107 jak b\u0119dziemy mogli usi\u0105\u015B\u0107"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2126,6 +3091,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "ok, dam zna\u0107 jak b\u0119dzie wolne"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 9100000, guid: dff84d6eb5dd06f4daa7c331f74780d0, type: 2}
         audioClip:
@@ -2139,6 +3105,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: Exit
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2151,6 +3118,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Mo\u017Cecie tu gdzie stoicie ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2163,6 +3131,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Dzi\u0119kuj\u0119, to czekamy"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2175,6 +3144,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Przyjd\u0119 po was, jak przygotujemy stolik"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2187,6 +3157,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: na jakie nazwisko ?
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2199,18 +3170,20 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Czy s\u0105 jeszcze wolne miejsca ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
         ID: 91363fc7-bbd2-40f3-a9ba-ce2c3d19a7ec
         Box:
           serializedVersion: 2
-          x: 589
-          y: 110
+          x: 631
+          y: 162
           width: 240
           height: 20
       - type: 0
         TextInPolish: "Dla ilu os\xF3b ?"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2223,6 +3196,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Stolik dla 4 os\xF3b"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2236,6 +3210,7 @@ MonoBehaviour:
       - type: 0
         TextInPolish: "Tak, poczekajcie chwile. W\u0142a\u015Bnie zwalnia si\u0119
           stolik"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2248,6 +3223,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Tam przy przedsionku prosz\u0119"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2260,6 +3236,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Tam na wieszaku, lub na krze\u015Ble"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2272,6 +3249,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Nie trzeba, po\u0142o\u017Cymy na krze\u015Ble"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2284,6 +3262,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Mog\u0119 zarezerwowa\u0107 na inny dzie\u0144"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2296,6 +3275,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Nie, zale\u017Cy  mi na dzisiejszym wieczorze"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2308,6 +3288,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Tak ,poprosz\u0119 na jutro na 17"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2320,6 +3301,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "dobrze, dam zna\u0107 je\u015Bli co\u015B si\u0119 zwolni"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2332,6 +3314,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Prosz\u0119 oto on"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2344,6 +3327,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Dzi\u0119kuje, do us\u0142yszenia"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2356,6 +3340,7 @@ MonoBehaviour:
           height: 20
       - type: 1
         TextInPolish: "Dzi\u0119kuje, jeste\u015Bmy w kontakcie"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2368,6 +3353,7 @@ MonoBehaviour:
           height: 20
       - type: 0
         TextInPolish: "Dzi\u0119kuje, do zobaczenia jutro"
+        Text: 
         TextInSpanish: 
         animator: {fileID: 0}
         audioClip: []
@@ -2465,7 +3451,589 @@ MonoBehaviour:
         ToId: 78cb7acc-88a4-41ed-9c35-dad11009dc79
       - FromId: 22f18308-3eb3-4615-8ac0-5fece67da37d
         ToId: 531e54ac-d013-4d0f-8f50-021f4d835c26
+    isComplete: 0
   - personName: Kelner
     conversation:
-      Items: []
-      Edges: []
+      masterItemID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+      Items:
+      - type: 0
+        TextInPolish: "Dzie\u0144 dobry!"
+        Text: "Dzie\u0144 dobry!"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+        Box:
+          serializedVersion: 2
+          x: 990
+          y: 92
+          width: 96
+          height: 20
+      - type: 1
+        TextInPolish: "Poprosze stolik dla dw\xF3ch os\xF3b"
+        Text: "Poprosze stolik dla dw\xF3ch os\xF3b"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 9853c66f-ff35-4950-9f3f-2fc97d373763
+        Box:
+          serializedVersion: 2
+          x: 253
+          y: 102
+          width: 240
+          height: 20
+      - type: 1
+        TextInPolish: Jaki to rodzaj restauracji ?
+        Text: Jaki to rodzaj restauracji ?
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+        Box:
+          serializedVersion: 2
+          x: 1571
+          y: 76
+          width: 224
+          height: 20
+      - type: 0
+        TextInPolish: "Miejsce na zewnatrz, czy w \u015Brodku ?"
+        Text: "Miejsce na zewnatrz, czy w \u015Brodku ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+        Box:
+          serializedVersion: 2
+          x: 96
+          y: 165
+          width: 280
+          height: 20
+      - type: 1
+        TextInPolish: "Na zewn\u0105trz poprosz\u0119"
+        Text: "Na zewn\u0105trz poprosz\u0119"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+        Box:
+          serializedVersion: 2
+          x: 9
+          y: 234
+          width: 160
+          height: 20
+      - type: 1
+        TextInPolish: "Poprosz\u0119 w \u015Brodku"
+        Text: "Poprosz\u0119 w \u015Brodku"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+        Box:
+          serializedVersion: 2
+          x: 271
+          y: 234
+          width: 136
+          height: 20
+      - type: 1
+        TextInPolish: Tak, nie przeszkadza nam to
+        Text: Tak, nie przeszkadza nam to
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 873c1a79-e9a6-499c-952d-303382ae2c5c
+        Box:
+          serializedVersion: 2
+          x: 265
+          y: 391
+          width: 216
+          height: 20
+      - type: 0
+        TextInPolish: "Miejsce dla pal\u0105cych ?"
+        Text: "Miejsce dla pal\u0105cych ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 4030a197-1b39-4356-897d-a43dda9dd42f
+        Box:
+          serializedVersion: 2
+          x: 311
+          y: 281
+          width: 176
+          height: 20
+      - type: 1
+        TextInPolish: "Mo\u017Cemy zrobi\u0107 rezerwacje na inny dzie\u0144 ?"
+        Text: "Mo\u017Cemy zrobi\u0107 rezerwacje na inny dzie\u0144 ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 852ff578-8332-4123-8866-b97c368023ff
+        Box:
+          serializedVersion: 2
+          x: 504
+          y: 234
+          width: 320
+          height: 20
+      - type: 1
+        TextInPolish: "Nie, dla niepal\u0105cych"
+        Text: "Nie, dla niepal\u0105cych"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+        Box:
+          serializedVersion: 2
+          x: 51
+          y: 391
+          width: 160
+          height: 20
+      - type: 1
+        TextInPolish: "Mog\u0119 zostawi\u0107 numer i je\u015Bli si\u0119 co\u015B
+          zwolni zadzwonicie ?"
+        Text: "Mog\u0119 zostawi\u0107 numer i je\u015Bli si\u0119 co\u015B zwolni
+          zadzwonicie ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+        Box:
+          serializedVersion: 2
+          x: 902
+          y: 202
+          width: 448
+          height: 20
+      - type: 0
+        TextInPolish: Miejsce przy oknie, czy w rogu sali ?
+        Text: Miejsce przy oknie, czy w rogu sali ?
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 1ca71008-ad15-4385-9976-55a141d72802
+        Box:
+          serializedVersion: 2
+          x: 145
+          y: 476
+          width: 296
+          height: 20
+      - type: 0
+        TextInPolish: "Tak, mo\u017Cna dokona\u0107 rezerwacji przy kasie"
+        Text: "Tak, mo\u017Cna dokona\u0107 rezerwacji przy kasie"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 537436dc-d425-4562-9e9a-2ec57f65572a
+        Box:
+          serializedVersion: 2
+          x: 478
+          y: 305
+          width: 320
+          height: 20
+      - type: 1
+        TextInPolish: Przy oknie poprosimy
+        Text: Przy oknie poprosimy
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: c868682b-0ddd-4919-91d8-2b426b77d4bd
+        Box:
+          serializedVersion: 2
+          x: 16
+          y: 571
+          width: 160
+          height: 20
+      - type: 1
+        TextInPolish: "W rogu sali jest w porz\u0105dku"
+        Text: "W rogu sali jest w porz\u0105dku"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+        Box:
+          serializedVersion: 2
+          x: 238
+          y: 567
+          width: 216
+          height: 20
+      - type: 1
+        TextInPolish: '[PRZEJSCIE DO KELNERKI]'
+        Text: '[PRZEJSCIE DO KELNERKI]'
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip:
+        - {fileID: 0}
+        ID: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+        Box:
+          serializedVersion: 2
+          x: 610
+          y: 432
+          width: 184
+          height: 20
+      - type: 0
+        TextInPolish: Niestety, nie mamy teraz wolnych miejsc
+        Text: Niestety, nie mamy teraz wolnych miejsc
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 54ac32b1-5433-4785-a76f-acb138a91d58
+        Box:
+          serializedVersion: 2
+          x: 602
+          y: 161
+          width: 312
+          height: 20
+      - type: 0
+        TextInPolish: "Niestety, nie mamy ju\u017C wolnych miejsc na zewn\u0105trz"
+        Text: "Niestety, nie mamy ju\u017C wolnych miejsc na zewn\u0105trz"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 1dcacc16-a7c7-4619-b222-544cdd0392fb
+        Box:
+          serializedVersion: 2
+          x: -69
+          y: 301
+          width: 392
+          height: 20
+      - type: 0
+        TextInPolish: "Prosz\u0119, przyj\u015B\u0107 za 30 min na pewno co\u015B
+          si\u0119 zwolni"
+        Text: "Prosz\u0119, przyj\u015B\u0107 za 30 min na pewno co\u015B si\u0119
+          zwolni"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: b2fe8eb7-6ad0-45d8-aa54-6b9b2eed8ff6
+        Box:
+          serializedVersion: 2
+          x: 519
+          y: 343
+          width: 392
+          height: 20
+      - type: 0
+        TextInPolish: "Prosz\u0119, przyj\u015B\u0107 za godzin\u0119 -b\u0119dzie
+          nieco lu\u017Aniej"
+        Text: "Prosz\u0119, przyj\u015B\u0107 za godzin\u0119 -b\u0119dzie nieco lu\u017Aniej"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: dfe5d843-73be-4286-a22b-1d43dc9612f8
+        Box:
+          serializedVersion: 2
+          x: 776
+          y: 273
+          width: 384
+          height: 20
+      - type: 0
+        TextInPolish: "Prosz\u0119 porozmawia\u0107 z dziewczyna przy kasie"
+        Text: "Prosz\u0119 porozmawia\u0107 z dziewczyna przy kasie"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: a3402ff5-abd0-48d4-9d56-47571dff798d
+        Box:
+          serializedVersion: 2
+          x: 857
+          y: 378
+          width: 336
+          height: 20
+      - type: 0
+        TextInPolish: "Dobrze, prosz\u0119 t\u0119dy"
+        Text: "Dobrze, prosz\u0119 t\u0119dy"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 63fdeaba-7f02-4acf-a1d3-4724138f5a26
+        Box:
+          serializedVersion: 2
+          x: 167
+          y: 620
+          width: 152
+          height: 20
+      - type: 0
+        TextInPolish: "To restauracja z kuchni\u0105 hiszpa\u0144sk\u0105"
+        Text: "To restauracja z kuchni\u0105 hiszpa\u0144sk\u0105"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: dba5043e-488d-45dd-ba70-7d5a673a17a7
+        Box:
+          serializedVersion: 2
+          x: 1136
+          y: 328
+          width: 280
+          height: 20
+      - type: 0
+        TextInPolish: Nie rozumiem
+        Text: Nie rozumiem
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 6b9a1997-3357-4069-a1b7-f5a5171ca13a
+        Box:
+          serializedVersion: 2
+          x: 1799
+          y: 282
+          width: 96
+          height: 20
+      - type: 1
+        TextInPolish: "\u015Bwietnie, gdzie mo\u017Cemy usi\u0105\u015B\u0107 ?"
+        Text: "\u015Bwietnie, gdzie mo\u017Cemy usi\u0105\u015B\u0107 ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: da834337-a05b-44e3-8769-f9a9ad766853
+        Box:
+          serializedVersion: 2
+          x: 1007
+          y: 416
+          width: 248
+          height: 20
+      - type: 1
+        TextInPolish: "Macie jaki\u015B stolik na zewn\u0105trz ?"
+        Text: "Macie jaki\u015B stolik na zewn\u0105trz ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 35efc11a-5edf-4eae-adf8-14ffb3a1414f
+        Box:
+          serializedVersion: 2
+          x: 1251
+          y: 414
+          width: 256
+          height: 20
+      - type: 0
+        TextInPolish: "Mamy tylko miejsca wewn\u0105trz"
+        Text: "Mamy tylko miejsca wewn\u0105trz"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 9e520532-f866-4f55-9b39-e34438d83895
+        Box:
+          serializedVersion: 2
+          x: 1109
+          y: 483
+          width: 216
+          height: 20
+      - type: 1
+        TextInPolish: "Dobrze, poprosze stolik dla 2 os\xF3b"
+        Text: "Dobrze, poprosze stolik dla 2 os\xF3b"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 96341169-537f-49fe-bf7c-fe154929a9bd
+        Box:
+          serializedVersion: 2
+          x: 982
+          y: 544
+          width: 272
+          height: 20
+      - type: 1
+        TextInPolish: "Czy jest tam miejsce dla pal\u0105cych ?"
+        Text: "Czy jest tam miejsce dla pal\u0105cych ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: cecde506-423c-4529-960d-b51bd13f62bd
+        Box:
+          serializedVersion: 2
+          x: 1217
+          y: 543
+          width: 280
+          height: 20
+      - type: 0
+        TextInPolish: "Niestety, wszystkie miejsca dla pal\u0105cych zaj\u0119te"
+        Text: "Niestety, wszystkie miejsca dla pal\u0105cych zaj\u0119te"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 5a6362fa-e8ed-47b4-a770-c99272f35a88
+        Box:
+          serializedVersion: 2
+          x: 961
+          y: 620
+          width: 376
+          height: 20
+      - type: 0
+        TextInPolish: "Tak, za mn\u0105 prosz\u0119"
+        Text: "Tak, za mn\u0105 prosz\u0119"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 14dc7c4f-7727-4d5b-832d-651592d76954
+        Box:
+          serializedVersion: 2
+          x: 1248
+          y: 621
+          width: 144
+          height: 20
+      - type: 1
+        TextInPolish: "Jaka kuchnia, hiszpa\u0144ska, w\u0142oska... ?"
+        Text: "Jaka kuchnia, hiszpa\u0144ska, w\u0142oska... ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: d50bc250-f408-4e04-9ad1-e80e13285fe3
+        Box:
+          serializedVersion: 2
+          x: 1524
+          y: 433
+          width: 296
+          height: 20
+      - type: 1
+        TextInPolish: "Czy macie dania wegetaria\u0144skie ?"
+        Text: "Czy macie dania wegetaria\u0144skie ?"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: a2cc2365-b9e9-4f65-a31b-f866a3ff2b83
+        Box:
+          serializedVersion: 2
+          x: 1808
+          y: 406
+          width: 256
+          height: 20
+      - type: 0
+        TextInPolish: "G\u0142ownie hiszpa\u0144ska i \u015Br\xF3dziemnomorska"
+        Text: "G\u0142ownie hiszpa\u0144ska i \u015Br\xF3dziemnomorska"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 3ede8210-42c3-451c-8d03-0e0525e59c38
+        Box:
+          serializedVersion: 2
+          x: 1484
+          y: 617
+          width: 296
+          height: 20
+      - type: 0
+        TextInPolish: "Tak, s\u0105 w menu"
+        Text: "Tak, s\u0105 w menu"
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 6c25801b-ca8a-4b41-9b4d-65ffa6484a42
+        Box:
+          serializedVersion: 2
+          x: 1880
+          y: 629
+          width: 112
+          height: 20
+      - type: 1
+        TextInPolish: Exit
+        Text: 
+        TextInSpanish: 
+        animator: {fileID: 0}
+        audioClip: []
+        ID: 8f7d1ec1-a9cf-4966-9c3d-d179105699e0
+        Box:
+          serializedVersion: 2
+          x: 861
+          y: 763
+          width: 32
+          height: 20
+      Edges:
+      - FromId: 1ca71008-ad15-4385-9976-55a141d72802
+        ToId: c868682b-0ddd-4919-91d8-2b426b77d4bd
+      - FromId: 1ca71008-ad15-4385-9976-55a141d72802
+        ToId: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+      - FromId: 537436dc-d425-4562-9e9a-2ec57f65572a
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+        ToId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+      - FromId: 6169cc0f-6c4d-4a1a-bd66-333a700c9d69
+        ToId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+      - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+        ToId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+      - FromId: 9853c66f-ff35-4950-9f3f-2fc97d373763
+        ToId: 54ac32b1-5433-4785-a76f-acb138a91d58
+      - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+        ToId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+      - FromId: 189dd9be-7b8d-40cd-b6ec-c9b5f9f49c65
+        ToId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+      - FromId: e3c5ebf9-4998-4b1d-90c7-d0fec632f8cb
+        ToId: 1dcacc16-a7c7-4619-b222-544cdd0392fb
+      - FromId: 05c76d92-38f0-4cc4-9f62-10330036bbe3
+        ToId: 4030a197-1b39-4356-897d-a43dda9dd42f
+      - FromId: 4030a197-1b39-4356-897d-a43dda9dd42f
+        ToId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+      - FromId: 4030a197-1b39-4356-897d-a43dda9dd42f
+        ToId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+      - FromId: 4eb2648f-1a8c-450f-941d-02523b7b91e3
+        ToId: 1ca71008-ad15-4385-9976-55a141d72802
+      - FromId: 873c1a79-e9a6-499c-952d-303382ae2c5c
+        ToId: 1ca71008-ad15-4385-9976-55a141d72802
+      - FromId: 54ac32b1-5433-4785-a76f-acb138a91d58
+        ToId: 852ff578-8332-4123-8866-b97c368023ff
+      - FromId: 54ac32b1-5433-4785-a76f-acb138a91d58
+        ToId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+      - FromId: 852ff578-8332-4123-8866-b97c368023ff
+        ToId: 537436dc-d425-4562-9e9a-2ec57f65572a
+      - FromId: 852ff578-8332-4123-8866-b97c368023ff
+        ToId: b2fe8eb7-6ad0-45d8-aa54-6b9b2eed8ff6
+      - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+        ToId: dfe5d843-73be-4286-a22b-1d43dc9612f8
+      - FromId: a4f37300-4e6f-43f4-a5a2-4154ecf95e3c
+        ToId: a3402ff5-abd0-48d4-9d56-47571dff798d
+      - FromId: a3402ff5-abd0-48d4-9d56-47571dff798d
+        ToId: bb77317a-fc45-4aeb-931f-dbbf6f8c3d07
+      - FromId: c868682b-0ddd-4919-91d8-2b426b77d4bd
+        ToId: 63fdeaba-7f02-4acf-a1d3-4724138f5a26
+      - FromId: 2b54d84f-7fd8-449e-8034-ac9df85f8f9a
+        ToId: 63fdeaba-7f02-4acf-a1d3-4724138f5a26
+      - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+        ToId: dba5043e-488d-45dd-ba70-7d5a673a17a7
+      - FromId: 0ceafb97-90dc-46eb-b1f0-f06dac042f42
+        ToId: 6b9a1997-3357-4069-a1b7-f5a5171ca13a
+      - FromId: dba5043e-488d-45dd-ba70-7d5a673a17a7
+        ToId: da834337-a05b-44e3-8769-f9a9ad766853
+      - FromId: dba5043e-488d-45dd-ba70-7d5a673a17a7
+        ToId: 35efc11a-5edf-4eae-adf8-14ffb3a1414f
+      - FromId: da834337-a05b-44e3-8769-f9a9ad766853
+        ToId: 9e520532-f866-4f55-9b39-e34438d83895
+      - FromId: 35efc11a-5edf-4eae-adf8-14ffb3a1414f
+        ToId: 9e520532-f866-4f55-9b39-e34438d83895
+      - FromId: 9e520532-f866-4f55-9b39-e34438d83895
+        ToId: 96341169-537f-49fe-bf7c-fe154929a9bd
+      - FromId: 9e520532-f866-4f55-9b39-e34438d83895
+        ToId: cecde506-423c-4529-960d-b51bd13f62bd
+      - FromId: cecde506-423c-4529-960d-b51bd13f62bd
+        ToId: 5a6362fa-e8ed-47b4-a770-c99272f35a88
+      - FromId: cecde506-423c-4529-960d-b51bd13f62bd
+        ToId: 14dc7c4f-7727-4d5b-832d-651592d76954
+      - FromId: 6b9a1997-3357-4069-a1b7-f5a5171ca13a
+        ToId: d50bc250-f408-4e04-9ad1-e80e13285fe3
+      - FromId: 6b9a1997-3357-4069-a1b7-f5a5171ca13a
+        ToId: a2cc2365-b9e9-4f65-a31b-f866a3ff2b83
+      - FromId: d50bc250-f408-4e04-9ad1-e80e13285fe3
+        ToId: 3ede8210-42c3-451c-8d03-0e0525e59c38
+      - FromId: a2cc2365-b9e9-4f65-a31b-f866a3ff2b83
+        ToId: 6c25801b-ca8a-4b41-9b4d-65ffa6484a42
+      - FromId: 63fdeaba-7f02-4acf-a1d3-4724138f5a26
+        ToId: 8f7d1ec1-a9cf-4966-9c3d-d179105699e0
+      - FromId: 5a6362fa-e8ed-47b4-a770-c99272f35a88
+        ToId: 8f7d1ec1-a9cf-4966-9c3d-d179105699e0
+      - FromId: 3ede8210-42c3-451c-8d03-0e0525e59c38
+        ToId: 8f7d1ec1-a9cf-4966-9c3d-d179105699e0
+      - FromId: 6c25801b-ca8a-4b41-9b4d-65ffa6484a42
+        ToId: 8f7d1ec1-a9cf-4966-9c3d-d179105699e0
+      - FromId: dfe5d843-73be-4286-a22b-1d43dc9612f8
+        ToId: 8f7d1ec1-a9cf-4966-9c3d-d179105699e0
+      - FromId: 1dcacc16-a7c7-4619-b222-544cdd0392fb
+        ToId: 8f7d1ec1-a9cf-4966-9c3d-d179105699e0
+      - FromId: b2fe8eb7-6ad0-45d8-aa54-6b9b2eed8ff6
+        ToId: 8f7d1ec1-a9cf-4966-9c3d-d179105699e0
+    isComplete: 0
